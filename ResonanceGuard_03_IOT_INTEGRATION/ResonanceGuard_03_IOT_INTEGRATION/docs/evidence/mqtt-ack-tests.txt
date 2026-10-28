@@ -1,0 +1,40 @@
+> resonanceguard-03-iot-integration@0.1.0 test
+> node --test tests/*.test.js
+
+TRACE {"at":1793109307357,"source":"synthetic","stage":"MQTT_CONNECTED","connection":1,"client_id":"rg-be-ff815a1e-668d-486d-adce-f2a0549b886e","keepalive_s":60}
+TRACE {"at":1793109307364,"source":"synthetic","stage":"MQTT_SUBACK","connection":1,"ready":true,"error":null}
+TRACE {"at":1793109307473,"source":"synthetic","stage":"COMMAND_TX","command_id":"809dba53-e320-4ca0-bab3-033ec4ffdd1c","boot_id":"boot-test","action":"start","device_deadline_ms":4000,"lease_ms":4000}
+TRACE {"at":1793109307475,"source":"synthetic","stage":"COMMAND_BROKER_PUBACK","command_id":"809dba53-e320-4ca0-bab3-033ec4ffdd1c"}
+TRACE {"at":1793109307476,"source":"synthetic","stage":"ACK_RX","command_id":"809dba53-e320-4ca0-bab3-033ec4ffdd1c","boot_id":"boot-test","seq":4,"t_device_ms":1000,"bytes":212,"qos":0}
+TRACE {"at":1793109307476,"source":"synthetic","stage":"ACK_ACCEPT","command_id":"809dba53-e320-4ca0-bab3-033ec4ffdd1c","boot_id":"boot-test","age_ms":3,"accepted":true,"running":true}
+TRACE {"at":1793109307476,"source":"synthetic","stage":"ACK_WS_SEND","command_id":"809dba53-e320-4ca0-bab3-033ec4ffdd1c","sent":1,"skipped":0}
+TRACE {"at":1793109307519,"source":"synthetic","stage":"INGEST_DROP","type":"state","reason":"duplicate_or_old_seq","command_id":null,"boot_id":"boot-test","seq":4,"age_ms":null}
+TRACE {"at":1793109307520,"source":"synthetic","stage":"INGEST_DROP","type":"state","reason":"invalid_schema_or_payload","command_id":null,"boot_id":"boot-test","seq":6,"age_ms":null}
+TRACE {"at":1793109307520,"source":"synthetic","stage":"INGEST_DROP","type":"telemetry/rpm","reason":"invalid_schema_or_payload","command_id":null,"boot_id":"boot-test","seq":3,"age_ms":null}
+TRACE {"at":1793109307520,"source":"synthetic","stage":"INGEST_DROP","type":"telemetry/rpm","reason":"invalid_schema_or_payload","command_id":null,"boot_id":"boot-test","seq":7,"age_ms":null}
+TRACE {"at":1793109307570,"source":"synthetic","stage":"MQTT_CLOSED","connection":1,"reason":"transport_closed_or_broker_disconnect"}
+✔ MQTT → backend → REST/WS and web command → MQTT → ACK (293.4493ms)
+✔ firmware motor decisions (native C++, not ESP32 build) (464.925ms)
+ℹ PASS: boot OFF; START/PWM/STOP; duplicate; expiry; wrong boot; local STOP; disconnect; no auto restart; uint32 wrap
+PASS: actual RPM reader: two edges, PPR=1, 600 RPM, timeout, restart and micros wrap
+PASS: MQTT read failure exits immediately; payload bound; OFF reason distinguishes STOP/local/lease; namespace-scoped client identity
+✔ custom chip model (native C with stub Wokwi API) (251.7245ms)
+ℹ PASS: actual custom chip C model with stub API: dead band, PWM, RPM, PPR=1, EN, coast-down, steady HIGH/LOW
+✔ payload validation rejects null/array, invalid units, quality, ranges and OFF with PWM (1.397ms)
+✔ fresh state immediately before ACK enables renew without waiting for React render; slow wall clock never arms late ACK (0.2843ms)
+✔ frontend STOP/disconnect invalidate late HTTP and ACK; only a fresh START ACK enables renew (0.1446ms)
+✔ frontend freshness is independent per stream and boot; stale values are not measurements (0.1744ms)
+✔ retained replay, malformed payloads, ACK boot, stale state/streams, reboot and MQTT recovery (6874.3819ms)
+✔ delayed ACK uses wall timeout even when ESP advances slowly; diagnostics distinguish rejection and WS delivery (239.6101ms)
+✔ HTTP malformed body and WebSocket foreign Origin are rejected (21.9484ms)
+✔ START → QoS1 ACK → repeated renew/PWM → RUN/RPM → STOP across real local MQTT/WS (761.6692ms)
+✔ unacknowledged QoS1 commands are discarded when MQTT disconnects (2267.5248ms)
+✔ setup creates matching config, preserves valid quoted env and rejects unsupported settings without overwriting (357.2433ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10604.7769

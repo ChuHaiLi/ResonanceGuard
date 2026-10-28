@@ -1,0 +1,10 @@
+> resonanceguard-03-iot-integration@0.1.0 probe:public
+> node --env-file=.env scripts/probe-public.mjs
+
+PASS: public broker TCP/MQTT subscribe/publish roundtrip using two Node clients, QoS1, non-retained, source=synthetic
+LIMIT: this does not verify Wokwi Gateway or ESP32 connectivity
+npm notice
+npm notice New minor version of npm available! 11.6.2 -> 11.21.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.21.1
+npm notice To update run: npm install -g npm@11.21.1
+npm notice

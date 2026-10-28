@@ -1,0 +1,40 @@
+> resonanceguard-03-iot-integration@0.1.0 test
+> node --test tests/*.test.js
+
+MQTT connected · source=synthetic
+COMMAND start 8e60a7e6-28e6-4aaf-9a8f-d7dc543b783b
+✔ MQTT → backend → REST/WS and web command → MQTT → ACK (305.6605ms)
+✔ firmware motor decisions (native C++, not ESP32 build) (381.1379ms)
+ℹ PASS: boot OFF; START/PWM/STOP; duplicate; expiry; wrong boot; local STOP; disconnect; no auto restart; uint32 wrap
+PASS: actual RPM reader: two edges, PPR=1, 600 RPM, timeout, restart and micros wrap
+✔ custom chip model (native C with stub Wokwi API) (272.0247ms)
+ℹ PASS: actual custom chip C model with stub API: dead band, PWM, RPM, PPR=1, EN, coast-down, steady HIGH/LOW
+✔ payload validation rejects null/array, invalid units, quality, ranges and OFF with PWM (1.4235ms)
+✔ frontend STOP/disconnect invalidate late HTTP and ACK; only a fresh START ACK enables renew (1.1652ms)
+✔ frontend freshness is independent per stream and boot; stale values are not measurements (0.2912ms)
+MQTT connected · source=synthetic
+COMMAND start b67e9cfa-2367-4470-aa44-fea2f5f61463
+COMMAND stop 4d32d5ec-c19d-46b2-bece-e4d27cea3c62
+MQTT connected · source=synthetic
+✔ retained replay, malformed payloads, ACK boot, stale state/streams, reboot and MQTT recovery (6798.071ms)
+MQTT connected · source=synthetic
+✔ HTTP malformed body and WebSocket foreign Origin are rejected (13.9427ms)
+MQTT connected · source=synthetic
+COMMAND start fb38ccad-52c5-4514-b602-675dedd6cb16
+Publish failed/discarded: Message removed
+MQTT connected · source=synthetic
+✔ unacknowledged QoS1 commands are discarded when MQTT disconnects (2263.8186ms)
+✔ setup creates matching config, preserves valid quoted env and rejects unsupported settings without overwriting (388.7891ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9537.008
+npm notice
+npm notice New minor version of npm available! 11.6.2 -> 11.21.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.21.1
+npm notice To update run: npm install -g npm@11.21.1
+npm notice

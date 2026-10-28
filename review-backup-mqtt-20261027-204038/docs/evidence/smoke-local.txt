@@ -1,0 +1,6 @@
+Command: npm.cmd run smoke:local
+Exit: 0
+PASS: real server/index.js process serves production React assets; real Vite serves frontend
+PASS: local MQTT fixture → real backend → Vite HTTP/WS proxy, acceleration and RPM
+PASS: HTTP START/PWM/renew/STOP → MQTT → synthetic peer ACK → WS
+LIMIT: no browser rendering/clicks, ESP32, MPU6050, encoder GPIO or Wokwi was tested by this script

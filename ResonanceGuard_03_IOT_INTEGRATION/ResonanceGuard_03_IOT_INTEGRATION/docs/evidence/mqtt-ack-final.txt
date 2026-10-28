@@ -1,0 +1,27 @@
+Final verification after adding ACK command/device timestamps and stop reasons.
+Command: npm.cmd test
+Exit: 0
+✔ unacknowledged QoS1 commands are discarded when MQTT disconnects (2266.3046ms)
+✔ setup creates matching config, preserves valid quoted env and rejects unsupported settings without overwriting (356.8336ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10572.9648
+
+Command: npm.cmd run build
+Exit: 0
+vite v7.3.7: 25 modules transformed, built in 678ms
+dist/index.html: 0.37 kB
+dist/assets/index-Bo_wzx6a.css: 1.08 kB
+dist/assets/index-BDGk8jnk.js: 232.62 kB
+
+Additional smoke attempt: npm.cmd run smoke:local
+Exit: 1
+Error: listen EADDRINUSE: address already in use 127.0.0.1:3000
+Existing user process was not stopped. MQTT/HTTP/WS integration tests used isolated ephemeral ports.
+
+LIMIT: ESP32 sketch, ArduinoMqttClient QoS1 publish, and diagnostic WiFiClient wrapper not recompiled/run in Wokwi in this investigation.

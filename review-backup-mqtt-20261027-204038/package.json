@@ -1,0 +1,27 @@
+{
+  "name": "resonanceguard-03-iot-integration",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node setup.mjs",
+    "dev": "node --env-file=.env server/index.js",
+    "web": "vite --host 127.0.0.1 --config web/vite.config.js",
+    "build": "vite build --config web/vite.config.js",
+    "test": "node --test tests/*.test.js",
+    "smoke:local": "node scripts/smoke-local.mjs",
+    "probe:public": "node --env-file=.env scripts/probe-public.mjs"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mqtt": "^5.14.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "vite": "^7.3.0",
+    "aedes": "^0.51.3"
+  },
+  "engines": { "node": ">=22.12.0" }
+}

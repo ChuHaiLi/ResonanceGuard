@@ -1,0 +1,2 @@
+ArduinoMqttClient
+ArduinoJson@7.4.2

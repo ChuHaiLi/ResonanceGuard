@@ -1,0 +1,5 @@
+Command: node --env-file=.env server/index.js
+Backend: http://localhost:3000 · source=synthetic
+MQTT connected · source=synthetic
+PASS: actual configured backend connected to public HiveMQ; React HTTP 200; WS snapshot; START rejected 409 without fresh ESP state. No public motor command published.
+Backend process stopped after the probe. No Wokwi device was connected in this check.

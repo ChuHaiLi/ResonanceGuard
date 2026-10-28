@@ -1,0 +1,6 @@
+{
+  "name": "ResonanceGuard DC motor and encoder (model)",
+  "author": "ResonanceGuard educational example",
+  "pins": ["PWM", "EN", "TACH", "GND"],
+  "controls": []
+}

@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "author": "ResonanceGuard IoT project",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp",
+      "top": 10,
+      "left": 30,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-mpu6050",
+      "id": "imu",
+      "top": -60,
+      "left": 380,
+      "attrs": {
+        "accelX": "0",
+        "accelY": "0",
+        "accelZ": "1"
+      }
+    },
+    {
+      "type": "wokwi-slide-potentiometer",
+      "id": "pot",
+      "top": 90,
+      "left": 410,
+      "attrs": {
+        "value": "0",
+        "travelLength": "45",
+        "label": "UNUSED (web PWM)"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "start",
+      "top": 190,
+      "left": 380,
+      "attrs": {
+        "color": "green",
+        "label": "UNUSED (web START)"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "stop",
+      "top": 190,
+      "left": 500,
+      "attrs": {
+        "color": "red",
+        "label": "STOP"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led",
+      "top": -70,
+      "left": 160,
+      "attrs": {
+        "color": "green",
+        "label": "RUN"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "pwmled",
+      "top": -70,
+      "left": 270,
+      "attrs": {
+        "color": "yellow",
+        "label": "PWM indicator"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "res",
+      "top": -14,
+      "left": 290,
+      "attrs": {
+        "value": "330"
+      }
+    },
+    {
+      "type": "chip-rg-motor",
+      "id": "motor",
+      "top": -70,
+      "left": 570,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [
+      "esp:D21",
+      "imu:SDA",
+      "green",
+      []
+    ],
+    [
+      "esp:D22",
+      "imu:SCL",
+      "blue",
+      []
+    ],
+    [
+      "esp:3V3",
+      "imu:VCC",
+      "red",
+      []
+    ],
+    [
+      "esp:GND.1",
+      "imu:GND",
+      "black",
+      []
+    ],
+    [
+      "esp:3V3",
+      "pot:VCC",
+      "red",
+      []
+    ],
+    [
+      "esp:GND.1",
+      "pot:GND",
+      "black",
+      []
+    ],
+    [
+      "esp:D34",
+      "pot:SIG",
+      "orange",
+      []
+    ],
+    [
+      "esp:D18",
+      "start:1.l",
+      "green",
+      []
+    ],
+    [
+      "esp:GND.2",
+      "start:2.l",
+      "black",
+      []
+    ],
+    [
+      "esp:D19",
+      "stop:1.l",
+      "red",
+      []
+    ],
+    [
+      "esp:GND.2",
+      "stop:2.l",
+      "black",
+      []
+    ],
+    [
+      "esp:D27",
+      "led:A",
+      "green",
+      []
+    ],
+    [
+      "led:C",
+      "esp:GND.2",
+      "black",
+      []
+    ],
+    [
+      "esp:D25",
+      "res:1",
+      "yellow",
+      []
+    ],
+    [
+      "res:2",
+      "pwmled:A",
+      "yellow",
+      []
+    ],
+    [
+      "pwmled:C",
+      "esp:GND.2",
+      "black",
+      []
+    ],
+    [
+      "esp:D25",
+      "motor:PWM",
+      "yellow",
+      []
+    ],
+    [
+      "esp:D33",
+      "motor:EN",
+      "green",
+      []
+    ],
+    [
+      "motor:TACH",
+      "esp:D26",
+      "purple",
+      []
+    ],
+    [
+      "motor:GND",
+      "esp:GND.2",
+      "black",
+      []
+    ]
+  ],
+  "serialMonitor": {
+    "display": "terminal"
+  },
+  "dependencies": {}
+}
