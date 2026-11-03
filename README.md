@@ -41,6 +41,7 @@ Hai thư mục `review-backup-*` còn giữ **mã nguồn lịch sử**, không 
 
 - Gói báo cáo/CAD `ResonanceGuard_Muc_4_1_4_2_DayDu/resonanceguard_chuong4/` được giữ **local và không đưa lên GitHub** theo yêu cầu. Gói gồm bản thảo 4.1–4.2.2, ảnh/SVG/PDF và snapshot rà soát; giữ nguyên cấu trúc khi chia sẻ riêng. Repo này không đính kèm gói, nên không đặt liên kết yêu cầu người đọc GitHub phải có nó.
 - [PDF quy định môn học](<TCTA_QUY ĐỊNH ĐỒ ÁN CUỐI KỲ.pdf>): tài liệu gốc, không biên tập.
+- [Báo cáo tham khảo VLCNTT](VLCNTT.pdf): tài liệu nguồn được giữ từ GitHub để tham khảo bố cục; không phải đặc tả chức năng hoặc kết quả của ResonanceGuard.
 - [Sổ tay thiết kế dài hạn](RESONANCE_GUARD_COMPLETE_PROJECT_GUIDE.md): lý thuyết, BOM, phương án phần cứng và thực nghiệm; **không phải trạng thái triển khai hoặc phân công hiện tại**.
 - [Giải thích ý tưởng ban đầu](ToiHieu.md) và [sơ đồ cộng hưởng/PWM](ResonanceGuard_So_do_Cong_huong_PWM.md): nguồn tham khảo gốc; các chức năng mô tả theo mục tiêu phải đối chiếu tài liệu chính trước khi đưa vào báo cáo.
 - [Danh mục hồ sơ lịch sử](docs/04_KIEM_THU.md#ho-so-lich-su) giải thích ngày, điều kiện và phạm vi của từng nguồn. Các tên đường dẫn trong snapshot cũ là tên tại thời điểm ghi nhận.
