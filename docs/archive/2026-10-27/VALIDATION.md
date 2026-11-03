@@ -1,5 +1,11 @@
 # Biên bản kiểm chứng 03_IOT_INTEGRATION
 
+> Hồ sơ ngày 27/10/2026, chuyển vào archive ngày 03/11/2026. Kết quả, điều kiện và các phát biểu trong thân bài giữ theo lượt cũ; chỉ cập nhật liên kết sau khi chuyển. Phát biểu chưa có Git, ACK QoS0 và tám file không mô tả hiện trạng. Đọc [kiểm thử hiện hành](../../04_KIEM_THU.md) và [hướng dẫn chạy](../../03_CHAY_MO_PHONG.md) trước khi thao tác.
+
+> Đường dẫn/lệnh hai cấp trong thân bài là cấu trúc lịch sử. Project hiện ở `ResonanceGuard_03_IOT_INTEGRATION/`; các liên kết bằng chứng đã được cập nhật, không thay nội dung log.
+
+> **Biên bản lượt đầu, giữ làm lịch sử.** Sau lượt này, người dùng đã chạy Wokwi và cung cấp proof có RPM nhưng lỗi ACK/reconnect. Mã hiện tại đã có bản vá ACK QoS1, header thứ 9 mqtt_support.h và 13 test. Xem [điều tra MQTT/ACK mới nhất](MQTT_ACK_INVESTIGATION.md); các phát biểu QoS0/8 file/10 test dưới đây chỉ mô tả lượt đầu.
+
 Ngày thực hiện: **27/10/2026**, Windows, múi giờ Asia/Bangkok.
 
 **Trạng thái:** đã sửa mã, cài dependencies, đồng bộ cấu hình và kiểm thử phần mềm trên máy. **Chưa nghiệm thu phiên bản 3 toàn hệ thống**, vì chưa compile/chạy ESP32 và custom chip trong Wokwi. Không có dữ liệu phần cứng thật.
@@ -44,12 +50,12 @@ Theo lockfile đã cài: Express 5.3.0, MQTT.js 5.16.1, React/React DOM 19.3.1, 
 |---|---|---|
 | `npm.cmd ci --no-audit --no-fund` | Thành công, đúng lockfile | Dependency hiện có; phiên bản ở trên |
 | `npm.cmd run setup` | Thành công; đọc lại cấu hình xác nhận broker/port/topic khớp, không in giá trị | Test setup + kiểm cấu hình thực tế |
-| `npm.cmd test` | **10 pass, 0 fail, 0 skip**, khoảng 9.54 giây | [tests.txt](evidence/tests.txt) |
-| `npm.cmd run build` | Thành công; React/Vite production assets | [build.txt](evidence/build.txt) |
-| `npm.cmd run smoke:local` | Thành công; server/index.js + Vite chạy ở tiến trình riêng, HTTP/assets/proxy WS, MQTT telemetry, START/PWM/renew/STOP và peer ACK | [smoke-local.txt](evidence/smoke-local.txt) |
-| Broker Mosquitto ban đầu | Không nhận CONNACK trong timeout; chưa xác định lỗi broker hay mạng | [public-mosquitto.txt](evidence/public-mosquitto.txt) |
-| `npm.cmd run probe:public` với HiveMQ | Thành công; hai client Node pub/sub QoS1, non-retained, synthetic trên topic chẩn đoán ngẫu nhiên; không gửi motor command | [public-hivemq.txt](evidence/public-hivemq.txt) |
-| Backend thật với `.env` hiện tại | Nối HiveMQ; HTTP 200 phục vụ React; WS snapshot có broker_connected; START trả 409 vì chưa có state ESP; không phát lệnh motor ra public broker | [backend-public.txt](evidence/backend-public.txt) |
+| `npm.cmd test` | **10 pass, 0 fail, 0 skip**, khoảng 9.54 giây | [tests.txt](../../../ResonanceGuard_03_IOT_INTEGRATION/docs/evidence/tests.txt) |
+| `npm.cmd run build` | Thành công; React/Vite production assets | [build.txt](../../../ResonanceGuard_03_IOT_INTEGRATION/docs/evidence/build.txt) |
+| `npm.cmd run smoke:local` | Thành công; server/index.js + Vite chạy ở tiến trình riêng, HTTP/assets/proxy WS, MQTT telemetry, START/PWM/renew/STOP và peer ACK | [smoke-local.txt](../../../ResonanceGuard_03_IOT_INTEGRATION/docs/evidence/smoke-local.txt) |
+| Broker Mosquitto ban đầu | Không nhận CONNACK trong timeout; chưa xác định lỗi broker hay mạng | [public-mosquitto.txt](../../../ResonanceGuard_03_IOT_INTEGRATION/docs/evidence/public-mosquitto.txt) |
+| `npm.cmd run probe:public` với HiveMQ | Thành công; hai client Node pub/sub QoS1, non-retained, synthetic trên topic chẩn đoán ngẫu nhiên; không gửi motor command | [public-hivemq.txt](../../../ResonanceGuard_03_IOT_INTEGRATION/docs/evidence/public-hivemq.txt) |
+| Backend thật với `.env` hiện tại | Nối HiveMQ; HTTP 200 phục vụ React; WS snapshot có broker_connected; START trả 409 vì chưa có state ESP; không phát lệnh motor ra public broker | [backend-public.txt](../../../ResonanceGuard_03_IOT_INTEGRATION/docs/evidence/backend-public.txt) |
 
 Các tiến trình thử đã được dừng sau kiểm tra. Không để backend/Vite của lượt thử chiếm port cho lần chạy của người dùng.
 
@@ -101,7 +107,7 @@ Tạo project [ESP32 Wokwi](https://wokwi.com/projects/new/esp32), chép sketch/
 
 `sketch.ino`, `config.h`, `motor_control.h`, `rpm_reader.h`, `rg-motor.chip.c`, `rg-motor.chip.json`, `diagram.json`, `libraries.txt`.
 
-Không chép .env lên Wokwi. Không dùng config.h trong backup; chép bản vừa sinh. Xem hướng dẫn chi tiết [README mục 5–7](../../../README_HUONG_DAN.md).
+Không chép .env lên Wokwi. Không dùng config.h trong backup; chép bản vừa sinh. Xem [hướng dẫn chạy và demo hiện hành](../../03_CHAY_MO_PHONG.md).
 
 Kết quả mong đợi sau Start Simulation: compile thành công; Serial báo BOOT/outputs OFF, IMU configuration OK, MQTT connected; website nhận boot/state và gia tốc mặc định gần 0/0/9.81 m/s². Đây là kết quả **chưa được quan sát trong lượt kiểm thử này**.
 

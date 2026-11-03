@@ -1,0 +1,16 @@
+# Local report bundle: excluded from the shared repository by request.
+/ResonanceGuard_Muc_4_1_4_2_DayDu/
+
+# Private/runtime configuration. Keep distributable examples.
+**/.env
+**/.env.*
+!**/.env.example
+**/config.h
+
+# Dependencies and generated output.
+**/node_modules/
+**/dist/
+**/data/
+**/.pio/
+**/__pycache__/
+**/*.pyc

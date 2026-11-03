@@ -1,5 +1,9 @@
 # Điều tra MQTT/ACK từ proof — 27/10/2026
 
+> Hồ sơ lịch sử, chuyển vào archive ngày 03/11/2026. Các nhận xét như “JSONL đều rỗng”, kết quả test và giả thuyết chỉ phản ánh đợt điều tra này; không sửa thành kết quả hiện tại. Đường dẫn code/lệnh trong thân bài tính từ thư mục bản 03; log bằng chứng vẫn ở vị trí gốc. Xem [kiểm thử hiện hành](../../04_KIEM_THU.md) và [cách chạy](../../03_CHAY_MO_PHONG.md).
+
+> Project hiện đã chuyển còn một cấp `ResonanceGuard_03_IOT_INTEGRATION/`; lệnh hai cấp và tên `proof/` bên dưới thuộc hồ sơ cũ. Các tệp `proof/` không còn trong workspace hiện tại; lần cập nhật tài liệu này không đối chiếu lại chúng hoặc thu kết quả chạy mới.
+
 **Kết quả:** đã sửa lỗi đọc payload có thể mắc vòng lặp, sửa cửa sổ race của trạng thái kết nối frontend, thêm xác nhận broker cho ACK và trace theo command_id. Chưa khẳng định đã tìm ra nguyên nhân duy nhất của lượt Wokwi cũ hoặc đã chạy ổn bản firmware mới trong Wokwi.
 
 ## 1. Bằng chứng đã đọc
@@ -85,7 +89,7 @@ Nguồn đã đối chiếu: [ArduinoMqttClient 0.1.8](https://github.com/arduin
 - `npm.cmd run smoke:local` chưa chạy được trong lượt này: **EADDRINUSE port 3000** đang được dùng. Không dừng tiến trình của người dùng. Các test tích hợp dùng cổng riêng vẫn chạy đủ; smoke lượt trước được ghi riêng, không tính là kết quả của bản vá này.
 - Native test dùng đúng `motor_control.h`, `mqtt_support.h`, `rpm_reader.h`; custom chip C dùng API stub. **Chưa compile/chạy sketch ESP32, QoS1 ArduinoMqttClient hoặc wrapper WiFiClient mới trong Wokwi.**
 
-Xem [log test](evidence/mqtt-ack-tests.txt), [log build](evidence/mqtt-ack-build.txt) và [kết quả xác nhận cuối](evidence/mqtt-ack-final.txt). Các log bằng chứng dùng fixture synthetic, không phải log Wokwi của người dùng.
+Xem [log test](../../../ResonanceGuard_03_IOT_INTEGRATION/docs/evidence/mqtt-ack-tests.txt), [log build](../../../ResonanceGuard_03_IOT_INTEGRATION/docs/evidence/mqtt-ack-build.txt) và [kết quả xác nhận cuối](../../../ResonanceGuard_03_IOT_INTEGRATION/docs/evidence/mqtt-ack-final.txt). Các log bằng chứng dùng fixture synthetic, không phải log Wokwi của người dùng.
 
 ## 5. Cập nhật và thử lại
 
