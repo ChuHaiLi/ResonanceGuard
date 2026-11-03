@@ -96,7 +96,6 @@ Khi có lần chạy mới, ghi ngày/múi giờ, commit và thay đổi chưa c
 |---|---|
 | [VALIDATION 27/10](archive/2026-10-27/VALIDATION.md) | Biên bản lượt đầu; giữ số 10 test, ACK QoS0 và tám file như lịch sử, không dùng làm hướng dẫn hiện tại |
 | [Điều tra MQTT/ACK 27/10](archive/2026-10-27/MQTT_ACK_INVESTIGATION.md) | Giữ nguồn proof, phân tích, giả thuyết và kết quả bản vá; nhận xét JSONL phản ánh thời điểm đọc hồ sơ |
-| [Kế hoạch báo cáo cũ nhận từ remote](archive/2026-10-29/PHAN_CONG_REPORT_TRIET_HAI_THANH_6_NGAY.md) | Giữ nguyên từ commit ngày 29/10 để bảo toàn lịch sử; không áp dụng tên người, tỷ lệ, vai trò hoặc mốc sáu ngày cho kế hoạch hiện tại |
 | [Ngữ cảnh Fusion 31/10](archive/2026-10-31/CONTEXT_FUSION_CHATGPT.md) | Bàn giao cuộc trò chuyện cũ, có đường dẫn máy và trạng thái cũ; không phải phân công |
 | [Bài dựng Fusion](archive/2026-10-31/HUONG_DAN_FUSION_RESONANCEGUARD.md) | Tham số tập vẽ và nguồn Autodesk, bảng Pxx dự kiến; bảng Pxx hiện dùng nằm trong gói báo cáo |
 | Snapshot rà soát 03/11 trong gói báo cáo local | Tệp `tai_lieu/KetQua_KiemTra_Codex_CLI_2026-11-03.md` thuộc gói `ResonanceGuard_Muc_4_1_4_2_DayDu/`, không đưa lên GitHub; đường dẫn/số dòng và git status là thời điểm rà soát trước khi tổ chức tài liệu |
@@ -105,7 +104,9 @@ Trong snapshot 03/11, các dẫn chiếu cũ `P/docs/VALIDATION.md` và `P/docs/
 
 [Sổ tay gốc](../RESONANCE_GUARD_COMPLETE_PROJECT_GUIDE.md), [ToiHieu](../ToiHieu.md), [sơ đồ lý thuyết](../ResonanceGuard_So_do_Cong_huong_PWM.md) và PDF quy định được giữ nguyên. Ba tài liệu chỉ được sổ tay dẫn tên — `LY_THUYET_RESONANCE_GUARD.md`, `BAI_TOAN_THUC_TE_VA_UNG_DUNG.md`, `RESONANCE_GUARD_TECHNICAL_REVIEW.md` — chưa tìm thấy trong workspace; các liên kết thiếu đó thuộc nguồn gốc chưa sửa, không được hiểu là tài liệu đã đọc.
 
-Phân công/kế hoạch cũ không còn phù hợp theo nhóm; không dùng các vai trò, tỷ lệ hoặc lịch trong hồ sơ cũ làm ràng buộc hiện tại. Chờ bản mới do nhóm cung cấp.
+Phân công/kế hoạch cũ không còn phù hợp theo nhóm; bản phân công báo cáo sáu ngày đã được loại khỏi bộ tài liệu hiện tại theo yêu cầu. Chỉ cập nhật phân công theo thành viên hiện tại và bản mới do nhóm cung cấp; ba luồng chức năng không mặc định tương ứng ba thành viên.
+
+[VLCNTT.pdf](../VLCNTT.pdf) là báo cáo của nhóm khác, chỉ dùng tham khảo cấu trúc/bố cục khi viết report. Theo lưu ý của nhóm, tài liệu có nhiều lỗi; không dùng nội dung kỹ thuật, mô tả luồng, phân công/tỷ lệ hoặc cách tính điểm làm căn cứ. Yêu cầu chấm điểm phải đối chiếu PDF quy định của giảng viên; chức năng và kết quả ResonanceGuard phải đối chiếu code/bằng chứng của chính project.
 
 ## 6. Nghiệm thu đích thiết bị thật
 
