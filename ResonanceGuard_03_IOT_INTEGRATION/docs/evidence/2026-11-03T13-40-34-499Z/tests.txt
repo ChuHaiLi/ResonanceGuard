@@ -1,0 +1,101 @@
+﻿Started: 2026-11-03T20:41:10.9560339+07:00 | npm.cmd test | Node peer/local only
+
+> resonanceguard-03-iot-integration@0.1.0 test
+> node --test tests/*.test.js
+
+TRACE {"at":1793713277149,"source":"synthetic","stage":"MQTT_ERROR","error":"connect EACCES 127.0.0.1:61063"}
+TRACE {"at":1793713277152,"source":"synthetic","stage":"MQTT_CLOSED","connection":0,"reason":"transport_closed_or_broker_disconnect"}
+✖ MQTT → backend → REST/WS and web command → MQTT → ACK (170.7349ms)
+✔ firmware motor decisions (native C++, not ESP32 build) (2389.2578ms)
+ℹ PASS: boot OFF; START/PWM/STOP; duplicate; expiry; wrong boot; local STOP; disconnect; no auto restart; uint32 wrap
+PASS: actual RPM reader: two edges, PPR=1, 600 RPM, timeout, restart and micros wrap
+PASS: MQTT read failure exits immediately; payload bound; OFF reason distinguishes STOP/local/lease; namespace-scoped client identity
+✔ custom chip model (native C with stub Wokwi API) (598.8321ms)
+ℹ PASS: actual custom chip C model with stub API: dead band, PWM, RPM, PPR=1, EN, coast-down, steady HIGH/LOW
+✔ payload validation rejects null/array, invalid units, quality, ranges and OFF with PWM (0.8443ms)
+✔ fresh state immediately before ACK enables renew without waiting for React render; slow wall clock never arms late ACK (0.3305ms)
+✔ frontend STOP/disconnect invalidate late HTTP and ACK; only a fresh START ACK enables renew (0.1411ms)
+✔ frontend freshness is independent per stream and boot; stale values are not measurements (0.2016ms)
+✖ retained replay, malformed payloads, ACK boot, stale state/streams, reboot and MQTT recovery (152.7702ms)
+✖ delayed ACK uses wall timeout even when ESP advances slowly; diagnostics distinguish rejection and WS delivery (4.7653ms)
+✖ HTTP malformed body and WebSocket foreign Origin are rejected (3.346ms)
+✖ START → QoS1 ACK → repeated renew/PWM → RUN/RPM → STOP across real local MQTT/WS (6.2693ms)
+✖ unacknowledged QoS1 commands are discarded when MQTT disconnects (8.5299ms)
+✔ setup creates matching config, preserves valid quoted env and rejects unsupported settings without overwriting (396.1433ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 7
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3082.0035
+
+✖ failing tests:
+
+test at tests\integration.test.js:26:1
+✖ MQTT → backend → REST/WS and web command → MQTT → ACK (170.7349ms)
+  Error: connect EACCES 127.0.0.1:61063
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -4092,
+    code: 'EACCES',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 61063
+  }
+
+test at tests\robustness.test.js:71:1
+✖ retained replay, malformed payloads, ACK boot, stale state/streams, reboot and MQTT recovery (152.7702ms)
+  Error: connect EACCES 127.0.0.1:61062
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -4092,
+    code: 'EACCES',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 61062
+  }
+
+test at tests\robustness.test.js:131:1
+✖ delayed ACK uses wall timeout even when ESP advances slowly; diagnostics distinguish rejection and WS delivery (4.7653ms)
+  Error: connect EACCES 127.0.0.1:61067
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -4092,
+    code: 'EACCES',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 61067
+  }
+
+test at tests\robustness.test.js:172:1
+✖ HTTP malformed body and WebSocket foreign Origin are rejected (3.346ms)
+  Error: connect EACCES 127.0.0.1:61069
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -4092,
+    code: 'EACCES',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 61069
+  }
+
+test at tests\robustness.test.js:184:1
+✖ START → QoS1 ACK → repeated renew/PWM → RUN/RPM → STOP across real local MQTT/WS (6.2693ms)
+  Error: connect EACCES 127.0.0.1:61071
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -4092,
+    code: 'EACCES',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 61071
+  }
+
+test at tests\robustness.test.js:250:1
+✖ unacknowledged QoS1 commands are discarded when MQTT disconnects (8.5299ms)
+  Error: connect EACCES 127.0.0.1:61073
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+    errno: -4092,
+    code: 'EACCES',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 61073
+  }
+Exit: 1 | Finished: 2026-11-03T20:41:18.1424874+07:00

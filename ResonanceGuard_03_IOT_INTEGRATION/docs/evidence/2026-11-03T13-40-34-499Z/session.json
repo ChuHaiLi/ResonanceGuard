@@ -1,0 +1,120 @@
+{
+  "started_at": "2026-11-03T13:40:55.882Z",
+  "timezone": "Asia/Bangkok",
+  "node": "v24.11.1",
+  "project": "ResonanceGuard_03_IOT_INTEGRATION",
+  "package_version": "0.1.0",
+  "installed": {
+    "express": {
+      "present": true,
+      "version": "5.3.0",
+      "locked": "5.3.0"
+    },
+    "mqtt": {
+      "present": true,
+      "version": "5.16.1",
+      "locked": "5.16.1"
+    },
+    "react": {
+      "present": true,
+      "version": "19.3.1",
+      "locked": "19.3.1"
+    },
+    "react-dom": {
+      "present": true,
+      "version": "19.3.1",
+      "locked": "19.3.1"
+    },
+    "ws": {
+      "present": true,
+      "version": "8.22.0",
+      "locked": "8.22.0"
+    },
+    "vite": {
+      "present": true,
+      "version": "7.3.7",
+      "locked": "7.3.7"
+    },
+    "aedes": {
+      "present": true,
+      "version": "0.51.3",
+      "locked": "0.51.3"
+    }
+  },
+  "config": {
+    "env_exists": true,
+    "config_exists": true,
+    "transport": "mqtt:",
+    "port": 1883,
+    "auth_present": false,
+    "backend_port": 3000,
+    "broker_matches": true,
+    "prefix_matches": true,
+    "port_matches": true
+  },
+  "firmware": {
+    "sketch.ino": {
+      "present": true,
+      "sha256": "7996ad7e4a918d28ee85d474280b0fe8524d4ab3052069f321b6237b4c077cdf"
+    },
+    "config.h": {
+      "present": true,
+      "sha256": "33144148553bea64875dd7afc9262737da6267f79e41e1d2c9926faabc20f6cc"
+    },
+    "motor_control.h": {
+      "present": true,
+      "sha256": "67c4aa115bf5ea7e8eae9c474572965cc6f227551b086b88dae88a17f5945ca7"
+    },
+    "rpm_reader.h": {
+      "present": true,
+      "sha256": "24373f0a8a73b654c1e07a8626ca98d8bcc1e6979d082664e20f1491cb046f10"
+    },
+    "mqtt_support.h": {
+      "present": true,
+      "sha256": "15a2cac044c8e7aaf8f1c2ae62fb4291d4863a9a7b6ff898467a8038d0ec4c08"
+    },
+    "diagram.json": {
+      "present": true,
+      "sha256": "b9e21e4587509468c5fac5d126a6e6f63188892f05c93734ab97d786fb2087d8"
+    },
+    "libraries.txt": {
+      "present": true,
+      "sha256": "9ba625eb4bf14e040280d03e631ed0896f68e22e354dcd362e54249a94924c09"
+    },
+    "rg-motor.chip.c": {
+      "present": true,
+      "sha256": "f7ac15ebf1bebf4465a0c3ddb55ff02e149af62341e4a8c9934fd2da7619b818"
+    },
+    "rg-motor.chip.json": {
+      "present": true,
+      "sha256": "c3e580fc52283ea12d1278db53cf75d9846b042a0cae4e965a59fe4bd4f1951a"
+    }
+  },
+  "report_preserved": {
+    "prefix_sha256": "20c84ae82ba58bfc1d58531073eef26343662cb15a1b264feab54040c8c3ea3f",
+    "suffix_sha256": "0a03a764409fd1a894b5936b736ab40581c9efbc4512c67603e31fb67616b6fa",
+    "assets": {
+      "ResonanceGuard_01_TongThe.png": "4a0a870a672a4056a885fc9d817336273dc7954e8614046daa5a2e2e6e2bcbb9",
+      "ResonanceGuard_01_TongThe_ChuThich.png": "08492e1b56cf0024b6e462f8efba462a21e6813944821374920decf66aca736f",
+      "ResonanceGuard_01_TongThe_ChuThich.svg": "24a7fe0687ec899ede968e2ac1f75357811480c37a47c7d77313924cb06b664a",
+      "ResonanceGuard_02_BenTrong.png": "26b53892ae112e8e938d36e14f34a008e0af5aee9a1586b128d922f9c9d8a1d3",
+      "ResonanceGuard_02_BenTrong_ChuThich.png": "e3007c9d0007123027b22542191b6cf1dca7e101171acec38dec8030ad138db4",
+      "ResonanceGuard_02_BenTrong_ChuThich.svg": "cd2ad888d4c5a61b5330a75af4b14ae6fc1285b0cdf76b45fe1313c7ab2b9620",
+      "ResonanceGuard_03_Top_BenTrong.png": "c6c905e20d89d761ec6017146286f90255fab34b01ba48264c5f972ef2186be6",
+      "ResonanceGuard_04_Front.png": "bbdbac2bebd9a114f405eaad0b75df08c5ce4cca2b984704bb6dc8d916c3fc79",
+      "ResonanceGuard_05_Right.png": "42927ad879801a19e729332e64c62975160e051eca5e56f707804388a38cc4aa",
+      "ResonanceGuard_06_MatCat.png": "70ba70c153e0f9a81a4f629444e98902e979ea3b5063c9cf5806b102759e5d45",
+      "ResonanceGuard_07_ThaoRoi.png": "68367476cf8fdbeabde66ff174f508edda85582396d537fa62e834cf34462a20"
+    }
+  },
+  "scope": "Local tests use Node peer; Wokwi evidence not yet collected.",
+  "git_head": "1d84fb3a2c3d549dd2ad9d46dca4f6630fe33ed1",
+  "initial_git_status": "clean",
+  "npm": "11.6.2",
+  "serial_provenance": {
+    "file": "serial-user-04ab60c858833635.txt",
+    "origin": "Copied by user into conversation; partial serial, not automatic full capture.",
+    "serial_wall_clock_times": "not supplied"
+  },
+  "wokwi_project_url": "https://wokwi.com/projects/479040461413244929"
+}

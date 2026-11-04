@@ -1,0 +1,10 @@
+{
+  "observed_at": "2026-11-03T14:39:45.999Z",
+  "candidate": "alternate-public-emqx",
+  "broker_connected": true,
+  "broker_subscribed": true,
+  "state_present": false,
+  "stale": true,
+  "history_events": 0,
+  "motor_commands_sent": 0
+}

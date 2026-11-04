@@ -1,0 +1,1767 @@
+{
+  "observed_at": "2026-11-03T15:35:49.935Z",
+  "matching": [
+    {
+      "at": 1793720112848,
+      "source": "synthetic",
+      "stage": "COMMAND_TX",
+      "command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044",
+      "boot_id": "98a4d20a075107d0",
+      "action": "start",
+      "device_deadline_ms": 270670,
+      "lease_ms": 4000
+    },
+    {
+      "at": 1793720113078,
+      "source": "synthetic",
+      "stage": "COMMAND_BROKER_PUBACK",
+      "command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+    }
+  ],
+  "nearby": [
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2906,
+        "t_device_ms": 253573,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720098368
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2909,
+        "t_device_ms": 253830,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720098581
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2912,
+        "t_device_ms": 254085,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720098782
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2918,
+        "t_device_ms": 254599,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720099225
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2921,
+        "t_device_ms": 254856,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720099750
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2924,
+        "t_device_ms": 255111,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720099855
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2927,
+        "t_device_ms": 255368,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720100054
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2930,
+        "t_device_ms": 255625,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720100267
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2933,
+        "t_device_ms": 255880,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720100690
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2936,
+        "t_device_ms": 256136,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720100909
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2939,
+        "t_device_ms": 256393,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720101117
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2942,
+        "t_device_ms": 256650,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720101328
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2945,
+        "t_device_ms": 256905,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720101747
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2948,
+        "t_device_ms": 257159,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720101948
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2951,
+        "t_device_ms": 257415,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720102149
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2954,
+        "t_device_ms": 257672,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720102359
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2957,
+        "t_device_ms": 257928,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720102768
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2960,
+        "t_device_ms": 258185,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720102968
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2963,
+        "t_device_ms": 258442,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720103186
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2966,
+        "t_device_ms": 258699,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720103390
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2969,
+        "t_device_ms": 258954,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720103814
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2972,
+        "t_device_ms": 259208,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720104016
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2975,
+        "t_device_ms": 259464,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720104221
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2978,
+        "t_device_ms": 259721,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720104442
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2981,
+        "t_device_ms": 259978,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720104661
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2984,
+        "t_device_ms": 260235,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720105067
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2987,
+        "t_device_ms": 260491,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720105281
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2990,
+        "t_device_ms": 260748,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720105500
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2993,
+        "t_device_ms": 261005,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720105727
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2996,
+        "t_device_ms": 261261,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720106138
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 2999,
+        "t_device_ms": 261518,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720106356
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3002,
+        "t_device_ms": 261775,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720106546
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3005,
+        "t_device_ms": 262031,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720106759
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3008,
+        "t_device_ms": 262287,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720107022
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3011,
+        "t_device_ms": 262543,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720107261
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3014,
+        "t_device_ms": 262797,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720107672
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3017,
+        "t_device_ms": 263053,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720107883
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3020,
+        "t_device_ms": 263310,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720108095
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3023,
+        "t_device_ms": 263567,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720108307
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3026,
+        "t_device_ms": 263824,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720108733
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3029,
+        "t_device_ms": 264080,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720108928
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3032,
+        "t_device_ms": 264336,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720109131
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3035,
+        "t_device_ms": 264593,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720109329
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3038,
+        "t_device_ms": 264850,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720109745
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3041,
+        "t_device_ms": 265106,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720109947
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3044,
+        "t_device_ms": 265362,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720110146
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3047,
+        "t_device_ms": 265619,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720110351
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3050,
+        "t_device_ms": 265876,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720110779
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3053,
+        "t_device_ms": 266133,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720110982
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3056,
+        "t_device_ms": 266388,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720111199
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3059,
+        "t_device_ms": 266645,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720111415
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3065,
+        "t_device_ms": 267156,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720112031
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3068,
+        "t_device_ms": 267413,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720112231
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3071,
+        "t_device_ms": 267670,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720112430
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3077,
+        "t_device_ms": 268182,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720113035
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3080,
+        "t_device_ms": 268437,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720113229
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3083,
+        "t_device_ms": 268694,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+      },
+      "received_at": 1793720113437
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3087,
+        "t_device_ms": 268990,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720114223
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3090,
+        "t_device_ms": 269248,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720114430
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3093,
+        "t_device_ms": 269505,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720114655
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3096,
+        "t_device_ms": 269762,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720115095
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3099,
+        "t_device_ms": 270018,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720115299
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3102,
+        "t_device_ms": 270268,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720115520
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3105,
+        "t_device_ms": 270525,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720115951
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3108,
+        "t_device_ms": 270782,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720116173
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3111,
+        "t_device_ms": 271039,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720116389
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3114,
+        "t_device_ms": 271296,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720116811
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3117,
+        "t_device_ms": 271551,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720117040
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3120,
+        "t_device_ms": 271808,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720117240
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3123,
+        "t_device_ms": 272065,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720117670
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3126,
+        "t_device_ms": 272321,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720117887
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3129,
+        "t_device_ms": 272578,
+        "running": true,
+        "duty": 0.301961,
+        "stop_reason": "none",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720118108
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3132,
+        "t_device_ms": 272837,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720118314
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3135,
+        "t_device_ms": 273093,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720118707
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3138,
+        "t_device_ms": 273347,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720118908
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3141,
+        "t_device_ms": 273604,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720119128
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3144,
+        "t_device_ms": 273861,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720119525
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3147,
+        "t_device_ms": 274118,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720119729
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3150,
+        "t_device_ms": 274373,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720119928
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3153,
+        "t_device_ms": 274630,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720120124
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3156,
+        "t_device_ms": 274887,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720120559
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3159,
+        "t_device_ms": 275144,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720120765
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3162,
+        "t_device_ms": 275401,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720120959
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3165,
+        "t_device_ms": 275658,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720121159
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3168,
+        "t_device_ms": 275915,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720121575
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3171,
+        "t_device_ms": 276172,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720121776
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3174,
+        "t_device_ms": 276429,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720121982
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3177,
+        "t_device_ms": 276686,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720122185
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3180,
+        "t_device_ms": 276943,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720122611
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3183,
+        "t_device_ms": 277200,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720122812
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3186,
+        "t_device_ms": 277456,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720123030
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3189,
+        "t_device_ms": 277713,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720123215
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3192,
+        "t_device_ms": 277970,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720123646
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3195,
+        "t_device_ms": 278227,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720123845
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3198,
+        "t_device_ms": 278484,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720124045
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3201,
+        "t_device_ms": 278741,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720124246
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3204,
+        "t_device_ms": 278998,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720124679
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3207,
+        "t_device_ms": 279255,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720124882
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3210,
+        "t_device_ms": 279511,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720125079
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3213,
+        "t_device_ms": 279768,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720125287
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3216,
+        "t_device_ms": 280025,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720125515
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3219,
+        "t_device_ms": 280282,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720125917
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3222,
+        "t_device_ms": 280538,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720126117
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3225,
+        "t_device_ms": 280795,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720126329
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3228,
+        "t_device_ms": 281050,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720126747
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3231,
+        "t_device_ms": 281304,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720126956
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3234,
+        "t_device_ms": 281560,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720127162
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3237,
+        "t_device_ms": 281817,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720127369
+    },
+    {
+      "type": "state",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3240,
+        "t_device_ms": 282074,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "lease_expired",
+        "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+      },
+      "received_at": 1793720127579
+    }
+  ]
+}

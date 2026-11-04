@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-11-03T13:50:45.455Z",
+  "http_status": 200,
+  "production_asset": {
+    "path": "/assets/index-BDGk8jnk.js",
+    "status": 200
+  },
+  "api_status": 200,
+  "broker_connected": true,
+  "broker_subscribed": true,
+  "state_present": false,
+  "stale": true,
+  "telemetry_events_in_history": 0,
+  "websocket": {
+    "event": "snapshot",
+    "broker_connected": true,
+    "broker_subscribed": true,
+    "state_present": false
+  },
+  "motor_commands_sent_by_this_check": 0,
+  "limit": "HTTP asset and WS checks only; no visual browser rendering or Wokwi execution verified."
+}

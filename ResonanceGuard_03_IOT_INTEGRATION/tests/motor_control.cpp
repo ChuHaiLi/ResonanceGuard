@@ -113,6 +113,35 @@ int main()
     text.clear();
     assert(!readMqttPayload(tooLarge, text, 2));
     assert(mqttNamespaceHash("rg-demo/team-a/rg01") != mqttNamespaceHash("rg-demo/team-b/rg01"));
+    MotorControl ackLossMotor;
+    assert(strcmp(ackLossMotor.command("ack-loss", "start", true, 1000, .3f, 500, 100, false, true),
+                  "command_accepted_wait_for_rpm") == 0);
+    const uint32_t originalLease = ackLossMotor.leaseUntil;
+    AckDelivery delivery;
+    delivery.reset(100);
+    assert(delivery.ready(100));
+    assert(!delivery.sent(100)); // First application ACK may be lost after broker PUBACK.
+    assert(!delivery.ready(849));
+    assert(delivery.ready(850));
+    assert(delivery.sent(850)); // Exactly one identical repeat, then retire the queue entry.
+    assert(!delivery.ready(10000));
+    delivery.reset(100);
+    assert(!delivery.sent(100));
+    delivery.reset(800); // A newer ACK replaces the pending idle repeat.
+    assert(!delivery.sent(800));
+    assert(!delivery.ready(850)); // Old retry deadline cannot delay the newer ACK.
+    assert(delivery.ready(1550));
+    assert(delivery.sent(1550));
+    assert(ackLossMotor.leaseUntil == originalLease);
+    ackLossMotor.tick(originalLease, false, true);
+    assert(!ackLossMotor.running);
+    delivery.reset(0xfffffff0U);
+    assert(!delivery.sent(0xfffffff0U));
+    assert(!delivery.ready(0x2ddU));
+    assert(delivery.ready(0x2deU));
+    assert(delivery.sent(0x2deU));
+    assert(!delivery.ready(0x2dfU));
+    puts("PASS: bounded ACK repeat, spacing and uint32 wrap; motor lease is unchanged");
     puts("PASS: boot OFF; START/PWM/STOP; duplicate; expiry; wrong boot; local STOP; disconnect; no auto restart; uint32 wrap");
     puts("PASS: actual RPM reader: two edges, PPR=1, 600 RPM, timeout, restart and micros wrap");
     puts("PASS: MQTT read failure exits immediately; payload bound; OFF reason distinguishes STOP/local/lease; namespace-scoped client identity");

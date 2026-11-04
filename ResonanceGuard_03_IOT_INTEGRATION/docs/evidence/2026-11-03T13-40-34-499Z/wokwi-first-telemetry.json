@@ -1,0 +1,64 @@
+{
+  "observed_at": "2026-11-03T13:59:25.802Z",
+  "broker_connected": true,
+  "broker_subscribed": true,
+  "state": {
+    "schema_version": 1,
+    "device_id": "rg01",
+    "source": "synthetic",
+    "boot_id": "ad733600a5453c6f",
+    "seq": 115,
+    "t_device_ms": 18305,
+    "running": false,
+    "duty": 0,
+    "stop_reason": "mqtt_lost",
+    "last_command_id": "4d7ff1be-c6e0-44a9-a556-32a7916dab10"
+  },
+  "state_age_ms": 6867,
+  "stale": true,
+  "streams": {
+    "telemetry/vibration": {
+      "age_ms": 6867,
+      "stale": true
+    },
+    "telemetry/rpm": {
+      "age_ms": 6866,
+      "stale": true
+    }
+  },
+  "vibration": {
+    "type": "telemetry/vibration",
+    "data": {
+      "schema_version": 1,
+      "device_id": "rg01",
+      "source": "synthetic",
+      "boot_id": "ad733600a5453c6f",
+      "seq": 116,
+      "t_device_ms": 18314,
+      "ax": 0,
+      "ay": 0,
+      "az": 9.80665,
+      "unit": "m/s2",
+      "quality": "wokwi_i2c"
+    },
+    "received_at": 1793714358930
+  },
+  "rpm": {
+    "type": "telemetry/rpm",
+    "data": {
+      "schema_version": 1,
+      "device_id": "rg01",
+      "source": "synthetic",
+      "boot_id": "ad733600a5453c6f",
+      "seq": 117,
+      "t_device_ms": 18324,
+      "rpm": null,
+      "ppr": 1,
+      "pulses": 1,
+      "quality": "no_recent_pulses"
+    },
+    "received_at": 1793714358931
+  },
+  "last_ack": null,
+  "commands_sent_by_observer": 0
+}

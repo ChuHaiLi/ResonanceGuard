@@ -1,0 +1,7 @@
+﻿{
+    "scope":  "Controlled route comparison; no motor command sent",
+    "data_dir":  "runtime-route-emqx",
+    "pid":  9056,
+    "command":  "node --env-file=.env server/index.js",
+    "started_at":  "2026-11-03T21:39:21.3912748+07:00"
+}

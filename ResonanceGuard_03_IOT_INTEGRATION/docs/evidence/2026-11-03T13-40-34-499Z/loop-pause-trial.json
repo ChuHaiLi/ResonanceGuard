@@ -1,0 +1,14 @@
+{
+  "at": "2026-11-03T15:01:31.503Z",
+  "purpose": "Performance trial, not a confirmed fix.",
+  "file": "firmware/sketch.ino",
+  "line": 527,
+  "before": "delay(1);",
+  "after": "delay(10);",
+  "basis": "Wokwi FAQ performance guidance; screenshot shows 76% simulation speed and wall/device timing gaps observed.",
+  "reference": "https://docs.wokwi.com/faq#the-simulation-is-slow-how-can-i-make-it-faster",
+  "firmware_before_sha256": "7996ad7e4a918d28ee85d474280b0fe8524d4ab3052069f321b6237b4c077cdf",
+  "firmware_after_sha256": "cd149890792c8182477348090823546e3cf26e04dd67d20fc7ec77f35549dd83",
+  "motor_task_deadlines_lease_stop_stale_unchanged": true,
+  "wokwi_compile_and_runtime_status": "not yet performed for the changed sketch"
+}

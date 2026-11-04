@@ -1,0 +1,21 @@
+{
+  "at": "2026-11-03T15:53:24.810Z",
+  "command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044",
+  "ack_packet": 6618,
+  "ack_topic_matches_config": true,
+  "ack_json_parsed": true,
+  "ack_qos": 1,
+  "ack_packet_id": 4,
+  "puback_packet": 6622,
+  "puback_packet_id_matches": true,
+  "backend_ack_rx_for_original_start": false,
+  "conclusion": "Publisher-to-broker hop confirmed; destination delivery absent in backend evidence. Internal broker/gateway cause unproven.",
+  "mitigation": "One bounded repeat of identical application ACK; no command re-execution or lease extension.",
+  "changed_files": {
+    "firmware/sketch.ino": "fbac407ee01079d4fb8683d3ed25fa00d41447c95de71a162f92a35ea84ddd61",
+    "firmware/mqtt_support.h": "a3b47a841435e8cf0f0dc2a2be0db08fda464917ef53844f4022ee7124374ba9",
+    "tests/motor_control.cpp": "bb8e3d1ad5367a25dfb484f6e53734d41b5ada9183cfa0d0bf4c95728927e5f9"
+  },
+  "local_tests": "13 pass, 0 fail, 0 skip; native/local, not Wokwi",
+  "wokwi_new_firmware_status": "not uploaded/compiled/verified yet"
+}

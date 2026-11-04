@@ -50,6 +50,8 @@ MqttClient mqtt(transport);
 String bootId;
 String clientId;
 String ackQueue[8];
+String ackRepeat;
+AckDelivery ackRepeatDelivery;
 uint8_t ackHead = 0;
 uint8_t ackCount = 0;
 uint32_t seq = 0;
@@ -83,6 +85,7 @@ void disconnectMotor(const char *detail)
         Serial.printf("ACK DROP id=%s reason=mqtt_disconnect_before_confirmed_publish\n", ack["command_id"] | "?");
     }
     ackCount = 0;
+    ackRepeat = "";
     mqtt.stop();
 }
 
@@ -457,8 +460,26 @@ void loop()
         {
             return;
         }
+        // Retire fresh ACK immediately. A repeat must never hold the FIFO head.
+        // Only the latest ACK is eligible for an idle repeat; newer results win.
+        ackRepeat = ackQueue[ackHead];
+        ackRepeatDelivery.reset(millis());
+        ackRepeatDelivery.sent(millis());
         ackHead = (ackHead + 1) % 8;
         --ackCount;
+    }
+    if (ackCount == 0 && ackRepeat.length() && ackRepeatDelivery.ready(millis()))
+    {
+        JsonDocument ack;
+        deserializeJson(ack, ackRepeat);
+        Serial.printf("ACK REPEAT id=%s seq=%lu (same result; command not re-executed)\n",
+            ack["command_id"] | "?", (unsigned long)ack["seq"].as<uint32_t>());
+        if (!publishDocument("ack", ack))
+        {
+            return;
+        }
+        ackRepeatDelivery.sent(millis());
+        ackRepeat = "";
     }
     if (millis() - lastTelemetry >= 250)
     {
@@ -524,5 +545,5 @@ void loop()
         rpm["quality"] = valid ? "valid_model_pulses" : "no_recent_pulses";
         publishDocument("telemetry/rpm", rpm);
     }
-    delay(1);
+    delay(10);
 }

@@ -1,0 +1,48 @@
+{
+  "results": [
+    {
+      "label": "configured-broker",
+      "started_at": "2026-11-03T14:36:44.793Z",
+      "connected": true,
+      "subscribed": true,
+      "still_connected": true,
+      "events": [
+        {
+          "stage": "connected",
+          "elapsed_ms": 5784
+        },
+        {
+          "stage": "suback",
+          "ok": true,
+          "elapsed_ms": 5985
+        },
+        {
+          "stage": "closed",
+          "elapsed_ms": 12081
+        }
+      ],
+      "publishes": 0,
+      "scope": "Node network diagnostic CONNECT/SUBSCRIBE only; no ESP/Wokwi result and no motor command."
+    },
+    {
+      "label": "alternate-public-mosquitto",
+      "started_at": "2026-11-03T14:36:44.863Z",
+      "connected": false,
+      "subscribed": false,
+      "still_connected": false,
+      "events": [
+        {
+          "stage": "error",
+          "code": "MQTT_ERROR",
+          "elapsed_ms": 8005
+        },
+        {
+          "stage": "closed",
+          "elapsed_ms": 8005
+        }
+      ],
+      "publishes": 0,
+      "scope": "Node network diagnostic CONNECT/SUBSCRIBE only; no ESP/Wokwi result and no motor command."
+    }
+  ]
+}

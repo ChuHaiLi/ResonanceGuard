@@ -1,0 +1,10 @@
+﻿{
+    "background_timer_flag":  true,
+    "process_name":  "chrome.exe",
+    "process_running":  true,
+    "renderer_background_flag":  true,
+    "scope":  "Launch configuration verified; Wokwi runtime fix not yet verified.",
+    "occluded_window_flag":  true,
+    "isolated_profile_argument":  true,
+    "checked_at":  "2026-11-03T22:28:26.0067510+07:00"
+}

@@ -1,0 +1,555 @@
+{
+  "derived_at": "2026-11-03T14:12:37.999Z",
+  "scope": "Metrics of the bounded baseline observation cited in section 4.2.2; partial case A, not a completed input-change test.",
+  "boot_id": "04ab60c858833635",
+  "vibration_count": 374,
+  "first": {
+    "type": "telemetry/vibration",
+    "data": {
+      "schema_version": 1,
+      "device_id": "rg01",
+      "source": "synthetic",
+      "boot_id": "04ab60c858833635",
+      "seq": 1,
+      "t_device_ms": 7632,
+      "ax": 0,
+      "ay": 0,
+      "az": 9.80665,
+      "unit": "m/s2",
+      "quality": "wokwi_i2c"
+    },
+    "received_at": 1793714538750
+  },
+  "last": {
+    "type": "telemetry/vibration",
+    "data": {
+      "schema_version": 1,
+      "device_id": "rg01",
+      "source": "synthetic",
+      "boot_id": "04ab60c858833635",
+      "seq": 1120,
+      "t_device_ms": 100882,
+      "ax": 0,
+      "ay": 0,
+      "az": 9.80665,
+      "unit": "m/s2",
+      "quality": "wokwi_i2c"
+    },
+    "received_at": 1793714672595
+  },
+  "max_server_gap_ms": 7369,
+  "health_observations": [
+    {
+      "file": "health-04ab60c858833635-1793714703392.json",
+      "scope": "Read-only HTTP observations; no command sent.",
+      "expected_boot_id": "04ab60c858833635",
+      "rows": [
+        {
+          "observed_at": "2026-11-03T14:04:49.333Z",
+          "broker_connected": true,
+          "broker_subscribed": true,
+          "state": {
+            "schema_version": 1,
+            "device_id": "rg01",
+            "source": "synthetic",
+            "boot_id": "04ab60c858833635",
+            "seq": 1119,
+            "t_device_ms": 100875,
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot",
+            "last_command_id": ""
+          },
+          "state_age_ms": 16733,
+          "stale": true,
+          "streams": {
+            "telemetry/vibration": {
+              "age_ms": 16733,
+              "stale": true
+            },
+            "telemetry/rpm": {
+              "age_ms": 16733,
+              "stale": true
+            }
+          },
+          "vibration": {
+            "type": "telemetry/vibration",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1120,
+              "t_device_ms": 100882,
+              "ax": 0,
+              "ay": 0,
+              "az": 9.80665,
+              "unit": "m/s2",
+              "quality": "wokwi_i2c"
+            },
+            "received_at": 1793714672595
+          },
+          "rpm": {
+            "type": "telemetry/rpm",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1121,
+              "t_device_ms": 100892,
+              "rpm": null,
+              "ppr": 1,
+              "pulses": 5,
+              "quality": "no_recent_pulses"
+            },
+            "received_at": 1793714672595
+          },
+          "last_ack": null
+        },
+        {
+          "observed_at": "2026-11-03T14:04:51.336Z",
+          "broker_connected": true,
+          "broker_subscribed": true,
+          "state": {
+            "schema_version": 1,
+            "device_id": "rg01",
+            "source": "synthetic",
+            "boot_id": "04ab60c858833635",
+            "seq": 1119,
+            "t_device_ms": 100875,
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot",
+            "last_command_id": ""
+          },
+          "state_age_ms": 18740,
+          "stale": true,
+          "streams": {
+            "telemetry/vibration": {
+              "age_ms": 18740,
+              "stale": true
+            },
+            "telemetry/rpm": {
+              "age_ms": 18740,
+              "stale": true
+            }
+          },
+          "vibration": {
+            "type": "telemetry/vibration",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1120,
+              "t_device_ms": 100882,
+              "ax": 0,
+              "ay": 0,
+              "az": 9.80665,
+              "unit": "m/s2",
+              "quality": "wokwi_i2c"
+            },
+            "received_at": 1793714672595
+          },
+          "rpm": {
+            "type": "telemetry/rpm",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1121,
+              "t_device_ms": 100892,
+              "rpm": null,
+              "ppr": 1,
+              "pulses": 5,
+              "quality": "no_recent_pulses"
+            },
+            "received_at": 1793714672595
+          },
+          "last_ack": null
+        },
+        {
+          "observed_at": "2026-11-03T14:04:53.347Z",
+          "broker_connected": true,
+          "broker_subscribed": true,
+          "state": {
+            "schema_version": 1,
+            "device_id": "rg01",
+            "source": "synthetic",
+            "boot_id": "04ab60c858833635",
+            "seq": 1119,
+            "t_device_ms": 100875,
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot",
+            "last_command_id": ""
+          },
+          "state_age_ms": 20752,
+          "stale": true,
+          "streams": {
+            "telemetry/vibration": {
+              "age_ms": 20752,
+              "stale": true
+            },
+            "telemetry/rpm": {
+              "age_ms": 20752,
+              "stale": true
+            }
+          },
+          "vibration": {
+            "type": "telemetry/vibration",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1120,
+              "t_device_ms": 100882,
+              "ax": 0,
+              "ay": 0,
+              "az": 9.80665,
+              "unit": "m/s2",
+              "quality": "wokwi_i2c"
+            },
+            "received_at": 1793714672595
+          },
+          "rpm": {
+            "type": "telemetry/rpm",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1121,
+              "t_device_ms": 100892,
+              "rpm": null,
+              "ppr": 1,
+              "pulses": 5,
+              "quality": "no_recent_pulses"
+            },
+            "received_at": 1793714672595
+          },
+          "last_ack": null
+        },
+        {
+          "observed_at": "2026-11-03T14:04:55.359Z",
+          "broker_connected": true,
+          "broker_subscribed": true,
+          "state": {
+            "schema_version": 1,
+            "device_id": "rg01",
+            "source": "synthetic",
+            "boot_id": "04ab60c858833635",
+            "seq": 1119,
+            "t_device_ms": 100875,
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot",
+            "last_command_id": ""
+          },
+          "state_age_ms": 22763,
+          "stale": true,
+          "streams": {
+            "telemetry/vibration": {
+              "age_ms": 22763,
+              "stale": true
+            },
+            "telemetry/rpm": {
+              "age_ms": 22763,
+              "stale": true
+            }
+          },
+          "vibration": {
+            "type": "telemetry/vibration",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1120,
+              "t_device_ms": 100882,
+              "ax": 0,
+              "ay": 0,
+              "az": 9.80665,
+              "unit": "m/s2",
+              "quality": "wokwi_i2c"
+            },
+            "received_at": 1793714672595
+          },
+          "rpm": {
+            "type": "telemetry/rpm",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1121,
+              "t_device_ms": 100892,
+              "rpm": null,
+              "ppr": 1,
+              "pulses": 5,
+              "quality": "no_recent_pulses"
+            },
+            "received_at": 1793714672595
+          },
+          "last_ack": null
+        },
+        {
+          "observed_at": "2026-11-03T14:04:57.371Z",
+          "broker_connected": true,
+          "broker_subscribed": true,
+          "state": {
+            "schema_version": 1,
+            "device_id": "rg01",
+            "source": "synthetic",
+            "boot_id": "04ab60c858833635",
+            "seq": 1119,
+            "t_device_ms": 100875,
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot",
+            "last_command_id": ""
+          },
+          "state_age_ms": 24775,
+          "stale": true,
+          "streams": {
+            "telemetry/vibration": {
+              "age_ms": 24775,
+              "stale": true
+            },
+            "telemetry/rpm": {
+              "age_ms": 24775,
+              "stale": true
+            }
+          },
+          "vibration": {
+            "type": "telemetry/vibration",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1120,
+              "t_device_ms": 100882,
+              "ax": 0,
+              "ay": 0,
+              "az": 9.80665,
+              "unit": "m/s2",
+              "quality": "wokwi_i2c"
+            },
+            "received_at": 1793714672595
+          },
+          "rpm": {
+            "type": "telemetry/rpm",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1121,
+              "t_device_ms": 100892,
+              "rpm": null,
+              "ppr": 1,
+              "pulses": 5,
+              "quality": "no_recent_pulses"
+            },
+            "received_at": 1793714672595
+          },
+          "last_ack": null
+        },
+        {
+          "observed_at": "2026-11-03T14:04:59.378Z",
+          "broker_connected": true,
+          "broker_subscribed": true,
+          "state": {
+            "schema_version": 1,
+            "device_id": "rg01",
+            "source": "synthetic",
+            "boot_id": "04ab60c858833635",
+            "seq": 1119,
+            "t_device_ms": 100875,
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot",
+            "last_command_id": ""
+          },
+          "state_age_ms": 26783,
+          "stale": true,
+          "streams": {
+            "telemetry/vibration": {
+              "age_ms": 26783,
+              "stale": true
+            },
+            "telemetry/rpm": {
+              "age_ms": 26783,
+              "stale": true
+            }
+          },
+          "vibration": {
+            "type": "telemetry/vibration",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1120,
+              "t_device_ms": 100882,
+              "ax": 0,
+              "ay": 0,
+              "az": 9.80665,
+              "unit": "m/s2",
+              "quality": "wokwi_i2c"
+            },
+            "received_at": 1793714672595
+          },
+          "rpm": {
+            "type": "telemetry/rpm",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1121,
+              "t_device_ms": 100892,
+              "rpm": null,
+              "ppr": 1,
+              "pulses": 5,
+              "quality": "no_recent_pulses"
+            },
+            "received_at": 1793714672595
+          },
+          "last_ack": null
+        },
+        {
+          "observed_at": "2026-11-03T14:05:01.380Z",
+          "broker_connected": true,
+          "broker_subscribed": true,
+          "state": {
+            "schema_version": 1,
+            "device_id": "rg01",
+            "source": "synthetic",
+            "boot_id": "04ab60c858833635",
+            "seq": 1119,
+            "t_device_ms": 100875,
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot",
+            "last_command_id": ""
+          },
+          "state_age_ms": 28784,
+          "stale": true,
+          "streams": {
+            "telemetry/vibration": {
+              "age_ms": 28784,
+              "stale": true
+            },
+            "telemetry/rpm": {
+              "age_ms": 28784,
+              "stale": true
+            }
+          },
+          "vibration": {
+            "type": "telemetry/vibration",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1120,
+              "t_device_ms": 100882,
+              "ax": 0,
+              "ay": 0,
+              "az": 9.80665,
+              "unit": "m/s2",
+              "quality": "wokwi_i2c"
+            },
+            "received_at": 1793714672595
+          },
+          "rpm": {
+            "type": "telemetry/rpm",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1121,
+              "t_device_ms": 100892,
+              "rpm": null,
+              "ppr": 1,
+              "pulses": 5,
+              "quality": "no_recent_pulses"
+            },
+            "received_at": 1793714672595
+          },
+          "last_ack": null
+        },
+        {
+          "observed_at": "2026-11-03T14:05:03.392Z",
+          "broker_connected": true,
+          "broker_subscribed": true,
+          "state": {
+            "schema_version": 1,
+            "device_id": "rg01",
+            "source": "synthetic",
+            "boot_id": "04ab60c858833635",
+            "seq": 1119,
+            "t_device_ms": 100875,
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot",
+            "last_command_id": ""
+          },
+          "state_age_ms": 30796,
+          "stale": true,
+          "streams": {
+            "telemetry/vibration": {
+              "age_ms": 30796,
+              "stale": true
+            },
+            "telemetry/rpm": {
+              "age_ms": 30796,
+              "stale": true
+            }
+          },
+          "vibration": {
+            "type": "telemetry/vibration",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1120,
+              "t_device_ms": 100882,
+              "ax": 0,
+              "ay": 0,
+              "az": 9.80665,
+              "unit": "m/s2",
+              "quality": "wokwi_i2c"
+            },
+            "received_at": 1793714672595
+          },
+          "rpm": {
+            "type": "telemetry/rpm",
+            "data": {
+              "schema_version": 1,
+              "device_id": "rg01",
+              "source": "synthetic",
+              "boot_id": "04ab60c858833635",
+              "seq": 1121,
+              "t_device_ms": 100892,
+              "rpm": null,
+              "ppr": 1,
+              "pulses": 5,
+              "quality": "no_recent_pulses"
+            },
+            "received_at": 1793714672595
+          },
+          "last_ack": null
+        }
+      ]
+    }
+  ],
+  "serial_origin": "User-supplied partial serial; original capture wall times not provided."
+}

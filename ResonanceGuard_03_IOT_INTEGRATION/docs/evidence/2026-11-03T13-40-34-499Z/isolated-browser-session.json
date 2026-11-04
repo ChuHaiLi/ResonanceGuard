@@ -1,0 +1,38 @@
+{
+  "launched_at": "2026-11-03T15:27:31.213Z",
+  "profile_directory": "C:\\Users\\PC\\AppData\\Local\\Temp\\rg-wokwi-chrome-YH4E9X",
+  "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "switches": [
+    "--disable-background-timer-throttling",
+    "--disable-backgrounding-occluded-windows",
+    "--disable-renderer-backgrounding",
+    "--no-first-run",
+    "--no-default-browser-check"
+  ],
+  "windows": [
+    {
+      "role": "wokwi",
+      "url": "https://wokwi.com/projects/479040461413244929",
+      "size": "1100,940",
+      "position": "0,0"
+    },
+    {
+      "role": "dashboard",
+      "url": "http://localhost:3000",
+      "size": "820,940",
+      "position": "1100,0"
+    }
+  ],
+  "processes": [
+    {
+      "role": "wokwi",
+      "launch_pid": 14924
+    },
+    {
+      "role": "dashboard",
+      "launch_pid": 10064
+    }
+  ],
+  "motor_commands": 0,
+  "scope": "Scheduling mitigation, not a verified network fix. No old Chrome process stopped; simulator not auto-started."
+}

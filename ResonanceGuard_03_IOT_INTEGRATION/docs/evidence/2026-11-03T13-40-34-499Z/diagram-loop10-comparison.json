@@ -1,0 +1,22 @@
+{
+  "at": "2026-11-03T15:14:30.450Z",
+  "wiring_endpoints_match": true,
+  "part_ids_and_types_match": true,
+  "part_attribute_changes": [
+    {
+      "part_id": "stop",
+      "field": "top",
+      "local": 190,
+      "remote": 188.6
+    },
+    {
+      "part_id": "stop",
+      "field": "left",
+      "local": 500,
+      "remote": 499.2
+    }
+  ],
+  "connections_local": 20,
+  "connections_remote": 20,
+  "structurally_equal": false
+}

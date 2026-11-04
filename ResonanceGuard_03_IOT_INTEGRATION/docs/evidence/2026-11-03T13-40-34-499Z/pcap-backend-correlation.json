@@ -1,0 +1,1224 @@
+{
+  "analyzed_at": "2026-11-03T14:31:40.072819+00:00",
+  "capture_origin": "User exported Wokwi PCAP to Downloads; original preserved with identical hash in ignored report bundle.",
+  "capture_sha256": "0f0a22882742263e99885e03ee71c484c7e11ed0d8e92433aa2ef47abc9bfb88",
+  "capture_clock": "simulation clock, not UTC",
+  "source_label": "broker_to_esp means inbound from network through Wokwi gateway; does not identify actual broker versus gateway as originator.",
+  "scope": "Forensic observation only; no code change or completed A/B/C case.",
+  "connections": [
+    {
+      "connection": 1,
+      "connect": {
+        "type": "CONNECT",
+        "direction": "esp_to_broker",
+        "t_first_sim_s": 4.721377204,
+        "t_complete_sim_s": 4.721377204,
+        "first_packet": 84,
+        "bytes": 46,
+        "tcp_segments": 1,
+        "keepalive_s": 10,
+        "username_present": false,
+        "password_present": false,
+        "clean_session": true,
+        "boot_id": "6dba137a08dca50d"
+      },
+      "connack_received": true,
+      "suback_received": true,
+      "first_close": {
+        "packet": 337,
+        "t_sim_s": 13.630308369,
+        "direction": "broker_to_esp",
+        "flags": "FIN|ACK",
+        "payload_bytes": 0
+      },
+      "publish_packets": 102,
+      "publish_packets_matched_backend": 102,
+      "correlation": [
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 0,
+          "t_device_ms": 5140,
+          "t_pcap_sim_s": 5.30166252,
+          "received_at_server_ms": 1793715631210
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 1,
+          "t_device_ms": 5149,
+          "t_pcap_sim_s": 5.30166252,
+          "received_at_server_ms": 1793715631211
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 2,
+          "t_device_ms": 5158,
+          "t_pcap_sim_s": 5.30166252,
+          "received_at_server_ms": 1793715631211
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 3,
+          "t_device_ms": 5390,
+          "t_pcap_sim_s": 5.467384787,
+          "received_at_server_ms": 1793715631431
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 4,
+          "t_device_ms": 5399,
+          "t_pcap_sim_s": 5.467384787,
+          "received_at_server_ms": 1793715631431
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 5,
+          "t_device_ms": 5408,
+          "t_pcap_sim_s": 5.467384787,
+          "received_at_server_ms": 1793715631431
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 6,
+          "t_device_ms": 5640,
+          "t_pcap_sim_s": 5.833826992,
+          "received_at_server_ms": 1793715631925
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 7,
+          "t_device_ms": 5649,
+          "t_pcap_sim_s": 5.833826992,
+          "received_at_server_ms": 1793715631925
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 8,
+          "t_device_ms": 5658,
+          "t_pcap_sim_s": 5.833826992,
+          "received_at_server_ms": 1793715631925
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 9,
+          "t_device_ms": 5891,
+          "t_pcap_sim_s": 6.000753377,
+          "received_at_server_ms": 1793715632150
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 10,
+          "t_device_ms": 5900,
+          "t_pcap_sim_s": 6.000753377,
+          "received_at_server_ms": 1793715632150
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 11,
+          "t_device_ms": 5909,
+          "t_pcap_sim_s": 6.000753377,
+          "received_at_server_ms": 1793715632150
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 12,
+          "t_device_ms": 6141,
+          "t_pcap_sim_s": 6.166807757,
+          "received_at_server_ms": 1793715632387
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 13,
+          "t_device_ms": 6150,
+          "t_pcap_sim_s": 6.166807757,
+          "received_at_server_ms": 1793715632387
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 14,
+          "t_device_ms": 6159,
+          "t_pcap_sim_s": 6.334005482,
+          "received_at_server_ms": 1793715632605
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 15,
+          "t_device_ms": 6391,
+          "t_pcap_sim_s": 6.501047871,
+          "received_at_server_ms": 1793715632831
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 16,
+          "t_device_ms": 6400,
+          "t_pcap_sim_s": 6.501047871,
+          "received_at_server_ms": 1793715632832
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 17,
+          "t_device_ms": 6409,
+          "t_pcap_sim_s": 6.501047871,
+          "received_at_server_ms": 1793715632832
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 18,
+          "t_device_ms": 6641,
+          "t_pcap_sim_s": 6.666391989,
+          "received_at_server_ms": 1793715633046
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 19,
+          "t_device_ms": 6650,
+          "t_pcap_sim_s": 6.666391989,
+          "received_at_server_ms": 1793715633047
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 20,
+          "t_device_ms": 6659,
+          "t_pcap_sim_s": 6.83378967,
+          "received_at_server_ms": 1793715633268
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 21,
+          "t_device_ms": 6891,
+          "t_pcap_sim_s": 7.000533301,
+          "received_at_server_ms": 1793715633507
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 22,
+          "t_device_ms": 6900,
+          "t_pcap_sim_s": 7.000533301,
+          "received_at_server_ms": 1793715633508
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 23,
+          "t_device_ms": 6909,
+          "t_pcap_sim_s": 7.000533301,
+          "received_at_server_ms": 1793715633508
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 24,
+          "t_device_ms": 7141,
+          "t_pcap_sim_s": 7.166262301,
+          "received_at_server_ms": 1793715633732
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 25,
+          "t_device_ms": 7150,
+          "t_pcap_sim_s": 7.166262301,
+          "received_at_server_ms": 1793715633732
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 26,
+          "t_device_ms": 7159,
+          "t_pcap_sim_s": 7.333458214,
+          "received_at_server_ms": 1793715633965
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 27,
+          "t_device_ms": 7391,
+          "t_pcap_sim_s": 7.500554799,
+          "received_at_server_ms": 1793715634201
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 28,
+          "t_device_ms": 7400,
+          "t_pcap_sim_s": 7.500554799,
+          "received_at_server_ms": 1793715634201
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 29,
+          "t_device_ms": 7409,
+          "t_pcap_sim_s": 7.500554799,
+          "received_at_server_ms": 1793715634201
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 30,
+          "t_device_ms": 7641,
+          "t_pcap_sim_s": 7.666054908,
+          "received_at_server_ms": 1793715634411
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 31,
+          "t_device_ms": 7650,
+          "t_pcap_sim_s": 7.666054908,
+          "received_at_server_ms": 1793715634411
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 32,
+          "t_device_ms": 7659,
+          "t_pcap_sim_s": 7.833370567,
+          "received_at_server_ms": 1793715634640
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 33,
+          "t_device_ms": 7891,
+          "t_pcap_sim_s": 8.000224022,
+          "received_at_server_ms": 1793715634859
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 34,
+          "t_device_ms": 7900,
+          "t_pcap_sim_s": 8.000224022,
+          "received_at_server_ms": 1793715634859
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 35,
+          "t_device_ms": 7909,
+          "t_pcap_sim_s": 8.000224022,
+          "received_at_server_ms": 1793715634859
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 36,
+          "t_device_ms": 8141,
+          "t_pcap_sim_s": 8.165875336,
+          "received_at_server_ms": 1793715635075
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 37,
+          "t_device_ms": 8150,
+          "t_pcap_sim_s": 8.165875336,
+          "received_at_server_ms": 1793715635075
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 38,
+          "t_device_ms": 8159,
+          "t_pcap_sim_s": 8.333273407,
+          "received_at_server_ms": 1793715635291
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 39,
+          "t_device_ms": 8391,
+          "t_pcap_sim_s": 8.500215712,
+          "received_at_server_ms": 1793715635517
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 40,
+          "t_device_ms": 8400,
+          "t_pcap_sim_s": 8.500215712,
+          "received_at_server_ms": 1793715635518
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 41,
+          "t_device_ms": 8409,
+          "t_pcap_sim_s": 8.500215712,
+          "received_at_server_ms": 1793715635518
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 42,
+          "t_device_ms": 8641,
+          "t_pcap_sim_s": 8.665699113,
+          "received_at_server_ms": 1793715635745
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 43,
+          "t_device_ms": 8650,
+          "t_pcap_sim_s": 8.665699113,
+          "received_at_server_ms": 1793715635746
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 44,
+          "t_device_ms": 8659,
+          "t_pcap_sim_s": 8.833077108,
+          "received_at_server_ms": 1793715635975
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 45,
+          "t_device_ms": 8891,
+          "t_pcap_sim_s": 8.999690092,
+          "received_at_server_ms": 1793715636191
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 46,
+          "t_device_ms": 8900,
+          "t_pcap_sim_s": 8.999690092,
+          "received_at_server_ms": 1793715636191
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 47,
+          "t_device_ms": 8909,
+          "t_pcap_sim_s": 8.999690092,
+          "received_at_server_ms": 1793715636191
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 48,
+          "t_device_ms": 9141,
+          "t_pcap_sim_s": 9.166066642,
+          "received_at_server_ms": 1793715636426
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 49,
+          "t_device_ms": 9150,
+          "t_pcap_sim_s": 9.166066642,
+          "received_at_server_ms": 1793715636426
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 50,
+          "t_device_ms": 9159,
+          "t_pcap_sim_s": 9.333009596,
+          "received_at_server_ms": 1793715636659
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 51,
+          "t_device_ms": 9391,
+          "t_pcap_sim_s": 9.499370922,
+          "received_at_server_ms": 1793715636888
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 52,
+          "t_device_ms": 9400,
+          "t_pcap_sim_s": 9.499370922,
+          "received_at_server_ms": 1793715636888
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 53,
+          "t_device_ms": 9409,
+          "t_pcap_sim_s": 9.499370922,
+          "received_at_server_ms": 1793715636888
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 54,
+          "t_device_ms": 9641,
+          "t_pcap_sim_s": 9.665902627,
+          "received_at_server_ms": 1793715637110
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 55,
+          "t_device_ms": 9650,
+          "t_pcap_sim_s": 9.665902627,
+          "received_at_server_ms": 1793715637111
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 56,
+          "t_device_ms": 9659,
+          "t_pcap_sim_s": 9.832391439,
+          "received_at_server_ms": 1793715637333
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 57,
+          "t_device_ms": 9891,
+          "t_pcap_sim_s": 9.999404282,
+          "received_at_server_ms": 1793715637568
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 58,
+          "t_device_ms": 9900,
+          "t_pcap_sim_s": 9.999404282,
+          "received_at_server_ms": 1793715637568
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 59,
+          "t_device_ms": 9909,
+          "t_pcap_sim_s": 9.999404282,
+          "received_at_server_ms": 1793715637568
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 60,
+          "t_device_ms": 10141,
+          "t_pcap_sim_s": 10.165168695,
+          "received_at_server_ms": 1793715637804
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 61,
+          "t_device_ms": 10149,
+          "t_pcap_sim_s": 10.165168695,
+          "received_at_server_ms": 1793715637804
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 62,
+          "t_device_ms": 10159,
+          "t_pcap_sim_s": 10.332573182,
+          "received_at_server_ms": 1793715638034
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 63,
+          "t_device_ms": 10391,
+          "t_pcap_sim_s": 10.499390391,
+          "received_at_server_ms": 1793715638268
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 64,
+          "t_device_ms": 10400,
+          "t_pcap_sim_s": 10.499390391,
+          "received_at_server_ms": 1793715638268
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 65,
+          "t_device_ms": 10409,
+          "t_pcap_sim_s": 10.499390391,
+          "received_at_server_ms": 1793715638268
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 66,
+          "t_device_ms": 10641,
+          "t_pcap_sim_s": 10.665611484,
+          "received_at_server_ms": 1793715638496
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 67,
+          "t_device_ms": 10650,
+          "t_pcap_sim_s": 10.665611484,
+          "received_at_server_ms": 1793715638497
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 68,
+          "t_device_ms": 10659,
+          "t_pcap_sim_s": 10.832312663,
+          "received_at_server_ms": 1793715638719
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 69,
+          "t_device_ms": 10891,
+          "t_pcap_sim_s": 10.999191792,
+          "received_at_server_ms": 1793715638935
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 70,
+          "t_device_ms": 10900,
+          "t_pcap_sim_s": 10.999191792,
+          "received_at_server_ms": 1793715638936
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 71,
+          "t_device_ms": 10909,
+          "t_pcap_sim_s": 10.999191792,
+          "received_at_server_ms": 1793715638936
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 72,
+          "t_device_ms": 11141,
+          "t_pcap_sim_s": 11.165412559,
+          "received_at_server_ms": 1793715639157
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 73,
+          "t_device_ms": 11150,
+          "t_pcap_sim_s": 11.165412559,
+          "received_at_server_ms": 1793715639157
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 74,
+          "t_device_ms": 11159,
+          "t_pcap_sim_s": 11.332278787,
+          "received_at_server_ms": 1793715639384
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 75,
+          "t_device_ms": 11391,
+          "t_pcap_sim_s": 11.499191409,
+          "received_at_server_ms": 1793715639619
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 76,
+          "t_device_ms": 11400,
+          "t_pcap_sim_s": 11.499191409,
+          "received_at_server_ms": 1793715639619
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 77,
+          "t_device_ms": 11409,
+          "t_pcap_sim_s": 11.499191409,
+          "received_at_server_ms": 1793715639619
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 78,
+          "t_device_ms": 11641,
+          "t_pcap_sim_s": 11.664990084,
+          "received_at_server_ms": 1793715639858
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 79,
+          "t_device_ms": 11650,
+          "t_pcap_sim_s": 11.664990084,
+          "received_at_server_ms": 1793715639858
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 80,
+          "t_device_ms": 11659,
+          "t_pcap_sim_s": 11.832217175,
+          "received_at_server_ms": 1793715640076
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 81,
+          "t_device_ms": 11891,
+          "t_pcap_sim_s": 11.999201296,
+          "received_at_server_ms": 1793715640297
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 82,
+          "t_device_ms": 11900,
+          "t_pcap_sim_s": 11.999201296,
+          "received_at_server_ms": 1793715640297
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 83,
+          "t_device_ms": 11909,
+          "t_pcap_sim_s": 11.999201296,
+          "received_at_server_ms": 1793715640297
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 84,
+          "t_device_ms": 12141,
+          "t_pcap_sim_s": 12.165163542,
+          "received_at_server_ms": 1793715640509
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 85,
+          "t_device_ms": 12150,
+          "t_pcap_sim_s": 12.165163542,
+          "received_at_server_ms": 1793715640510
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 86,
+          "t_device_ms": 12159,
+          "t_pcap_sim_s": 12.332234709,
+          "received_at_server_ms": 1793715640727
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 87,
+          "t_device_ms": 12391,
+          "t_pcap_sim_s": 12.499193584,
+          "received_at_server_ms": 1793715640948
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 88,
+          "t_device_ms": 12400,
+          "t_pcap_sim_s": 12.499193584,
+          "received_at_server_ms": 1793715640949
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 89,
+          "t_device_ms": 12409,
+          "t_pcap_sim_s": 12.499193584,
+          "received_at_server_ms": 1793715640949
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 90,
+          "t_device_ms": 12641,
+          "t_pcap_sim_s": 12.664720246,
+          "received_at_server_ms": 1793715641168
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 91,
+          "t_device_ms": 12650,
+          "t_pcap_sim_s": 12.664720246,
+          "received_at_server_ms": 1793715641168
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 92,
+          "t_device_ms": 12659,
+          "t_pcap_sim_s": 12.832052345,
+          "received_at_server_ms": 1793715641388
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 93,
+          "t_device_ms": 12891,
+          "t_pcap_sim_s": 12.9988471,
+          "received_at_server_ms": 1793715641619
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 94,
+          "t_device_ms": 12900,
+          "t_pcap_sim_s": 12.9988471,
+          "received_at_server_ms": 1793715641619
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 95,
+          "t_device_ms": 12909,
+          "t_pcap_sim_s": 12.9988471,
+          "received_at_server_ms": 1793715641619
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 96,
+          "t_device_ms": 13141,
+          "t_pcap_sim_s": 13.164580601,
+          "received_at_server_ms": 1793715641842
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 97,
+          "t_device_ms": 13150,
+          "t_pcap_sim_s": 13.164580601,
+          "received_at_server_ms": 1793715641842
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 98,
+          "t_device_ms": 13159,
+          "t_pcap_sim_s": 13.332053605,
+          "received_at_server_ms": 1793715642064
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 99,
+          "t_device_ms": 13391,
+          "t_pcap_sim_s": 13.498686469,
+          "received_at_server_ms": 1793715642297
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 100,
+          "t_device_ms": 13400,
+          "t_pcap_sim_s": 13.498686469,
+          "received_at_server_ms": 1793715642297
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 101,
+          "t_device_ms": 13409,
+          "t_pcap_sim_s": 13.498686469,
+          "received_at_server_ms": 1793715642297
+        }
+      ]
+    },
+    {
+      "connection": 2,
+      "connect": {
+        "type": "CONNECT",
+        "direction": "esp_to_broker",
+        "t_first_sim_s": 14.418789458,
+        "t_complete_sim_s": 14.418789458,
+        "first_packet": 372,
+        "bytes": 46,
+        "tcp_segments": 1,
+        "keepalive_s": 10,
+        "username_present": false,
+        "password_present": false,
+        "clean_session": true,
+        "boot_id": "6dba137a08dca50d"
+      },
+      "connack_received": false,
+      "suback_received": false,
+      "first_close": {
+        "packet": 385,
+        "t_sim_s": 15.419105815,
+        "direction": "esp_to_broker",
+        "flags": "FIN|ACK",
+        "payload_bytes": 0
+      },
+      "publish_packets": 0,
+      "publish_packets_matched_backend": 0,
+      "correlation": []
+    },
+    {
+      "connection": 3,
+      "connect": {
+        "type": "CONNECT",
+        "direction": "esp_to_broker",
+        "t_first_sim_s": 17.201945679,
+        "t_complete_sim_s": 17.201945679,
+        "first_packet": 416,
+        "bytes": 46,
+        "tcp_segments": 1,
+        "keepalive_s": 10,
+        "username_present": false,
+        "password_present": false,
+        "clean_session": true,
+        "boot_id": "6dba137a08dca50d"
+      },
+      "connack_received": false,
+      "suback_received": false,
+      "first_close": {
+        "packet": 429,
+        "t_sim_s": 18.202669631,
+        "direction": "esp_to_broker",
+        "flags": "FIN|ACK",
+        "payload_bytes": 0
+      },
+      "publish_packets": 0,
+      "publish_packets_matched_backend": 0,
+      "correlation": []
+    },
+    {
+      "connection": 4,
+      "connect": {
+        "type": "CONNECT",
+        "direction": "esp_to_broker",
+        "t_first_sim_s": 20.20192755,
+        "t_complete_sim_s": 20.20192755,
+        "first_packet": 462,
+        "bytes": 46,
+        "tcp_segments": 1,
+        "keepalive_s": 10,
+        "username_present": false,
+        "password_present": false,
+        "clean_session": true,
+        "boot_id": "6dba137a08dca50d"
+      },
+      "connack_received": true,
+      "suback_received": true,
+      "first_close": {
+        "packet": 490,
+        "t_sim_s": 21.080142551,
+        "direction": "broker_to_esp",
+        "flags": "FIN|ACK",
+        "payload_bytes": 0
+      },
+      "publish_packets": 6,
+      "publish_packets_matched_backend": 6,
+      "correlation": [
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 102,
+          "t_device_ms": 20621,
+          "t_pcap_sim_s": 20.68216983,
+          "received_at_server_ms": 1793715720604
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 103,
+          "t_device_ms": 20630,
+          "t_pcap_sim_s": 20.68216983,
+          "received_at_server_ms": 1793715720608
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 104,
+          "t_device_ms": 20639,
+          "t_pcap_sim_s": 20.68216983,
+          "received_at_server_ms": 1793715720608
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 105,
+          "t_device_ms": 20871,
+          "t_pcap_sim_s": 21.048404184,
+          "received_at_server_ms": 1793715721105
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 106,
+          "t_device_ms": 20879,
+          "t_pcap_sim_s": 21.048404184,
+          "received_at_server_ms": 1793715721106
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 107,
+          "t_device_ms": 20889,
+          "t_pcap_sim_s": 21.048404184,
+          "received_at_server_ms": 1793715721106
+        }
+      ]
+    },
+    {
+      "connection": 5,
+      "connect": {
+        "type": "CONNECT",
+        "direction": "esp_to_broker",
+        "t_first_sim_s": 23.351875033,
+        "t_complete_sim_s": 23.351875033,
+        "first_packet": 534,
+        "bytes": 46,
+        "tcp_segments": 1,
+        "keepalive_s": 10,
+        "username_present": false,
+        "password_present": false,
+        "clean_session": true,
+        "boot_id": "6dba137a08dca50d"
+      },
+      "connack_received": true,
+      "suback_received": true,
+      "first_close": {
+        "packet": 597,
+        "t_sim_s": 25.862761408,
+        "direction": "broker_to_esp",
+        "flags": "FIN|ACK",
+        "payload_bytes": 0
+      },
+      "publish_packets": 21,
+      "publish_packets_matched_backend": 18,
+      "correlation": [
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 108,
+          "t_device_ms": 24237,
+          "t_pcap_sim_s": 24.398197158,
+          "received_at_server_ms": 1793715766937
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 109,
+          "t_device_ms": 24246,
+          "t_pcap_sim_s": 24.398197158,
+          "received_at_server_ms": 1793715766937
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 110,
+          "t_device_ms": 24255,
+          "t_pcap_sim_s": 24.398197158,
+          "received_at_server_ms": 1793715766937
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 111,
+          "t_device_ms": 24487,
+          "t_pcap_sim_s": 24.56500341,
+          "received_at_server_ms": 1793715767163
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 112,
+          "t_device_ms": 24496,
+          "t_pcap_sim_s": 24.56500341,
+          "received_at_server_ms": 1793715767164
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 113,
+          "t_device_ms": 24505,
+          "t_pcap_sim_s": 24.56500341,
+          "received_at_server_ms": 1793715767164
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 114,
+          "t_device_ms": 24737,
+          "t_pcap_sim_s": 24.898192763,
+          "received_at_server_ms": 1793715767597
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 115,
+          "t_device_ms": 24746,
+          "t_pcap_sim_s": 24.898192763,
+          "received_at_server_ms": 1793715767597
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 116,
+          "t_device_ms": 24755,
+          "t_pcap_sim_s": 24.898192763,
+          "received_at_server_ms": 1793715767597
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 117,
+          "t_device_ms": 24987,
+          "t_pcap_sim_s": 25.064378126,
+          "received_at_server_ms": 1793715767817
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 118,
+          "t_device_ms": 24996,
+          "t_pcap_sim_s": 25.064378126,
+          "received_at_server_ms": 1793715767818
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 119,
+          "t_device_ms": 25005,
+          "t_pcap_sim_s": 25.064378126,
+          "received_at_server_ms": 1793715767818
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 120,
+          "t_device_ms": 25237,
+          "t_pcap_sim_s": 25.398193069,
+          "received_at_server_ms": 1793715768262
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 121,
+          "t_device_ms": 25246,
+          "t_pcap_sim_s": 25.398193069,
+          "received_at_server_ms": 1793715768262
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 122,
+          "t_device_ms": 25255,
+          "t_pcap_sim_s": 25.398193069,
+          "received_at_server_ms": 1793715768262
+        },
+        {
+          "type": "state",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 123,
+          "t_device_ms": 25487,
+          "t_pcap_sim_s": 25.564351643,
+          "received_at_server_ms": 1793715768501
+        },
+        {
+          "type": "telemetry/vibration",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 124,
+          "t_device_ms": 25496,
+          "t_pcap_sim_s": 25.564351643,
+          "received_at_server_ms": 1793715768501
+        },
+        {
+          "type": "telemetry/rpm",
+          "boot_id": "6dba137a08dca50d",
+          "seq": 125,
+          "t_device_ms": 25505,
+          "t_pcap_sim_s": 25.564351643,
+          "received_at_server_ms": 1793715768502
+        }
+      ]
+    },
+    {
+      "connection": 6,
+      "connect": {
+        "type": "CONNECT",
+        "direction": "esp_to_broker",
+        "t_first_sim_s": 26.467921366,
+        "t_complete_sim_s": 26.467921366,
+        "first_packet": 623,
+        "bytes": 46,
+        "tcp_segments": 1,
+        "keepalive_s": 10,
+        "username_present": false,
+        "password_present": false,
+        "clean_session": true,
+        "boot_id": "6dba137a08dca50d"
+      },
+      "connack_received": true,
+      "suback_received": true,
+      "first_close": {
+        "packet": 639,
+        "t_sim_s": 26.979399962,
+        "direction": "broker_to_esp",
+        "flags": "FIN|ACK",
+        "payload_bytes": 0
+      },
+      "publish_packets": 3,
+      "publish_packets_matched_backend": 0,
+      "correlation": []
+    },
+    {
+      "connection": 7,
+      "connect": {
+        "type": "CONNECT",
+        "direction": "esp_to_broker",
+        "t_first_sim_s": 29.434837837,
+        "t_complete_sim_s": 29.434837837,
+        "first_packet": 702,
+        "bytes": 46,
+        "tcp_segments": 1,
+        "keepalive_s": 10,
+        "username_present": false,
+        "password_present": false,
+        "clean_session": true,
+        "boot_id": "6dba137a08dca50d"
+      },
+      "connack_received": false,
+      "suback_received": false,
+      "first_close": {
+        "packet": 715,
+        "t_sim_s": 30.435401102,
+        "direction": "esp_to_broker",
+        "flags": "FIN|ACK",
+        "payload_bytes": 0
+      },
+      "publish_packets": 0,
+      "publish_packets_matched_backend": 0,
+      "correlation": []
+    }
+  ]
+}

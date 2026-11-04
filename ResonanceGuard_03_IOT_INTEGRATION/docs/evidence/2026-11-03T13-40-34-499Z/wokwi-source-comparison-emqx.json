@@ -1,0 +1,61 @@
+{
+  "at": "2026-11-03T14:47:43.615Z",
+  "project_updated": "2026-11-03T14:42:00.652Z",
+  "scope": "Saved public source comparison after broker route change; runtime still requires observation.",
+  "files": [
+    {
+      "name": "sketch.ino",
+      "match": true,
+      "remote_sha256": "7996ad7e4a918d28ee85d474280b0fe8524d4ab3052069f321b6237b4c077cdf",
+      "local_sha256": "7996ad7e4a918d28ee85d474280b0fe8524d4ab3052069f321b6237b4c077cdf"
+    },
+    {
+      "name": "diagram.json",
+      "match": true,
+      "remote_sha256": "b9e21e4587509468c5fac5d126a6e6f63188892f05c93734ab97d786fb2087d8",
+      "local_sha256": "b9e21e4587509468c5fac5d126a6e6f63188892f05c93734ab97d786fb2087d8"
+    },
+    {
+      "name": "config.h",
+      "match": true,
+      "remote_sha256": "0802e51061fc34f76ff3b6d47cd94befe821c60de2bb5b6f33c735cd43a6c2fc",
+      "local_sha256": "0802e51061fc34f76ff3b6d47cd94befe821c60de2bb5b6f33c735cd43a6c2fc"
+    },
+    {
+      "name": "motor_control.h",
+      "match": true,
+      "remote_sha256": "67c4aa115bf5ea7e8eae9c474572965cc6f227551b086b88dae88a17f5945ca7",
+      "local_sha256": "67c4aa115bf5ea7e8eae9c474572965cc6f227551b086b88dae88a17f5945ca7"
+    },
+    {
+      "name": "rg-motor.chip.c",
+      "match": true,
+      "remote_sha256": "f7ac15ebf1bebf4465a0c3ddb55ff02e149af62341e4a8c9934fd2da7619b818",
+      "local_sha256": "f7ac15ebf1bebf4465a0c3ddb55ff02e149af62341e4a8c9934fd2da7619b818"
+    },
+    {
+      "name": "rg-motor.chip.json",
+      "match": true,
+      "remote_sha256": "c3e580fc52283ea12d1278db53cf75d9846b042a0cae4e965a59fe4bd4f1951a",
+      "local_sha256": "c3e580fc52283ea12d1278db53cf75d9846b042a0cae4e965a59fe4bd4f1951a"
+    },
+    {
+      "name": "rpm_reader.h",
+      "match": true,
+      "remote_sha256": "24373f0a8a73b654c1e07a8626ca98d8bcc1e6979d082664e20f1491cb046f10",
+      "local_sha256": "24373f0a8a73b654c1e07a8626ca98d8bcc1e6979d082664e20f1491cb046f10"
+    },
+    {
+      "name": "libraries.txt",
+      "match": true,
+      "remote_sha256": "9ba625eb4bf14e040280d03e631ed0896f68e22e354dcd362e54249a94924c09",
+      "local_sha256": "9ba625eb4bf14e040280d03e631ed0896f68e22e354dcd362e54249a94924c09"
+    },
+    {
+      "name": "mqtt_support.h",
+      "match": true,
+      "remote_sha256": "15a2cac044c8e7aaf8f1c2ae62fb4291d4863a9a7b6ff898467a8038d0ec4c08",
+      "local_sha256": "15a2cac044c8e7aaf8f1c2ae62fb4291d4863a9a7b6ff898467a8038d0ec4c08"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "observed_at": "2026-11-04T02:20:12.700Z",
+  "state": {
+    "schema_version": 1,
+    "device_id": "rg01",
+    "source": "synthetic",
+    "boot_id": "1e19bb7c5fc56cd6",
+    "seq": 1688,
+    "t_device_ms": 155081,
+    "running": false,
+    "duty": 0,
+    "stop_reason": "mqtt_lost",
+    "last_command_id": "40b44152-8f58-4bc8-ab4b-0d19db7a20a6"
+  },
+  "state_age_ms": 26575,
+  "stale": true,
+  "broker_connected": true,
+  "broker_subscribed": true,
+  "last_rpm": {
+    "type": "telemetry/rpm",
+    "data": {
+      "schema_version": 1,
+      "device_id": "rg01",
+      "source": "synthetic",
+      "boot_id": "1e19bb7c5fc56cd6",
+      "seq": 1690,
+      "t_device_ms": 155100,
+      "rpm": null,
+      "ppr": 1,
+      "pulses": 32,
+      "quality": "no_recent_pulses"
+    },
+    "received_at": 1793758786131
+  },
+  "start_id": "f91e6cb2-1152-459e-94ee-0bc65c2f0e5d",
+  "renew_sent": 9,
+  "renew_accepted": 5,
+  "renew_late": []
+}

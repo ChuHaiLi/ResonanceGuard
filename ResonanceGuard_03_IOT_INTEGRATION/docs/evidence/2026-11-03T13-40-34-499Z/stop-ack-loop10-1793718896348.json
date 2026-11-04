@@ -1,0 +1,127 @@
+{
+  "started_at": "2026-11-03T15:14:56.348Z",
+  "scope": "One application STOP via real HTTP API to the verified Wokwi boot while OFF; no START/duty/renew. Not a Dashboard click or full case B.",
+  "expected_boot_id": "8bcb84145d10a335",
+  "observations": [
+    {
+      "at": 1793718896376,
+      "boot_id": "8bcb84145d10a335",
+      "age_ms": 17,
+      "stale": false,
+      "running": false
+    }
+  ],
+  "command_sent": true,
+  "before": {
+    "at": 1793718896376,
+    "state": {
+      "schema_version": 1,
+      "device_id": "rg01",
+      "source": "synthetic",
+      "boot_id": "8bcb84145d10a335",
+      "seq": 651,
+      "t_device_ms": 66165,
+      "running": false,
+      "duty": 0,
+      "stop_reason": "boot",
+      "last_command_id": ""
+    },
+    "state_age_ms": 17
+  },
+  "http": {
+    "at": 1793718896377,
+    "status": 202,
+    "body": {
+      "status": "sent_waiting_for_device_ack",
+      "command_id": "1434acbb-f4c9-42a2-9a13-8217d31705ac"
+    }
+  },
+  "command_record": {
+    "command_id": "1434acbb-f4c9-42a2-9a13-8217d31705ac",
+    "action": "stop",
+    "boot_id": "8bcb84145d10a335",
+    "created_at": 1793718896380,
+    "trace": [
+      {
+        "at": 1793718896380,
+        "source": "synthetic",
+        "stage": "COMMAND_TX",
+        "command_id": "1434acbb-f4c9-42a2-9a13-8217d31705ac",
+        "boot_id": "8bcb84145d10a335",
+        "action": "stop",
+        "device_deadline_ms": 69165,
+        "lease_ms": 4000
+      },
+      {
+        "at": 1793718896594,
+        "source": "synthetic",
+        "stage": "COMMAND_BROKER_PUBACK",
+        "command_id": "1434acbb-f4c9-42a2-9a13-8217d31705ac"
+      },
+      {
+        "at": 1793718897236,
+        "source": "synthetic",
+        "stage": "ACK_RX",
+        "command_id": "1434acbb-f4c9-42a2-9a13-8217d31705ac",
+        "boot_id": "8bcb84145d10a335",
+        "seq": 660,
+        "t_device_ms": 66857,
+        "command_t_device_ms": 66844,
+        "lease_until_device_ms": 0,
+        "bytes": 283,
+        "qos": 1
+      },
+      {
+        "at": 1793718897236,
+        "source": "synthetic",
+        "stage": "ACK_ACCEPT",
+        "command_id": "1434acbb-f4c9-42a2-9a13-8217d31705ac",
+        "boot_id": "8bcb84145d10a335",
+        "age_ms": 856,
+        "accepted": true,
+        "running": false
+      },
+      {
+        "at": 1793718897236,
+        "source": "synthetic",
+        "stage": "ACK_WS_SEND",
+        "command_id": "1434acbb-f4c9-42a2-9a13-8217d31705ac",
+        "sent": 1,
+        "skipped": 0
+      }
+    ],
+    "acked": true
+  },
+  "after": {
+    "at": 1793718897405,
+    "state": {
+      "schema_version": 1,
+      "device_id": "rg01",
+      "source": "synthetic",
+      "boot_id": "8bcb84145d10a335",
+      "seq": 657,
+      "t_device_ms": 66678,
+      "running": false,
+      "duty": 0,
+      "stop_reason": "boot",
+      "last_command_id": ""
+    },
+    "state_age_ms": 407,
+    "stale": false,
+    "last_ack": {
+      "schema_version": 1,
+      "device_id": "rg01",
+      "source": "synthetic",
+      "boot_id": "8bcb84145d10a335",
+      "seq": 660,
+      "t_device_ms": 66857,
+      "command_id": "1434acbb-f4c9-42a2-9a13-8217d31705ac",
+      "accepted": true,
+      "reason": "stop_requested",
+      "command_t_device_ms": 66844,
+      "lease_until_device_ms": 0,
+      "running": false
+    }
+  },
+  "finished_at": "2026-11-03T15:14:57.405Z"
+}

@@ -1,0 +1,91 @@
+{
+  "observed_at": "2026-11-03T13:58:39.842Z",
+  "url": "https://wokwi.com/projects/479040461413244929",
+  "project_name": "03_IOT",
+  "project_updated": "2026-10-27T14:37:36.329Z",
+  "transport_text_references_resolved": true,
+  "files": [
+    {
+      "name": "sketch.ino",
+      "remote_bytes": 17495,
+      "local_bytes": 17495,
+      "exact_match": true,
+      "newline_normalized_match": true,
+      "remote_sha256": "7996ad7e4a918d28ee85d474280b0fe8524d4ab3052069f321b6237b4c077cdf",
+      "local_sha256": "7996ad7e4a918d28ee85d474280b0fe8524d4ab3052069f321b6237b4c077cdf"
+    },
+    {
+      "name": "diagram.json",
+      "remote_bytes": 3171,
+      "local_bytes": 3171,
+      "exact_match": true,
+      "newline_normalized_match": true,
+      "remote_sha256": "b9e21e4587509468c5fac5d126a6e6f63188892f05c93734ab97d786fb2087d8",
+      "local_sha256": "b9e21e4587509468c5fac5d126a6e6f63188892f05c93734ab97d786fb2087d8"
+    },
+    {
+      "name": "config.h",
+      "remote_bytes": 203,
+      "local_bytes": 203,
+      "exact_match": true,
+      "newline_normalized_match": true,
+      "remote_sha256": "33144148553bea64875dd7afc9262737da6267f79e41e1d2c9926faabc20f6cc",
+      "local_sha256": "33144148553bea64875dd7afc9262737da6267f79e41e1d2c9926faabc20f6cc"
+    },
+    {
+      "name": "motor_control.h",
+      "remote_bytes": 2612,
+      "local_bytes": 2612,
+      "exact_match": true,
+      "newline_normalized_match": true,
+      "remote_sha256": "67c4aa115bf5ea7e8eae9c474572965cc6f227551b086b88dae88a17f5945ca7",
+      "local_sha256": "67c4aa115bf5ea7e8eae9c474572965cc6f227551b086b88dae88a17f5945ca7"
+    },
+    {
+      "name": "rg-motor.chip.c",
+      "remote_bytes": 2597,
+      "local_bytes": 2597,
+      "exact_match": true,
+      "newline_normalized_match": true,
+      "remote_sha256": "f7ac15ebf1bebf4465a0c3ddb55ff02e149af62341e4a8c9934fd2da7619b818",
+      "local_sha256": "f7ac15ebf1bebf4465a0c3ddb55ff02e149af62341e4a8c9934fd2da7619b818"
+    },
+    {
+      "name": "rg-motor.chip.json",
+      "remote_bytes": 168,
+      "local_bytes": 168,
+      "exact_match": true,
+      "newline_normalized_match": true,
+      "remote_sha256": "c3e580fc52283ea12d1278db53cf75d9846b042a0cae4e965a59fe4bd4f1951a",
+      "local_sha256": "c3e580fc52283ea12d1278db53cf75d9846b042a0cae4e965a59fe4bd4f1951a"
+    },
+    {
+      "name": "rpm_reader.h",
+      "remote_bytes": 653,
+      "local_bytes": 653,
+      "exact_match": true,
+      "newline_normalized_match": true,
+      "remote_sha256": "24373f0a8a73b654c1e07a8626ca98d8bcc1e6979d082664e20f1491cb046f10",
+      "local_sha256": "24373f0a8a73b654c1e07a8626ca98d8bcc1e6979d082664e20f1491cb046f10"
+    },
+    {
+      "name": "libraries.txt",
+      "remote_bytes": 42,
+      "local_bytes": 42,
+      "exact_match": true,
+      "newline_normalized_match": true,
+      "remote_sha256": "9ba625eb4bf14e040280d03e631ed0896f68e22e354dcd362e54249a94924c09",
+      "local_sha256": "9ba625eb4bf14e040280d03e631ed0896f68e22e354dcd362e54249a94924c09"
+    },
+    {
+      "name": "mqtt_support.h",
+      "remote_bytes": 758,
+      "local_bytes": 758,
+      "exact_match": true,
+      "newline_normalized_match": true,
+      "remote_sha256": "15a2cac044c8e7aaf8f1c2ae62fb4291d4863a9a7b6ff898467a8038d0ec4c08",
+      "local_sha256": "15a2cac044c8e7aaf8f1c2ae62fb4291d4863a9a7b6ff898467a8038d0ec4c08"
+    }
+  ],
+  "scope": "Public saved project source comparison only; not a compile/runtime result. Config values are not exported."
+}

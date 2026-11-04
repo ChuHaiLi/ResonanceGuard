@@ -1,0 +1,913 @@
+{
+  "scope": "Read-only health observations after user started isolated Chrome session.",
+  "summary": {
+    "samples": 31,
+    "fresh": 31,
+    "first_boot": "98a4d20a075107d0",
+    "last_boot": "98a4d20a075107d0",
+    "wall_ms": 30314,
+    "device_ms": 29771,
+    "all_states_off": true
+  },
+  "rows": [
+    {
+      "at": 1793719897846,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 576,
+        "t_device_ms": 54090,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": ""
+      },
+      "state_age_ms": 44,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 44,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 44,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719898851,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 576,
+        "t_device_ms": 54090,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": ""
+      },
+      "state_age_ms": 1052,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 618,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 618,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719899861,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 592,
+        "t_device_ms": 55665,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 227,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 227,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 228,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719900866,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 604,
+        "t_device_ms": 56690,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 216,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 215,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 216,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719901878,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 616,
+        "t_device_ms": 57716,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 173,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 173,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 173,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719902880,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 628,
+        "t_device_ms": 58741,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 131,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 131,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 132,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719903894,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 640,
+        "t_device_ms": 59767,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 86,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 86,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 86,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719904902,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 652,
+        "t_device_ms": 60794,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 89,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 88,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 88,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719905915,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 664,
+        "t_device_ms": 61818,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 83,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 83,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 84,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719906927,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 676,
+        "t_device_ms": 62841,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 76,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 76,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 76,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719907937,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 688,
+        "t_device_ms": 63868,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 55,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 55,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 56,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719908950,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 700,
+        "t_device_ms": 64893,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 35,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 35,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 36,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719909961,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 712,
+        "t_device_ms": 65918,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 29,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 29,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 30,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719910970,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 724,
+        "t_device_ms": 66942,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 20,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 20,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 20,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719911973,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 736,
+        "t_device_ms": 67968,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 8,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 8,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 8,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719912984,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 745,
+        "t_device_ms": 68737,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 187,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 187,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 188,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719913999,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 757,
+        "t_device_ms": 69763,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 179,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 179,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 179,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719915009,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 769,
+        "t_device_ms": 70784,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 194,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 194,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 194,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719916024,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 781,
+        "t_device_ms": 71810,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 191,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 191,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 192,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719917034,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 793,
+        "t_device_ms": 72835,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 186,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 185,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 186,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719918043,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 805,
+        "t_device_ms": 73860,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 179,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 179,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 179,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719919060,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 817,
+        "t_device_ms": 74887,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 177,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 177,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 177,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719920072,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 829,
+        "t_device_ms": 75911,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 45,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 45,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 39,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719921082,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 838,
+        "t_device_ms": 76680,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 351,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 550,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 550,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719922097,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 853,
+        "t_device_ms": 77962,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 130,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 330,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 331,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719923107,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 865,
+        "t_device_ms": 78987,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 127,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 323,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 323,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719924119,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 877,
+        "t_device_ms": 80012,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 105,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 303,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 304,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719925130,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 889,
+        "t_device_ms": 81043,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 104,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 104,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 312,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719926140,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 901,
+        "t_device_ms": 82068,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 102,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 307,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 308,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719927150,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 910,
+        "t_device_ms": 82835,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 303,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 303,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 303,
+          "stale": false
+        }
+      }
+    },
+    {
+      "at": 1793719928160,
+      "state": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 922,
+        "t_device_ms": 83861,
+        "running": false,
+        "duty": 0,
+        "stop_reason": "boot",
+        "last_command_id": "8baff33e-4372-4e38-8ee4-153dde735cb7"
+      },
+      "state_age_ms": 294,
+      "stale": false,
+      "broker_connected": true,
+      "broker_subscribed": true,
+      "streams": {
+        "telemetry/vibration": {
+          "age_ms": 294,
+          "stale": false
+        },
+        "telemetry/rpm": {
+          "age_ms": 294,
+          "stale": false
+        }
+      }
+    }
+  ]
+}

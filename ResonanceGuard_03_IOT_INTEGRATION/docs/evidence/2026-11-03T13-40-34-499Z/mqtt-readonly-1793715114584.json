@@ -1,0 +1,9 @@
+{
+  "started_at": "2026-11-03T14:11:54.584Z",
+  "finished_at": "2026-11-03T14:12:19.657Z",
+  "scope": "Independent read-only MQTT subscriber; no publish/command; not a substitute ESP or Node peer.",
+  "connected": true,
+  "subscribed": true,
+  "errors": [],
+  "rows": []
+}

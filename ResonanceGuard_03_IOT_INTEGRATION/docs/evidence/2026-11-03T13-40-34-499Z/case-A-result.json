@@ -1,0 +1,174 @@
+{
+  "analyzed_at": "2026-11-03T15:01:31.502Z",
+  "scope": "Real Wokwi-associated data from backend JSONL; not a Node peer. Case A read/transmit observed, full display/freshness criterion not met.",
+  "boot_id": "bff5adc2010bb3ff",
+  "device_range_ms": [
+    245000,
+    335500
+  ],
+  "vibration_rows": 287,
+  "state_rows": 346,
+  "all_received_states_off": true,
+  "stable_half_g": {
+    "count": 231,
+    "first": {
+      "type": "telemetry/vibration",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "bff5adc2010bb3ff",
+        "seq": 2551,
+        "t_device_ms": 256778,
+        "ax": 4.903325,
+        "ay": 0,
+        "az": 9.80665,
+        "unit": "m/s2",
+        "quality": "wokwi_i2c"
+      },
+      "received_at": 1793717546702
+    },
+    "last": {
+      "type": "telemetry/vibration",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "bff5adc2010bb3ff",
+        "seq": 3386,
+        "t_device_ms": 327445,
+        "ax": 4.903325,
+        "ay": 0,
+        "az": 9.80665,
+        "unit": "m/s2",
+        "quality": "wokwi_i2c"
+      },
+      "received_at": 1793717718775
+    }
+  },
+  "zero_before": {
+    "count": 16,
+    "first": {
+      "type": "telemetry/vibration",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "bff5adc2010bb3ff",
+        "seq": 2425,
+        "t_device_ms": 245165,
+        "ax": 0,
+        "ay": 0,
+        "az": 9.80665,
+        "unit": "m/s2",
+        "quality": "wokwi_i2c"
+      },
+      "received_at": 1793717504600
+    },
+    "last": {
+      "type": "telemetry/vibration",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "bff5adc2010bb3ff",
+        "seq": 2482,
+        "t_device_ms": 251029,
+        "ax": 0,
+        "ay": 0,
+        "az": 9.80665,
+        "unit": "m/s2",
+        "quality": "wokwi_i2c"
+      },
+      "received_at": 1793717539256
+    }
+  },
+  "zero_after": {
+    "count": 18,
+    "first": {
+      "type": "telemetry/vibration",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "bff5adc2010bb3ff",
+        "seq": 3404,
+        "t_device_ms": 330255,
+        "ax": 0,
+        "ay": 0,
+        "az": 9.80665,
+        "unit": "m/s2",
+        "quality": "wokwi_i2c"
+      },
+      "received_at": 1793717770948
+    },
+    "last": {
+      "type": "telemetry/vibration",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "bff5adc2010bb3ff",
+        "seq": 3464,
+        "t_device_ms": 335255,
+        "ax": 0,
+        "ay": 0,
+        "az": 9.80665,
+        "unit": "m/s2",
+        "quality": "wokwi_i2c"
+      },
+      "received_at": 1793717777317
+    }
+  },
+  "quality_values": [
+    "wokwi_i2c"
+  ],
+  "unit_values": [
+    "m/s2"
+  ],
+  "intermediate_slider_values_preserved": true,
+  "screenshot_dashboard_status": "STALE; not accepted as a passing display proof; private namespace visible, original retained privately.",
+  "case_A_status": "chua_dat",
+  "ack_stop_trace": [
+    {
+      "at": 1793717602193,
+      "source": "synthetic",
+      "stage": "COMMAND_TX",
+      "command_id": "17608238-c7a7-4bbc-9064-0174c572a0d6",
+      "boot_id": "bff5adc2010bb3ff",
+      "action": "stop",
+      "device_deadline_ms": 275342,
+      "lease_ms": 4000
+    },
+    {
+      "at": 1793717602405,
+      "source": "synthetic",
+      "stage": "COMMAND_BROKER_PUBACK",
+      "command_id": "17608238-c7a7-4bbc-9064-0174c572a0d6"
+    },
+    {
+      "at": 1793717609920,
+      "source": "synthetic",
+      "stage": "ACK_RX",
+      "command_id": "17608238-c7a7-4bbc-9064-0174c572a0d6",
+      "boot_id": "bff5adc2010bb3ff",
+      "seq": 2730,
+      "t_device_ms": 272670,
+      "command_t_device_ms": 272657,
+      "lease_until_device_ms": 0,
+      "bytes": 286,
+      "qos": 1
+    },
+    {
+      "at": 1793717609921,
+      "source": "synthetic",
+      "stage": "ACK_DROP",
+      "type": "ack",
+      "reason": "ack_wall_timeout",
+      "command_id": "17608238-c7a7-4bbc-9064-0174c572a0d6",
+      "boot_id": "bff5adc2010bb3ff",
+      "seq": 2730,
+      "age_ms": 7728
+    }
+  ]
+}

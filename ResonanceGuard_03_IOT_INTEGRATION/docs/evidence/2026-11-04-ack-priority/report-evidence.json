@@ -1,0 +1,1696 @@
+{
+  "frozen_at": "2026-11-04T02:29:16.611Z",
+  "timezone": "Asia/Bangkok",
+  "scope": "Read-only extraction of actual 4 November backend logs, no test peer; source data files preserved.",
+  "runs": [
+    {
+      "id": "59a713f9-a404-477f-89cd-82b8f4bbd534",
+      "trace": [
+        {
+          "at": 1793757629585,
+          "source": "synthetic",
+          "stage": "COMMAND_TX",
+          "command_id": "59a713f9-a404-477f-89cd-82b8f4bbd534",
+          "boot_id": "ebd42ca9c226fb27",
+          "action": "start",
+          "device_deadline_ms": 68725,
+          "lease_ms": 4000
+        },
+        {
+          "at": 1793757629811,
+          "source": "synthetic",
+          "stage": "COMMAND_BROKER_PUBACK",
+          "command_id": "59a713f9-a404-477f-89cd-82b8f4bbd534"
+        },
+        {
+          "at": 1793757630450,
+          "source": "synthetic",
+          "stage": "ACK_RX",
+          "command_id": "59a713f9-a404-477f-89cd-82b8f4bbd534",
+          "boot_id": "ebd42ca9c226fb27",
+          "seq": 721,
+          "t_device_ms": 66489,
+          "command_t_device_ms": 66477,
+          "lease_until_device_ms": 70477,
+          "bytes": 301,
+          "qos": 1
+        },
+        {
+          "at": 1793757630450,
+          "source": "synthetic",
+          "stage": "ACK_ACCEPT",
+          "command_id": "59a713f9-a404-477f-89cd-82b8f4bbd534",
+          "boot_id": "ebd42ca9c226fb27",
+          "age_ms": 865,
+          "accepted": true,
+          "running": true
+        },
+        {
+          "at": 1793757630450,
+          "source": "synthetic",
+          "stage": "ACK_WS_SEND",
+          "command_id": "59a713f9-a404-477f-89cd-82b8f4bbd534",
+          "sent": 1,
+          "skipped": 0
+        },
+        {
+          "at": 1793757631227,
+          "source": "synthetic",
+          "stage": "ACK_RX",
+          "command_id": "59a713f9-a404-477f-89cd-82b8f4bbd534",
+          "boot_id": "ebd42ca9c226fb27",
+          "seq": 721,
+          "t_device_ms": 66489,
+          "command_t_device_ms": 66477,
+          "lease_until_device_ms": 70477,
+          "bytes": 301,
+          "qos": 1
+        },
+        {
+          "at": 1793757631228,
+          "source": "synthetic",
+          "stage": "ACK_DROP",
+          "type": "ack",
+          "reason": "duplicate_ack",
+          "command_id": "59a713f9-a404-477f-89cd-82b8f4bbd534",
+          "boot_id": "ebd42ca9c226fb27",
+          "seq": 721,
+          "age_ms": 1643
+        }
+      ],
+      "renew": [
+        {
+          "command": {
+            "at": 1793757631094,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "5d1de19b-3665-4983-a7bc-3a5dae8347f1",
+            "boot_id": "ebd42ca9c226fb27",
+            "action": "renew",
+            "device_deadline_ms": 69713,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793757631094,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "5d1de19b-3665-4983-a7bc-3a5dae8347f1",
+              "boot_id": "ebd42ca9c226fb27",
+              "action": "renew",
+              "device_deadline_ms": 69713,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793757631319,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "5d1de19b-3665-4983-a7bc-3a5dae8347f1"
+            },
+            {
+              "at": 1793757632016,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "5d1de19b-3665-4983-a7bc-3a5dae8347f1",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 728,
+              "t_device_ms": 67236,
+              "command_t_device_ms": 67222,
+              "lease_until_device_ms": 71222,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757632016,
+              "source": "synthetic",
+              "stage": "ACK_ACCEPT",
+              "command_id": "5d1de19b-3665-4983-a7bc-3a5dae8347f1",
+              "boot_id": "ebd42ca9c226fb27",
+              "age_ms": 922,
+              "accepted": true,
+              "running": true
+            },
+            {
+              "at": 1793757632017,
+              "source": "synthetic",
+              "stage": "ACK_WS_SEND",
+              "command_id": "5d1de19b-3665-4983-a7bc-3a5dae8347f1",
+              "sent": 1,
+              "skipped": 0
+            },
+            {
+              "at": 1793757632621,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "5d1de19b-3665-4983-a7bc-3a5dae8347f1",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 728,
+              "t_device_ms": 67236,
+              "command_t_device_ms": 67222,
+              "lease_until_device_ms": 71222,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757632621,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "duplicate_ack",
+              "command_id": "5d1de19b-3665-4983-a7bc-3a5dae8347f1",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 728,
+              "age_ms": 1527
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793757632100,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "c6e6ab35-37d3-4498-9791-04e41cbb69b1",
+            "boot_id": "ebd42ca9c226fb27",
+            "action": "renew",
+            "device_deadline_ms": 70112,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793757632100,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "c6e6ab35-37d3-4498-9791-04e41cbb69b1",
+              "boot_id": "ebd42ca9c226fb27",
+              "action": "renew",
+              "device_deadline_ms": 70112,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793757632467,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "c6e6ab35-37d3-4498-9791-04e41cbb69b1"
+            },
+            {
+              "at": 1793757633295,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "c6e6ab35-37d3-4498-9791-04e41cbb69b1",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 732,
+              "t_device_ms": 67798,
+              "command_t_device_ms": 67785,
+              "lease_until_device_ms": 71785,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757633295,
+              "source": "synthetic",
+              "stage": "ACK_ACCEPT",
+              "command_id": "c6e6ab35-37d3-4498-9791-04e41cbb69b1",
+              "boot_id": "ebd42ca9c226fb27",
+              "age_ms": 1195,
+              "accepted": true,
+              "running": true
+            },
+            {
+              "at": 1793757633295,
+              "source": "synthetic",
+              "stage": "ACK_WS_SEND",
+              "command_id": "c6e6ab35-37d3-4498-9791-04e41cbb69b1",
+              "sent": 1,
+              "skipped": 0
+            },
+            {
+              "at": 1793757634577,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "c6e6ab35-37d3-4498-9791-04e41cbb69b1",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 732,
+              "t_device_ms": 67798,
+              "command_t_device_ms": 67785,
+              "lease_until_device_ms": 71785,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757634577,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "duplicate_ack",
+              "command_id": "c6e6ab35-37d3-4498-9791-04e41cbb69b1",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 732,
+              "age_ms": 2477
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793757633104,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "497caf9f-caa0-4feb-9889-7689ef288828",
+            "boot_id": "ebd42ca9c226fb27",
+            "action": "renew",
+            "device_deadline_ms": 70479,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793757633104,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "497caf9f-caa0-4feb-9889-7689ef288828",
+              "boot_id": "ebd42ca9c226fb27",
+              "action": "renew",
+              "device_deadline_ms": 70479,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793757633330,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "497caf9f-caa0-4feb-9889-7689ef288828"
+            },
+            {
+              "at": 1793757635143,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "497caf9f-caa0-4feb-9889-7689ef288828",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 736,
+              "t_device_ms": 68038,
+              "command_t_device_ms": 68024,
+              "lease_until_device_ms": 72024,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757635143,
+              "source": "synthetic",
+              "stage": "ACK_ACCEPT",
+              "command_id": "497caf9f-caa0-4feb-9889-7689ef288828",
+              "boot_id": "ebd42ca9c226fb27",
+              "age_ms": 2039,
+              "accepted": true,
+              "running": true
+            },
+            {
+              "at": 1793757635144,
+              "source": "synthetic",
+              "stage": "ACK_WS_SEND",
+              "command_id": "497caf9f-caa0-4feb-9889-7689ef288828",
+              "sent": 1,
+              "skipped": 0
+            },
+            {
+              "at": 1793757636354,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "497caf9f-caa0-4feb-9889-7689ef288828",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 736,
+              "t_device_ms": 68038,
+              "command_t_device_ms": 68024,
+              "lease_until_device_ms": 72024,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757636354,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "duplicate_ack",
+              "command_id": "497caf9f-caa0-4feb-9889-7689ef288828",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 736,
+              "age_ms": 3250
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793757634101,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "ab20210a-7945-4c94-a6ae-7ea5a2c4af4c",
+            "boot_id": "ebd42ca9c226fb27",
+            "action": "renew",
+            "device_deadline_ms": 70946,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793757634101,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "ab20210a-7945-4c94-a6ae-7ea5a2c4af4c",
+              "boot_id": "ebd42ca9c226fb27",
+              "action": "renew",
+              "device_deadline_ms": 70946,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793757634326,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "ab20210a-7945-4c94-a6ae-7ea5a2c4af4c"
+            },
+            {
+              "at": 1793757637094,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "ab20210a-7945-4c94-a6ae-7ea5a2c4af4c",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 737,
+              "t_device_ms": 68266,
+              "command_t_device_ms": 68253,
+              "lease_until_device_ms": 72253,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757637094,
+              "source": "synthetic",
+              "stage": "ACK_ACCEPT",
+              "command_id": "ab20210a-7945-4c94-a6ae-7ea5a2c4af4c",
+              "boot_id": "ebd42ca9c226fb27",
+              "age_ms": 2993,
+              "accepted": true,
+              "running": true
+            },
+            {
+              "at": 1793757637094,
+              "source": "synthetic",
+              "stage": "ACK_WS_SEND",
+              "command_id": "ab20210a-7945-4c94-a6ae-7ea5a2c4af4c",
+              "sent": 1,
+              "skipped": 0
+            },
+            {
+              "at": 1793757638322,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "ab20210a-7945-4c94-a6ae-7ea5a2c4af4c",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 737,
+              "t_device_ms": 68266,
+              "command_t_device_ms": 68253,
+              "lease_until_device_ms": 72253,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757638322,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "duplicate_ack",
+              "command_id": "ab20210a-7945-4c94-a6ae-7ea5a2c4af4c",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 737,
+              "age_ms": 4221
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793757635096,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "dbb6b1c3-0ce6-4a78-b7d0-d2d8bc5cbd8f",
+            "boot_id": "ebd42ca9c226fb27",
+            "action": "renew",
+            "device_deadline_ms": 70946,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793757635096,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "dbb6b1c3-0ce6-4a78-b7d0-d2d8bc5cbd8f",
+              "boot_id": "ebd42ca9c226fb27",
+              "action": "renew",
+              "device_deadline_ms": 70946,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793757635322,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "dbb6b1c3-0ce6-4a78-b7d0-d2d8bc5cbd8f"
+            },
+            {
+              "at": 1793757639043,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "dbb6b1c3-0ce6-4a78-b7d0-d2d8bc5cbd8f",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 741,
+              "t_device_ms": 68504,
+              "command_t_device_ms": 68491,
+              "lease_until_device_ms": 72491,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757639043,
+              "source": "synthetic",
+              "stage": "ACK_ACCEPT",
+              "command_id": "dbb6b1c3-0ce6-4a78-b7d0-d2d8bc5cbd8f",
+              "boot_id": "ebd42ca9c226fb27",
+              "age_ms": 3947,
+              "accepted": true,
+              "running": true
+            },
+            {
+              "at": 1793757639043,
+              "source": "synthetic",
+              "stage": "ACK_WS_SEND",
+              "command_id": "dbb6b1c3-0ce6-4a78-b7d0-d2d8bc5cbd8f",
+              "sent": 1,
+              "skipped": 0
+            },
+            {
+              "at": 1793757640294,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "dbb6b1c3-0ce6-4a78-b7d0-d2d8bc5cbd8f",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 741,
+              "t_device_ms": 68504,
+              "command_t_device_ms": 68491,
+              "lease_until_device_ms": 72491,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757640294,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "duplicate_ack",
+              "command_id": "dbb6b1c3-0ce6-4a78-b7d0-d2d8bc5cbd8f",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 741,
+              "age_ms": 5198
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793757636104,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "eaf3c65a-cdbd-48aa-806f-560ae9db10d0",
+            "boot_id": "ebd42ca9c226fb27",
+            "action": "renew",
+            "device_deadline_ms": 71413,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793757636104,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "eaf3c65a-cdbd-48aa-806f-560ae9db10d0",
+              "boot_id": "ebd42ca9c226fb27",
+              "action": "renew",
+              "device_deadline_ms": 71413,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793757636329,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "eaf3c65a-cdbd-48aa-806f-560ae9db10d0"
+            },
+            {
+              "at": 1793757641009,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "eaf3c65a-cdbd-48aa-806f-560ae9db10d0",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 742,
+              "t_device_ms": 68799,
+              "command_t_device_ms": 68786,
+              "lease_until_device_ms": 72786,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757641009,
+              "source": "synthetic",
+              "stage": "ACK_ACCEPT",
+              "command_id": "eaf3c65a-cdbd-48aa-806f-560ae9db10d0",
+              "boot_id": "ebd42ca9c226fb27",
+              "age_ms": 4905,
+              "accepted": true,
+              "running": true
+            },
+            {
+              "at": 1793757641009,
+              "source": "synthetic",
+              "stage": "ACK_WS_SEND",
+              "command_id": "eaf3c65a-cdbd-48aa-806f-560ae9db10d0",
+              "sent": 1,
+              "skipped": 0
+            },
+            {
+              "at": 1793757642101,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "eaf3c65a-cdbd-48aa-806f-560ae9db10d0",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 742,
+              "t_device_ms": 68799,
+              "command_t_device_ms": 68786,
+              "lease_until_device_ms": 72786,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757642102,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "duplicate_ack",
+              "command_id": "eaf3c65a-cdbd-48aa-806f-560ae9db10d0",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 742,
+              "age_ms": 5998
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793757637096,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "40457a97-68c3-43f2-96eb-27081a2bbe62",
+            "boot_id": "ebd42ca9c226fb27",
+            "action": "renew",
+            "device_deadline_ms": 71413,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793757637096,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "40457a97-68c3-43f2-96eb-27081a2bbe62",
+              "boot_id": "ebd42ca9c226fb27",
+              "action": "renew",
+              "device_deadline_ms": 71413,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793757637543,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "40457a97-68c3-43f2-96eb-27081a2bbe62"
+            },
+            {
+              "at": 1793757642662,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "40457a97-68c3-43f2-96eb-27081a2bbe62",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 746,
+              "t_device_ms": 69116,
+              "command_t_device_ms": 69103,
+              "lease_until_device_ms": 73103,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757642663,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "ack_wall_timeout",
+              "command_id": "40457a97-68c3-43f2-96eb-27081a2bbe62",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 746,
+              "age_ms": 5567
+            },
+            {
+              "at": 1793757643251,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "40457a97-68c3-43f2-96eb-27081a2bbe62",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 746,
+              "t_device_ms": 69116,
+              "command_t_device_ms": 69103,
+              "lease_until_device_ms": 73103,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757643251,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "ack_wall_timeout",
+              "command_id": "40457a97-68c3-43f2-96eb-27081a2bbe62",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 746,
+              "age_ms": 6155
+            },
+            {
+              "at": 1793758230970,
+              "source": "synthetic",
+              "stage": "COMMAND_CANCELLED",
+              "command_id": "40457a97-68c3-43f2-96eb-27081a2bbe62",
+              "reason": "boot_changed"
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793757638101,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "2e3cb2b1-7903-485b-8ed3-12e42f61c4cc",
+            "boot_id": "ebd42ca9c226fb27",
+            "action": "renew",
+            "device_deadline_ms": 71879,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793757638101,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "2e3cb2b1-7903-485b-8ed3-12e42f61c4cc",
+              "boot_id": "ebd42ca9c226fb27",
+              "action": "renew",
+              "device_deadline_ms": 71879,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793757638326,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "2e3cb2b1-7903-485b-8ed3-12e42f61c4cc"
+            },
+            {
+              "at": 1793757643810,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "2e3cb2b1-7903-485b-8ed3-12e42f61c4cc",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 747,
+              "t_device_ms": 69332,
+              "command_t_device_ms": 69318,
+              "lease_until_device_ms": 73318,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757643810,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "ack_wall_timeout",
+              "command_id": "2e3cb2b1-7903-485b-8ed3-12e42f61c4cc",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 747,
+              "age_ms": 5709
+            },
+            {
+              "at": 1793757644391,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "2e3cb2b1-7903-485b-8ed3-12e42f61c4cc",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 747,
+              "t_device_ms": 69332,
+              "command_t_device_ms": 69318,
+              "lease_until_device_ms": 73318,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757644391,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "ack_wall_timeout",
+              "command_id": "2e3cb2b1-7903-485b-8ed3-12e42f61c4cc",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 747,
+              "age_ms": 6290
+            },
+            {
+              "at": 1793758230971,
+              "source": "synthetic",
+              "stage": "COMMAND_CANCELLED",
+              "command_id": "2e3cb2b1-7903-485b-8ed3-12e42f61c4cc",
+              "reason": "boot_changed"
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793757639106,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "bd5846fb-fd77-4820-a142-15903d116e33",
+            "boot_id": "ebd42ca9c226fb27",
+            "action": "renew",
+            "device_deadline_ms": 71879,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793757639106,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "bd5846fb-fd77-4820-a142-15903d116e33",
+              "boot_id": "ebd42ca9c226fb27",
+              "action": "renew",
+              "device_deadline_ms": 71879,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793757639493,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "bd5846fb-fd77-4820-a142-15903d116e33"
+            },
+            {
+              "at": 1793757645098,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "bd5846fb-fd77-4820-a142-15903d116e33",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 751,
+              "t_device_ms": 69651,
+              "command_t_device_ms": 69637,
+              "lease_until_device_ms": 73637,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757645098,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "ack_wall_timeout",
+              "command_id": "bd5846fb-fd77-4820-a142-15903d116e33",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 751,
+              "age_ms": 5992
+            },
+            {
+              "at": 1793757646147,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "bd5846fb-fd77-4820-a142-15903d116e33",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 751,
+              "t_device_ms": 69651,
+              "command_t_device_ms": 69637,
+              "lease_until_device_ms": 73637,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757646147,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "ack_wall_timeout",
+              "command_id": "bd5846fb-fd77-4820-a142-15903d116e33",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 751,
+              "age_ms": 7041
+            },
+            {
+              "at": 1793758230971,
+              "source": "synthetic",
+              "stage": "COMMAND_CANCELLED",
+              "command_id": "bd5846fb-fd77-4820-a142-15903d116e33",
+              "reason": "boot_changed"
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793757640101,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "1f7f378c-4096-43c6-8cd9-12ffb1095288",
+            "boot_id": "ebd42ca9c226fb27",
+            "action": "renew",
+            "device_deadline_ms": 72412,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793757640101,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "1f7f378c-4096-43c6-8cd9-12ffb1095288",
+              "boot_id": "ebd42ca9c226fb27",
+              "action": "renew",
+              "device_deadline_ms": 72412,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793757640327,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "1f7f378c-4096-43c6-8cd9-12ffb1095288"
+            },
+            {
+              "at": 1793757646942,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "1f7f378c-4096-43c6-8cd9-12ffb1095288",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 752,
+              "t_device_ms": 69866,
+              "command_t_device_ms": 69852,
+              "lease_until_device_ms": 73852,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757646942,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "ack_wall_timeout",
+              "command_id": "1f7f378c-4096-43c6-8cd9-12ffb1095288",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 752,
+              "age_ms": 6841
+            },
+            {
+              "at": 1793757648034,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "1f7f378c-4096-43c6-8cd9-12ffb1095288",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 752,
+              "t_device_ms": 69866,
+              "command_t_device_ms": 69852,
+              "lease_until_device_ms": 73852,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757648034,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "ack_wall_timeout",
+              "command_id": "1f7f378c-4096-43c6-8cd9-12ffb1095288",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 752,
+              "age_ms": 7933
+            },
+            {
+              "at": 1793758230971,
+              "source": "synthetic",
+              "stage": "COMMAND_CANCELLED",
+              "command_id": "1f7f378c-4096-43c6-8cd9-12ffb1095288",
+              "reason": "boot_changed"
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793757641102,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "e127b5db-a693-4627-845a-8d33b5fb277f",
+            "boot_id": "ebd42ca9c226fb27",
+            "action": "renew",
+            "device_deadline_ms": 72412,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793757641102,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "e127b5db-a693-4627-845a-8d33b5fb277f",
+              "boot_id": "ebd42ca9c226fb27",
+              "action": "renew",
+              "device_deadline_ms": 72412,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793757641459,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "e127b5db-a693-4627-845a-8d33b5fb277f"
+            },
+            {
+              "at": 1793757648773,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "e127b5db-a693-4627-845a-8d33b5fb277f",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 756,
+              "t_device_ms": 70177,
+              "command_t_device_ms": 70165,
+              "lease_until_device_ms": 74165,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757648773,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "ack_wall_timeout",
+              "command_id": "e127b5db-a693-4627-845a-8d33b5fb277f",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 756,
+              "age_ms": 7671
+            },
+            {
+              "at": 1793757649772,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "e127b5db-a693-4627-845a-8d33b5fb277f",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 756,
+              "t_device_ms": 70177,
+              "command_t_device_ms": 70165,
+              "lease_until_device_ms": 74165,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793757649773,
+              "source": "synthetic",
+              "stage": "ACK_DROP",
+              "type": "ack",
+              "reason": "ack_wall_timeout",
+              "command_id": "e127b5db-a693-4627-845a-8d33b5fb277f",
+              "boot_id": "ebd42ca9c226fb27",
+              "seq": 756,
+              "age_ms": 8671
+            },
+            {
+              "at": 1793758230971,
+              "source": "synthetic",
+              "stage": "COMMAND_CANCELLED",
+              "command_id": "e127b5db-a693-4627-845a-8d33b5fb277f",
+              "reason": "boot_changed"
+            }
+          ]
+        }
+      ],
+      "renew_accepted": 6
+    },
+    {
+      "id": "f91e6cb2-1152-459e-94ee-0bc65c2f0e5d",
+      "trace": [
+        {
+          "at": 1793758549360,
+          "source": "synthetic",
+          "stage": "COMMAND_TX",
+          "command_id": "f91e6cb2-1152-459e-94ee-0bc65c2f0e5d",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "action": "start",
+          "device_deadline_ms": 66925,
+          "lease_ms": 4000
+        },
+        {
+          "at": 1793758549582,
+          "source": "synthetic",
+          "stage": "COMMAND_BROKER_PUBACK",
+          "command_id": "f91e6cb2-1152-459e-94ee-0bc65c2f0e5d"
+        },
+        {
+          "at": 1793758550129,
+          "source": "synthetic",
+          "stage": "ACK_RX",
+          "command_id": "f91e6cb2-1152-459e-94ee-0bc65c2f0e5d",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "seq": 652,
+          "t_device_ms": 64846,
+          "command_t_device_ms": 64833,
+          "lease_until_device_ms": 68833,
+          "bytes": 301,
+          "qos": 1
+        },
+        {
+          "at": 1793758550129,
+          "source": "synthetic",
+          "stage": "ACK_ACCEPT",
+          "command_id": "f91e6cb2-1152-459e-94ee-0bc65c2f0e5d",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "age_ms": 769,
+          "accepted": true,
+          "running": true
+        },
+        {
+          "at": 1793758550129,
+          "source": "synthetic",
+          "stage": "ACK_WS_SEND",
+          "command_id": "f91e6cb2-1152-459e-94ee-0bc65c2f0e5d",
+          "sent": 1,
+          "skipped": 0
+        },
+        {
+          "at": 1793758551632,
+          "source": "synthetic",
+          "stage": "ACK_RX",
+          "command_id": "f91e6cb2-1152-459e-94ee-0bc65c2f0e5d",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "seq": 652,
+          "t_device_ms": 64846,
+          "command_t_device_ms": 64833,
+          "lease_until_device_ms": 68833,
+          "bytes": 301,
+          "qos": 1
+        },
+        {
+          "at": 1793758551632,
+          "source": "synthetic",
+          "stage": "ACK_DROP",
+          "type": "ack",
+          "reason": "duplicate_ack",
+          "command_id": "f91e6cb2-1152-459e-94ee-0bc65c2f0e5d",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "seq": 652,
+          "age_ms": 2272
+        }
+      ],
+      "renew": [
+        {
+          "command": {
+            "at": 1793758550894,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "379e85c2-38a1-4109-b73d-064bfee04b05",
+            "boot_id": "1e19bb7c5fc56cd6",
+            "action": "renew",
+            "device_deadline_ms": 68020,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793758550894,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "379e85c2-38a1-4109-b73d-064bfee04b05",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "action": "renew",
+              "device_deadline_ms": 68020,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793758551115,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "379e85c2-38a1-4109-b73d-064bfee04b05"
+            },
+            {
+              "at": 1793758552215,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "379e85c2-38a1-4109-b73d-064bfee04b05",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "seq": 662,
+              "t_device_ms": 65873,
+              "command_t_device_ms": 65860,
+              "lease_until_device_ms": 69860,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793758552215,
+              "source": "synthetic",
+              "stage": "ACK_ACCEPT",
+              "command_id": "379e85c2-38a1-4109-b73d-064bfee04b05",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "age_ms": 1321,
+              "accepted": true,
+              "running": true
+            },
+            {
+              "at": 1793758552215,
+              "source": "synthetic",
+              "stage": "ACK_WS_SEND",
+              "command_id": "379e85c2-38a1-4109-b73d-064bfee04b05",
+              "sent": 1,
+              "skipped": 0
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793758551896,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "ec6e37c2-4100-45cb-933b-ee1717906b07",
+            "boot_id": "1e19bb7c5fc56cd6",
+            "action": "renew",
+            "device_deadline_ms": 68535,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793758551896,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "ec6e37c2-4100-45cb-933b-ee1717906b07",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "action": "renew",
+              "device_deadline_ms": 68535,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793758552122,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "ec6e37c2-4100-45cb-933b-ee1717906b07"
+            },
+            {
+              "at": 1793758552844,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "ec6e37c2-4100-45cb-933b-ee1717906b07",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "seq": 669,
+              "t_device_ms": 66361,
+              "command_t_device_ms": 66348,
+              "lease_until_device_ms": 70348,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793758552844,
+              "source": "synthetic",
+              "stage": "ACK_ACCEPT",
+              "command_id": "ec6e37c2-4100-45cb-933b-ee1717906b07",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "age_ms": 948,
+              "accepted": true,
+              "running": true
+            },
+            {
+              "at": 1793758552844,
+              "source": "synthetic",
+              "stage": "ACK_WS_SEND",
+              "command_id": "ec6e37c2-4100-45cb-933b-ee1717906b07",
+              "sent": 1,
+              "skipped": 0
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793758552894,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "7c1aa49d-8ed1-486b-b191-e86866f0a33c",
+            "boot_id": "1e19bb7c5fc56cd6",
+            "action": "renew",
+            "device_deadline_ms": 69272,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793758552894,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "7c1aa49d-8ed1-486b-b191-e86866f0a33c",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "action": "renew",
+              "device_deadline_ms": 69272,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793758553285,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "7c1aa49d-8ed1-486b-b191-e86866f0a33c"
+            },
+            {
+              "at": 1793758553872,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "7c1aa49d-8ed1-486b-b191-e86866f0a33c",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "seq": 676,
+              "t_device_ms": 67042,
+              "command_t_device_ms": 67029,
+              "lease_until_device_ms": 71029,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793758553872,
+              "source": "synthetic",
+              "stage": "ACK_ACCEPT",
+              "command_id": "7c1aa49d-8ed1-486b-b191-e86866f0a33c",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "age_ms": 978,
+              "accepted": true,
+              "running": true
+            },
+            {
+              "at": 1793758553873,
+              "source": "synthetic",
+              "stage": "ACK_WS_SEND",
+              "command_id": "7c1aa49d-8ed1-486b-b191-e86866f0a33c",
+              "sent": 1,
+              "skipped": 0
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793758553894,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "23c5ff08-31fd-4f7b-839e-277fa58395a5",
+            "boot_id": "1e19bb7c5fc56cd6",
+            "action": "renew",
+            "device_deadline_ms": 69809,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793758553894,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "23c5ff08-31fd-4f7b-839e-277fa58395a5",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "action": "renew",
+              "device_deadline_ms": 69809,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793758554361,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "23c5ff08-31fd-4f7b-839e-277fa58395a5"
+            },
+            {
+              "at": 1793758554929,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "23c5ff08-31fd-4f7b-839e-277fa58395a5",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "seq": 683,
+              "t_device_ms": 67746,
+              "command_t_device_ms": 67733,
+              "lease_until_device_ms": 71733,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793758554929,
+              "source": "synthetic",
+              "stage": "ACK_ACCEPT",
+              "command_id": "23c5ff08-31fd-4f7b-839e-277fa58395a5",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "age_ms": 1035,
+              "accepted": true,
+              "running": true
+            },
+            {
+              "at": 1793758554929,
+              "source": "synthetic",
+              "stage": "ACK_WS_SEND",
+              "command_id": "23c5ff08-31fd-4f7b-839e-277fa58395a5",
+              "sent": 1,
+              "skipped": 0
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793758554894,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "d628c207-0053-42ed-ad70-21a08ff87805",
+            "boot_id": "1e19bb7c5fc56cd6",
+            "action": "renew",
+            "device_deadline_ms": 70476,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793758554894,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "d628c207-0053-42ed-ad70-21a08ff87805",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "action": "renew",
+              "device_deadline_ms": 70476,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793758555115,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "d628c207-0053-42ed-ad70-21a08ff87805"
+            },
+            {
+              "at": 1793758555755,
+              "source": "synthetic",
+              "stage": "ACK_RX",
+              "command_id": "d628c207-0053-42ed-ad70-21a08ff87805",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "seq": 687,
+              "t_device_ms": 68180,
+              "command_t_device_ms": 68167,
+              "lease_until_device_ms": 72167,
+              "bytes": 301,
+              "qos": 1
+            },
+            {
+              "at": 1793758555755,
+              "source": "synthetic",
+              "stage": "ACK_ACCEPT",
+              "command_id": "d628c207-0053-42ed-ad70-21a08ff87805",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "age_ms": 861,
+              "accepted": true,
+              "running": true
+            },
+            {
+              "at": 1793758555755,
+              "source": "synthetic",
+              "stage": "ACK_WS_SEND",
+              "command_id": "d628c207-0053-42ed-ad70-21a08ff87805",
+              "sent": 1,
+              "skipped": 0
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793758555894,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "54936fb5-e1df-4480-abc0-076185b9fa21",
+            "boot_id": "1e19bb7c5fc56cd6",
+            "action": "renew",
+            "device_deadline_ms": 70918,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793758555894,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "54936fb5-e1df-4480-abc0-076185b9fa21",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "action": "renew",
+              "device_deadline_ms": 70918,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793758556197,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "54936fb5-e1df-4480-abc0-076185b9fa21"
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793758556900,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "012b2ffc-4b47-461c-a78a-139bad1ed8e4",
+            "boot_id": "1e19bb7c5fc56cd6",
+            "action": "renew",
+            "device_deadline_ms": 70918,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793758556900,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "012b2ffc-4b47-461c-a78a-139bad1ed8e4",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "action": "renew",
+              "device_deadline_ms": 70918,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793758557122,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "012b2ffc-4b47-461c-a78a-139bad1ed8e4"
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793758557902,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "d26c47d1-f466-448e-9701-50c0da081ec8",
+            "boot_id": "1e19bb7c5fc56cd6",
+            "action": "renew",
+            "device_deadline_ms": 70918,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793758557902,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "d26c47d1-f466-448e-9701-50c0da081ec8",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "action": "renew",
+              "device_deadline_ms": 70918,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793758558127,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "d26c47d1-f466-448e-9701-50c0da081ec8"
+            }
+          ]
+        },
+        {
+          "command": {
+            "at": 1793758558896,
+            "source": "synthetic",
+            "stage": "COMMAND_TX",
+            "command_id": "40b44152-8f58-4bc8-ab4b-0d19db7a20a6",
+            "boot_id": "1e19bb7c5fc56cd6",
+            "action": "renew",
+            "device_deadline_ms": 70918,
+            "lease_ms": 4000
+          },
+          "trace": [
+            {
+              "at": 1793758558896,
+              "source": "synthetic",
+              "stage": "COMMAND_TX",
+              "command_id": "40b44152-8f58-4bc8-ab4b-0d19db7a20a6",
+              "boot_id": "1e19bb7c5fc56cd6",
+              "action": "renew",
+              "device_deadline_ms": 70918,
+              "lease_ms": 4000
+            },
+            {
+              "at": 1793758559142,
+              "source": "synthetic",
+              "stage": "COMMAND_BROKER_PUBACK",
+              "command_id": "40b44152-8f58-4bc8-ab4b-0d19db7a20a6"
+            }
+          ]
+        }
+      ],
+      "renew_accepted": 5
+    },
+    {
+      "id": "c5bf1c0e-d092-4d73-9d4e-0ee8d4dae5a0",
+      "trace": [
+        {
+          "at": 1793758287676,
+          "source": "synthetic",
+          "stage": "COMMAND_TX",
+          "command_id": "c5bf1c0e-d092-4d73-9d4e-0ee8d4dae5a0",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "action": "stop",
+          "device_deadline_ms": 38779,
+          "lease_ms": 4000
+        },
+        {
+          "at": 1793758287896,
+          "source": "synthetic",
+          "stage": "COMMAND_BROKER_PUBACK",
+          "command_id": "c5bf1c0e-d092-4d73-9d4e-0ee8d4dae5a0"
+        },
+        {
+          "at": 1793758288553,
+          "source": "synthetic",
+          "stage": "ACK_RX",
+          "command_id": "c5bf1c0e-d092-4d73-9d4e-0ee8d4dae5a0",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "seq": 372,
+          "t_device_ms": 36825,
+          "command_t_device_ms": 36812,
+          "lease_until_device_ms": 0,
+          "bytes": 283,
+          "qos": 1
+        },
+        {
+          "at": 1793758288553,
+          "source": "synthetic",
+          "stage": "ACK_ACCEPT",
+          "command_id": "c5bf1c0e-d092-4d73-9d4e-0ee8d4dae5a0",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "age_ms": 877,
+          "accepted": true,
+          "running": false
+        },
+        {
+          "at": 1793758288553,
+          "source": "synthetic",
+          "stage": "ACK_WS_SEND",
+          "command_id": "c5bf1c0e-d092-4d73-9d4e-0ee8d4dae5a0",
+          "sent": 1,
+          "skipped": 0
+        },
+        {
+          "at": 1793758289806,
+          "source": "synthetic",
+          "stage": "ACK_RX",
+          "command_id": "c5bf1c0e-d092-4d73-9d4e-0ee8d4dae5a0",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "seq": 372,
+          "t_device_ms": 36825,
+          "command_t_device_ms": 36812,
+          "lease_until_device_ms": 0,
+          "bytes": 283,
+          "qos": 1
+        },
+        {
+          "at": 1793758289806,
+          "source": "synthetic",
+          "stage": "ACK_DROP",
+          "type": "ack",
+          "reason": "duplicate_ack",
+          "command_id": "c5bf1c0e-d092-4d73-9d4e-0ee8d4dae5a0",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "seq": 372,
+          "age_ms": 2130
+        }
+      ],
+      "renew": [],
+      "renew_accepted": 0
+    },
+    {
+      "id": "aead5da2-7261-4ea1-837e-b6b551b1dd62",
+      "trace": [
+        {
+          "at": 1793759008872,
+          "source": "synthetic",
+          "stage": "COMMAND_TX",
+          "command_id": "aead5da2-7261-4ea1-837e-b6b551b1dd62",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "action": "stop",
+          "device_deadline_ms": 303928,
+          "lease_ms": 4000
+        },
+        {
+          "at": 1793759009092,
+          "source": "synthetic",
+          "stage": "COMMAND_BROKER_PUBACK",
+          "command_id": "aead5da2-7261-4ea1-837e-b6b551b1dd62"
+        },
+        {
+          "at": 1793759009669,
+          "source": "synthetic",
+          "stage": "ACK_RX",
+          "command_id": "aead5da2-7261-4ea1-837e-b6b551b1dd62",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "seq": 3389,
+          "t_device_ms": 301858,
+          "command_t_device_ms": 301845,
+          "lease_until_device_ms": 72852,
+          "bytes": 290,
+          "qos": 1
+        },
+        {
+          "at": 1793759009669,
+          "source": "synthetic",
+          "stage": "ACK_ACCEPT",
+          "command_id": "aead5da2-7261-4ea1-837e-b6b551b1dd62",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "age_ms": 797,
+          "accepted": true,
+          "running": false
+        },
+        {
+          "at": 1793759009670,
+          "source": "synthetic",
+          "stage": "ACK_WS_SEND",
+          "command_id": "aead5da2-7261-4ea1-837e-b6b551b1dd62",
+          "sent": 1,
+          "skipped": 0
+        },
+        {
+          "at": 1793759010900,
+          "source": "synthetic",
+          "stage": "ACK_RX",
+          "command_id": "aead5da2-7261-4ea1-837e-b6b551b1dd62",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "seq": 3389,
+          "t_device_ms": 301858,
+          "command_t_device_ms": 301845,
+          "lease_until_device_ms": 72852,
+          "bytes": 290,
+          "qos": 1
+        },
+        {
+          "at": 1793759010900,
+          "source": "synthetic",
+          "stage": "ACK_DROP",
+          "type": "ack",
+          "reason": "duplicate_ack",
+          "command_id": "aead5da2-7261-4ea1-837e-b6b551b1dd62",
+          "boot_id": "1e19bb7c5fc56cd6",
+          "seq": 3389,
+          "age_ms": 2028
+        }
+      ],
+      "renew": [],
+      "renew_accepted": 0
+    }
+  ],
+  "latest_manual_stop_id": "aead5da2-7261-4ea1-837e-b6b551b1dd62",
+  "case_status": {
+    "A": "chua_dat_full_display_evidence",
+    "B": "chua_dat_12_consecutive_renew",
+    "C": "chua_thuc_hien_close_tab_case"
+  },
+  "local_sha256": {
+    "firmware/sketch.ino": "0523dd481bd32703029e82974af1966b1acd7014f4e016c77181a147df949757",
+    "firmware/mqtt_support.h": "7aab93516c91e1fe4dda5b0b45301a4636cbd728b072f065b1ebd8bc90b70e7e",
+    "firmware/motor_control.h": "67c4aa115bf5ea7e8eae9c474572965cc6f227551b086b88dae88a17f5945ca7",
+    "tests/motor_control.cpp": "ac5edd7e607aa3e738297a6bd563b444416bc538d13c82a3ebd671a6a302d5e1",
+    "scripts/open-simulation-browser.mjs": "cb632f02ffc73bf3b0e8ea3bf73dee5d65828b7f0872ae40626b4b9126307a61"
+  },
+  "telemetry_records": 7096,
+  "privacy": "No broker host, namespace, credentials or environment contents exported."
+}

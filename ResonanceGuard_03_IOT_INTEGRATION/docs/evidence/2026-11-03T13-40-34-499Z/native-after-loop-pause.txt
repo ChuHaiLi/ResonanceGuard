@@ -1,0 +1,16 @@
+﻿Started: 2026-11-03T22:01:29.6679809+07:00 | node --test tests/native.test.js | native only; not Wokwi compile
+✔ firmware motor decisions (native C++, not ESP32 build) (653.2515ms)
+ℹ PASS: boot OFF; START/PWM/STOP; duplicate; expiry; wrong boot; local STOP; disconnect; no auto restart; uint32 wrap
+PASS: actual RPM reader: two edges, PPR=1, 600 RPM, timeout, restart and micros wrap
+PASS: MQTT read failure exits immediately; payload bound; OFF reason distinguishes STOP/local/lease; namespace-scoped client identity
+✔ custom chip model (native C with stub Wokwi API) (388.1248ms)
+ℹ PASS: actual custom chip C model with stub API: dead band, PWM, RPM, PPR=1, EN, coast-down, steady HIGH/LOW
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1107.8854
+Exit: 0

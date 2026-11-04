@@ -1,0 +1,13 @@
+MQTT DOWN t_ms=108211 detail=poll_disconnected_no_mqtt3_reason_code wifi=3 tcp=0 pings=10 last_ping_ms=100001 rx_idle_device_ms=5500 pending_ack=0
+                                                                                             MQTT CONNECT t_ms=108224 attempt=4 client_id=rg-esp-e26d18f2-04ab60c858833635 keepalive_ms=10000 timeout_ms=1000
+                                                                                                    MQTT SUBACK result=1 granted_qos=1 dt_device_ms=1552
+                                               MQTT connected t_ms=109776 attempt=4 client_id=rg-esp-e26d18f2-04ab60c858833635
+                     MQTT DOWN t_ms=109811 detail=poll_disconnected_no_mqtt3_reason_code wifi=3 tcp=0 pings=10 last_ping_ms=100001 rx_idle_device_ms=35 pending_ack=0
+                                                            MQTT CONNECT t_ms=111228 attempt=5 client_id=rg-esp-e26d18f2-04ab60c858833635 keepalive_ms=10000 timeout_ms=1000
+                                                                   MQTT PINGREQ t_ms=111947 written=2/2
+                                                                                                       MQTT SUBACK result=1 granted_qos=1 dt_device_ms=914
+                                                 MQTT connected t_ms=112143 attempt=5 client_id=rg-esp-e26d18f2-04ab60c858833635
+                       MQTT PINGREQ t_ms=121946 written=2/2
+                                                           MQTT PINGREQ t_ms=131946 written=2/2
+                                                                                               MQTT PINGREQ t_ms=141946 written=2/2
+                                                                                                                                   MQTT PINGREQ t_ms=151946 written=2/2

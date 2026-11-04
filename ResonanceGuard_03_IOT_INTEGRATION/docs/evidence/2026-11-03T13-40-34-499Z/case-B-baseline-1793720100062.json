@@ -1,0 +1,35 @@
+{
+  "at": 1793720100062,
+  "at_iso": "2026-11-03T15:35:00.062Z",
+  "scope": "Case B baseline before user START on new Dashboard. No command sent by this check.",
+  "state": {
+    "schema_version": 1,
+    "device_id": "rg01",
+    "source": "synthetic",
+    "boot_id": "98a4d20a075107d0",
+    "seq": 2927,
+    "t_device_ms": 255368,
+    "running": false,
+    "duty": 0,
+    "stop_reason": "boot",
+    "last_command_id": "c649c098-7d60-4bee-a24b-3a2c42574605"
+  },
+  "state_age_ms": 3,
+  "stale": false,
+  "broker_connected": true,
+  "broker_subscribed": true,
+  "last_ack": {
+    "schema_version": 1,
+    "device_id": "rg01",
+    "source": "synthetic",
+    "boot_id": "98a4d20a075107d0",
+    "seq": 1084,
+    "t_device_ms": 97627,
+    "command_id": "c649c098-7d60-4bee-a24b-3a2c42574605",
+    "accepted": true,
+    "reason": "stop_requested",
+    "command_t_device_ms": 97613,
+    "lease_until_device_ms": 0,
+    "running": false
+  }
+}

@@ -1,0 +1,24 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+03_IOT_INTEGRATION · WOKWI ONLY · source=synthetic
+BOOT bff5adc2010bb3ff client_id=rg-esp-e26d18f2-bff5adc2010bb3ff · outputs OFF · PWM 1000Hz/8bit · PPR=1
+                                                                                                        IMU configuration OK
+Web owns START/PWM. Local red STOP remains active. Green button and pot are unused.
+MQTT CONNECT t_ms=39688 attempt=1 client_id=rg-esp-e26d18f2-bff5adc2010bb3ff keepalive_ms=10000 timeout_ms=1000
+                                                                                                               MQTT PINGREQ t_ms=40806 written=2/2
+                                                                                                                                                  MQTT SUBACK result=1 granted_qos=1 dt_device_ms=1281
+                                            MQTT connected t_ms=40969 attempt=1 client_id=rg-esp-e26d18f2-bff5adc2010bb3ff
+                                                                                                                          MQTT DOWN t_ms=48532 detail=poll_disconnected_no_mqtt3_reason_code wifi=3 tcp=0 pings=1 last_ping_ms=40806 rx_idle_device_ms=7364 pending_ack=0
+                                                                                                               MQTT CONNECT t_ms=48545 attempt=2 client_id=rg-esp-e26d18f2-bff5adc2010bb3ff keepalive_ms=10000 timeout_ms=1000
+                                                                    MQTT SUBACK result=1 granted_qos=1 dt_device_ms=1051
+                                                                                                                        MQTT connected t_ms=49596 attempt=2 client_id=rg-esp-e26d18f2-bff5adc2010bb3ff
+                                            MQTT PINGREQ t_ms=50806 written=2/2

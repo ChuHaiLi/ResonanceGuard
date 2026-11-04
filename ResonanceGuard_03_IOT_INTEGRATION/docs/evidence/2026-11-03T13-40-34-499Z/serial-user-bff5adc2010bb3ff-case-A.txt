@@ -1,0 +1,27 @@
+MQTT connected t_ms=249013 attempt=4 client_id=rg-esp-e26d18f2-bff5adc2010bb3ff
+                                                                                                                                  MQTT PINGREQ t_ms=250805 written=2/2
+            MQTT PINGREQ t_ms=260805 written=2/2
+                                                PUBLISH FAIL kind=telemetry/rpm id=- phase=end result=1 dt_device_ms=4
+                                                                                                                      MQTT DOWN t_ms=267046 detail=publish_end_failed_or_puback_timeout wifi=3 tcp=0 pings=23 last_ping_ms=260805 rx_idle_device_ms=5839 pending_ack=0
+                                                                                                            MQTT CONNECT t_ms=267061 attempt=5 client_id=rg-esp-e26d18f2-bff5adc2010bb3ff keepalive_ms=10000 timeout_ms=1000
+                                                                  MQTT SUBACK result=1 granted_qos=1 dt_device_ms=1275
+                                                                                                                      MQTT connected t_ms=268336 attempt=5 client_id=rg-esp-e26d18f2-bff5adc2010bb3ff
+                                           MQTT PINGREQ t_ms=270806 written=2/2
+                                                                               COMMAND t_ms=272657 action=stop id=17608238-c7a7-4bbc-9064-0174c572a0d6 boot=bff5adc2010bb3ff accepted=1 reason=stop_requested lease_until=0 deadline=275342 source=synthetic
+                                                                                                  ACK QUEUED id=17608238-c7a7-4bbc-9064-0174c572a0d6 seq=2730 t_ms=272670 depth=1
+                       ACK PUBLISH id=17608238-c7a7-4bbc-9064-0174c572a0d6 seq=2730 t_ms=272686 bytes=286 qos=1
+                                                                                                               ACK BROKER_CONFIRMED id=17608238-c7a7-4bbc-9064-0174c572a0d6 dt_device_ms=247 (not backend/frontend confirmation)
+                                                                      MQTT PINGREQ t_ms=280806 written=2/2
+                                                                                                          MQTT PINGREQ t_ms=290806 written=2/2  MQTT DOWN t_ms=327575 detail=poll_disconnected_no_mqtt3_reason_code wifi=3 tcp=0 pings=29 last_ping_ms=320806 rx_idle_device_ms=6332 pending_ack=0
+                                                                                        MQTT CONNECT t_ms=327588 attempt=6 client_id=rg-esp-e26d18f2-bff5adc2010bb3ff keepalive_ms=10000 timeout_ms=1000
+                                              MQTT SUBACK result=1 granted_qos=1 dt_device_ms=1402
+                                                                                                  MQTT connected t_ms=328990 attempt=6 client_id=rg-esp-e26d18f2-bff5adc2010bb3ff
+                       MQTT PINGREQ t_ms=330805 written=2/2
+                                                           MQTT PINGREQ t_ms=340805 written=2/2
+                                                                                               MQTT PINGREQ t_ms=350805 written=2/2
+                                                                                                                                   MQTT PINGREQ t_ms=360805 written=2/2
+             MQTT PINGREQ t_ms=370805 written=2/2
+                                                 MQTT PINGREQ t_ms=380805 written=2/2
+                                                                                     MQTT PINGREQ t_ms=390805 written=2/2
+                                                                                                                         MQTT PINGREQ t_ms=400806 written=2/2
+   MQTT PINGREQ t_ms=410805 written=2/2

@@ -1,0 +1,378 @@
+{
+  "analyzed_at": "2026-11-03T15:37:38.345Z",
+  "scope": "Observed partial case B START; no accepted application ACK or renew chain; not the prescribed close-tab lease case C.",
+  "command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044",
+  "status": "chua_dat",
+  "first_state": {
+    "type": "state",
+    "data": {
+      "schema_version": 1,
+      "device_id": "rg01",
+      "source": "synthetic",
+      "boot_id": "98a4d20a075107d0",
+      "seq": 3087,
+      "t_device_ms": 268990,
+      "running": true,
+      "duty": 0.301961,
+      "stop_reason": "none",
+      "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+    },
+    "received_at": 1793720114223
+  },
+  "first_off": {
+    "type": "state",
+    "data": {
+      "schema_version": 1,
+      "device_id": "rg01",
+      "source": "synthetic",
+      "boot_id": "98a4d20a075107d0",
+      "seq": 3132,
+      "t_device_ms": 272837,
+      "running": false,
+      "duty": 0,
+      "stop_reason": "lease_expired",
+      "last_command_id": "f7e35b28-2cba-41a9-8a9d-4d5a473b4044"
+    },
+    "received_at": 1793720118314
+  },
+  "running_states": 15,
+  "rpm_peak": 461.542,
+  "rpm_events": [
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3089,
+        "t_device_ms": 269008,
+        "rpm": null,
+        "ppr": 1,
+        "pulses": 1,
+        "quality": "no_recent_pulses"
+      },
+      "received_at": 1793720114223
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3092,
+        "t_device_ms": 269267,
+        "rpm": 392.1364,
+        "ppr": 1,
+        "pulses": 3,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720114430
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3095,
+        "t_device_ms": 269524,
+        "rpm": 447.7612,
+        "ppr": 1,
+        "pulses": 5,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720114654
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3101,
+        "t_device_ms": 270037,
+        "rpm": 461.5385,
+        "ppr": 1,
+        "pulses": 9,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720115298
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3104,
+        "t_device_ms": 270287,
+        "rpm": 461.5385,
+        "ppr": 1,
+        "pulses": 11,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720115520
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3107,
+        "t_device_ms": 270542,
+        "rpm": 461.5385,
+        "ppr": 1,
+        "pulses": 13,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720115950
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3113,
+        "t_device_ms": 271058,
+        "rpm": 458.0153,
+        "ppr": 1,
+        "pulses": 17,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720116389
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3116,
+        "t_device_ms": 271313,
+        "rpm": 461.5385,
+        "ppr": 1,
+        "pulses": 19,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720116811
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3119,
+        "t_device_ms": 271570,
+        "rpm": 461.542,
+        "ppr": 1,
+        "pulses": 21,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720117039
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3125,
+        "t_device_ms": 272083,
+        "rpm": 461.5385,
+        "ppr": 1,
+        "pulses": 25,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720117670
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3128,
+        "t_device_ms": 272340,
+        "rpm": 461.5385,
+        "ppr": 1,
+        "pulses": 26,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720117887
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3131,
+        "t_device_ms": 272597,
+        "rpm": 461.5385,
+        "ppr": 1,
+        "pulses": 28,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720118108
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3137,
+        "t_device_ms": 273109,
+        "rpm": 375,
+        "ppr": 1,
+        "pulses": 31,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720118707
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3140,
+        "t_device_ms": 273366,
+        "rpm": 375,
+        "ppr": 1,
+        "pulses": 31,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720118908
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3143,
+        "t_device_ms": 273623,
+        "rpm": 375,
+        "ppr": 1,
+        "pulses": 31,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720119120
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3149,
+        "t_device_ms": 274135,
+        "rpm": 375,
+        "ppr": 1,
+        "pulses": 31,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720119729
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3152,
+        "t_device_ms": 274392,
+        "rpm": 375,
+        "ppr": 1,
+        "pulses": 31,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720119928
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3155,
+        "t_device_ms": 274649,
+        "rpm": 375,
+        "ppr": 1,
+        "pulses": 31,
+        "quality": "valid_model_pulses"
+      },
+      "received_at": 1793720120124
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3161,
+        "t_device_ms": 275162,
+        "rpm": null,
+        "ppr": 1,
+        "pulses": 31,
+        "quality": "no_recent_pulses"
+      },
+      "received_at": 1793720120765
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3164,
+        "t_device_ms": 275420,
+        "rpm": null,
+        "ppr": 1,
+        "pulses": 31,
+        "quality": "no_recent_pulses"
+      },
+      "received_at": 1793720120959
+    },
+    {
+      "type": "telemetry/rpm",
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 3167,
+        "t_device_ms": 275677,
+        "rpm": null,
+        "ppr": 1,
+        "pulses": 31,
+        "quality": "no_recent_pulses"
+      },
+      "received_at": 1793720121158
+    }
+  ]
+}

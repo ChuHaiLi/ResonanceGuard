@@ -1,0 +1,62 @@
+{
+  "at": "2026-11-03T15:42:38.974Z",
+  "scope": "Generated 64-character ID STOP diagnostic, no START or renew. Actual Wokwi application ACK observed independently; backend has no pending record for this diagnostic.",
+  "command": {
+    "schema_version": 1,
+    "device_id": "rg01",
+    "source": "synthetic",
+    "boot_id": "98a4d20a075107d0",
+    "command_id": "dff1f2c6b34346b983844019529e1ec6bf75bf6082fa4b11ab5cc9fe0cd989f0",
+    "action": "stop",
+    "duty": 0,
+    "lease_ms": 4000,
+    "not_after_device_ms": 685197
+  },
+  "events": [
+    {
+      "at": 1793720559926,
+      "qos": 1,
+      "bytes": 319,
+      "data": {
+        "schema_version": 1,
+        "device_id": "rg01",
+        "source": "synthetic",
+        "boot_id": "98a4d20a075107d0",
+        "seq": 7932,
+        "t_device_ms": 684038,
+        "command_id": "dff1f2c6b34346b983844019529e1ec6bf75bf6082fa4b11ab5cc9fe0cd989f0",
+        "accepted": true,
+        "reason": "stop_requested",
+        "command_t_device_ms": 684024,
+        "lease_until_device_ms": 272772,
+        "running": false
+      }
+    }
+  ],
+  "backend_trace": [
+    {
+      "at": 1793720559926,
+      "source": "synthetic",
+      "stage": "ACK_RX",
+      "command_id": "dff1f2c6b34346b983844019529e1ec6bf75bf6082fa4b11ab5cc9fe0cd989f0",
+      "boot_id": "98a4d20a075107d0",
+      "seq": 7932,
+      "t_device_ms": 684038,
+      "command_t_device_ms": 684024,
+      "lease_until_device_ms": 272772,
+      "bytes": 319,
+      "qos": 1
+    },
+    {
+      "at": 1793720559927,
+      "source": "synthetic",
+      "stage": "ACK_DROP",
+      "type": "ack",
+      "reason": "unknown_command",
+      "command_id": "dff1f2c6b34346b983844019529e1ec6bf75bf6082fa4b11ab5cc9fe0cd989f0",
+      "boot_id": "98a4d20a075107d0",
+      "seq": 7932,
+      "age_ms": null
+    }
+  ]
+}

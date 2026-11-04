@@ -1,0 +1,15 @@
+﻿Started: 2026-11-03T20:41:10.9560339+07:00 | npm.cmd run build
+
+> resonanceguard-03-iot-integration@0.1.0 build
+> vite build --config web/vite.config.js
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 25 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   0.37 kB │ gzip:  0.27 kB
+../dist/assets/index-Bo_wzx6a.css    1.08 kB │ gzip:  0.58 kB
+../dist/assets/index-BDGk8jnk.js   232.62 kB │ gzip: 73.69 kB
+✓ built in 739ms
+Exit: 0 | Finished: 2026-11-03T20:41:16.7681354+07:00

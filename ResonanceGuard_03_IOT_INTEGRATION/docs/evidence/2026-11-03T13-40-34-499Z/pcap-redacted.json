@@ -1,0 +1,3382 @@
+{
+  "capture_sha256": "0f0a22882742263e99885e03ee71c484c7e11ed0d8e92433aa2ef47abc9bfb88",
+  "capture_bytes": 92087,
+  "packet_count": 734,
+  "linktype": 105,
+  "timestamp_clock": "Wokwi simulation clock; not server wall clock",
+  "redaction": "No IP/MAC addresses, DNS names, namespace, credentials or full payload exported.",
+  "ipv4_protocol_counts": {
+    "17": 22,
+    "6": 247
+  },
+  "connections": [
+    {
+      "connection": 1,
+      "tcp_segment_count": 123,
+      "tcp_events": [
+        {
+          "packet": 74,
+          "t_sim_s": 4.369491162,
+          "direction": "esp_to_broker",
+          "flags": "SYN",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 82,
+          "t_sim_s": 4.716124274,
+          "direction": "broker_to_esp",
+          "flags": "SYN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 337,
+          "t_sim_s": 13.630308369,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 338,
+          "t_sim_s": 13.630308369,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 339,
+          "t_sim_s": 13.630308369,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 340,
+          "t_sim_s": 13.630308369,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 341,
+          "t_sim_s": 13.630308369,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 342,
+          "t_sim_s": 13.630308369,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 343,
+          "t_sim_s": 13.630308369,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 352,
+          "t_sim_s": 13.64643981,
+          "direction": "esp_to_broker",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        }
+      ],
+      "parse_issues": [],
+      "mqtt_counts": {
+        "CONNECT": 1,
+        "CONNACK": 1,
+        "SUBSCRIBE": 1,
+        "SUBACK": 1,
+        "PUBLISH": 102,
+        "PINGREQ": 1,
+        "PINGRESP": 1
+      },
+      "messages": [
+        {
+          "type": "CONNECT",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 4.721377204,
+          "t_complete_sim_s": 4.721377204,
+          "first_packet": 84,
+          "bytes": 46,
+          "tcp_segments": 1,
+          "keepalive_s": 10,
+          "username_present": false,
+          "password_present": false,
+          "clean_session": true,
+          "boot_id": "6dba137a08dca50d"
+        },
+        {
+          "type": "CONNACK",
+          "direction": "broker_to_esp",
+          "t_first_sim_s": 4.93272453,
+          "t_complete_sim_s": 4.93272453,
+          "first_packet": 89,
+          "bytes": 4,
+          "tcp_segments": 1,
+          "return_code": 0
+        },
+        {
+          "type": "SUBSCRIBE",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 4.93744673,
+          "t_complete_sim_s": 4.93744673,
+          "first_packet": 90,
+          "bytes": 46,
+          "tcp_segments": 1
+        },
+        {
+          "type": "SUBACK",
+          "direction": "broker_to_esp",
+          "t_first_sim_s": 5.132724807,
+          "t_complete_sim_s": 5.132724807,
+          "first_packet": 95,
+          "bytes": 5,
+          "tcp_segments": 1,
+          "packet_id": 1,
+          "granted_qos": [
+            1
+          ]
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 5.147047573,
+          "t_complete_sim_s": 5.30166252,
+          "first_packet": 96,
+          "bytes": 223,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 0,
+            "t_device_ms": 5140,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 5.30166252,
+          "t_complete_sim_s": 5.30166252,
+          "first_packet": 101,
+          "bytes": 233,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 1,
+            "t_device_ms": 5149,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 5.30166252,
+          "t_complete_sim_s": 5.30166252,
+          "first_packet": 101,
+          "bytes": 223,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 2,
+            "t_device_ms": 5158,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 5.467384787,
+          "t_complete_sim_s": 5.467384787,
+          "first_packet": 105,
+          "bytes": 223,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 3,
+            "t_device_ms": 5390,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 5.467384787,
+          "t_complete_sim_s": 5.467384787,
+          "first_packet": 105,
+          "bytes": 233,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 4,
+            "t_device_ms": 5399,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 5.467384787,
+          "t_complete_sim_s": 5.467384787,
+          "first_packet": 105,
+          "bytes": 223,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 5,
+            "t_device_ms": 5408,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 5.646989395,
+          "t_complete_sim_s": 5.833826992,
+          "first_packet": 111,
+          "bytes": 223,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 6,
+            "t_device_ms": 5640,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 5.833826992,
+          "t_complete_sim_s": 5.833826992,
+          "first_packet": 116,
+          "bytes": 233,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 7,
+            "t_device_ms": 5649,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 5.833826992,
+          "t_complete_sim_s": 5.833826992,
+          "first_packet": 116,
+          "bytes": 223,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 8,
+            "t_device_ms": 5658,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 6.000753377,
+          "t_complete_sim_s": 6.000753377,
+          "first_packet": 121,
+          "bytes": 223,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 9,
+            "t_device_ms": 5891,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 6.000753377,
+          "t_complete_sim_s": 6.000753377,
+          "first_packet": 121,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 10,
+            "t_device_ms": 5900,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 6.000753377,
+          "t_complete_sim_s": 6.000753377,
+          "first_packet": 121,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 11,
+            "t_device_ms": 5909,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 6.166807757,
+          "t_complete_sim_s": 6.166807757,
+          "first_packet": 125,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 12,
+            "t_device_ms": 6141,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 6.166807757,
+          "t_complete_sim_s": 6.166807757,
+          "first_packet": 125,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 13,
+            "t_device_ms": 6150,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 6.166807757,
+          "t_complete_sim_s": 6.334005482,
+          "first_packet": 125,
+          "bytes": 224,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 14,
+            "t_device_ms": 6159,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 6.501047871,
+          "t_complete_sim_s": 6.501047871,
+          "first_packet": 136,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 15,
+            "t_device_ms": 6391,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 6.501047871,
+          "t_complete_sim_s": 6.501047871,
+          "first_packet": 136,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 16,
+            "t_device_ms": 6400,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 6.501047871,
+          "t_complete_sim_s": 6.501047871,
+          "first_packet": 136,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 17,
+            "t_device_ms": 6409,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 6.666391989,
+          "t_complete_sim_s": 6.666391989,
+          "first_packet": 140,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 18,
+            "t_device_ms": 6641,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 6.666391989,
+          "t_complete_sim_s": 6.666391989,
+          "first_packet": 140,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 19,
+            "t_device_ms": 6650,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 6.666391989,
+          "t_complete_sim_s": 6.83378967,
+          "first_packet": 140,
+          "bytes": 224,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 20,
+            "t_device_ms": 6659,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 7.000533301,
+          "t_complete_sim_s": 7.000533301,
+          "first_packet": 150,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 21,
+            "t_device_ms": 6891,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 7.000533301,
+          "t_complete_sim_s": 7.000533301,
+          "first_packet": 150,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 22,
+            "t_device_ms": 6900,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 7.000533301,
+          "t_complete_sim_s": 7.000533301,
+          "first_packet": 150,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 23,
+            "t_device_ms": 6909,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 7.166262301,
+          "t_complete_sim_s": 7.166262301,
+          "first_packet": 154,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 24,
+            "t_device_ms": 7141,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 7.166262301,
+          "t_complete_sim_s": 7.166262301,
+          "first_packet": 154,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 25,
+            "t_device_ms": 7150,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 7.166262301,
+          "t_complete_sim_s": 7.333458214,
+          "first_packet": 154,
+          "bytes": 224,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 26,
+            "t_device_ms": 7159,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 7.500554799,
+          "t_complete_sim_s": 7.500554799,
+          "first_packet": 164,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 27,
+            "t_device_ms": 7391,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 7.500554799,
+          "t_complete_sim_s": 7.500554799,
+          "first_packet": 164,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 28,
+            "t_device_ms": 7400,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 7.500554799,
+          "t_complete_sim_s": 7.500554799,
+          "first_packet": 164,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 29,
+            "t_device_ms": 7409,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 7.666054908,
+          "t_complete_sim_s": 7.666054908,
+          "first_packet": 168,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 30,
+            "t_device_ms": 7641,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 7.666054908,
+          "t_complete_sim_s": 7.666054908,
+          "first_packet": 168,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 31,
+            "t_device_ms": 7650,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 7.666054908,
+          "t_complete_sim_s": 7.833370567,
+          "first_packet": 168,
+          "bytes": 224,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 32,
+            "t_device_ms": 7659,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.000224022,
+          "t_complete_sim_s": 8.000224022,
+          "first_packet": 178,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 33,
+            "t_device_ms": 7891,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.000224022,
+          "t_complete_sim_s": 8.000224022,
+          "first_packet": 178,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 34,
+            "t_device_ms": 7900,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.000224022,
+          "t_complete_sim_s": 8.000224022,
+          "first_packet": 178,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 35,
+            "t_device_ms": 7909,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.165875336,
+          "t_complete_sim_s": 8.165875336,
+          "first_packet": 182,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 36,
+            "t_device_ms": 8141,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.165875336,
+          "t_complete_sim_s": 8.165875336,
+          "first_packet": 182,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 37,
+            "t_device_ms": 8150,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.165875336,
+          "t_complete_sim_s": 8.333273407,
+          "first_packet": 182,
+          "bytes": 224,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 38,
+            "t_device_ms": 8159,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.500215712,
+          "t_complete_sim_s": 8.500215712,
+          "first_packet": 192,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 39,
+            "t_device_ms": 8391,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.500215712,
+          "t_complete_sim_s": 8.500215712,
+          "first_packet": 192,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 40,
+            "t_device_ms": 8400,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.500215712,
+          "t_complete_sim_s": 8.500215712,
+          "first_packet": 192,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 41,
+            "t_device_ms": 8409,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.665699113,
+          "t_complete_sim_s": 8.665699113,
+          "first_packet": 196,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 42,
+            "t_device_ms": 8641,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.665699113,
+          "t_complete_sim_s": 8.665699113,
+          "first_packet": 196,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 43,
+            "t_device_ms": 8650,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.665699113,
+          "t_complete_sim_s": 8.833077108,
+          "first_packet": 196,
+          "bytes": 224,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 44,
+            "t_device_ms": 8659,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.999690092,
+          "t_complete_sim_s": 8.999690092,
+          "first_packet": 205,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 45,
+            "t_device_ms": 8891,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.999690092,
+          "t_complete_sim_s": 8.999690092,
+          "first_packet": 205,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 46,
+            "t_device_ms": 8900,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 8.999690092,
+          "t_complete_sim_s": 8.999690092,
+          "first_packet": 205,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 47,
+            "t_device_ms": 8909,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 9.166066642,
+          "t_complete_sim_s": 9.166066642,
+          "first_packet": 210,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 48,
+            "t_device_ms": 9141,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 9.166066642,
+          "t_complete_sim_s": 9.166066642,
+          "first_packet": 210,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 49,
+            "t_device_ms": 9150,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 9.333009596,
+          "t_complete_sim_s": 9.333009596,
+          "first_packet": 215,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 50,
+            "t_device_ms": 9159,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 9.499370922,
+          "t_complete_sim_s": 9.499370922,
+          "first_packet": 219,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 51,
+            "t_device_ms": 9391,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 9.499370922,
+          "t_complete_sim_s": 9.499370922,
+          "first_packet": 219,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 52,
+            "t_device_ms": 9400,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 9.499370922,
+          "t_complete_sim_s": 9.499370922,
+          "first_packet": 219,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 53,
+            "t_device_ms": 9409,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 9.665902627,
+          "t_complete_sim_s": 9.665902627,
+          "first_packet": 224,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 54,
+            "t_device_ms": 9641,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 9.665902627,
+          "t_complete_sim_s": 9.665902627,
+          "first_packet": 224,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 55,
+            "t_device_ms": 9650,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 9.832391439,
+          "t_complete_sim_s": 9.832391439,
+          "first_packet": 229,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 56,
+            "t_device_ms": 9659,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 9.999404282,
+          "t_complete_sim_s": 9.999404282,
+          "first_packet": 233,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 57,
+            "t_device_ms": 9891,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 9.999404282,
+          "t_complete_sim_s": 9.999404282,
+          "first_packet": 233,
+          "bytes": 234,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 58,
+            "t_device_ms": 9900,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 9.999404282,
+          "t_complete_sim_s": 9.999404282,
+          "first_packet": 233,
+          "bytes": 224,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 59,
+            "t_device_ms": 9909,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PINGREQ",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 10.165168695,
+          "t_complete_sim_s": 10.165168695,
+          "first_packet": 238,
+          "bytes": 2,
+          "tcp_segments": 1
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 10.165168695,
+          "t_complete_sim_s": 10.165168695,
+          "first_packet": 238,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 60,
+            "t_device_ms": 10141,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 10.165168695,
+          "t_complete_sim_s": 10.165168695,
+          "first_packet": 238,
+          "bytes": 235,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 61,
+            "t_device_ms": 10149,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 10.165168695,
+          "t_complete_sim_s": 10.332573182,
+          "first_packet": 238,
+          "bytes": 225,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 62,
+            "t_device_ms": 10159,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PINGRESP",
+          "direction": "broker_to_esp",
+          "t_first_sim_s": 10.430902029,
+          "t_complete_sim_s": 10.430902029,
+          "first_packet": 246,
+          "bytes": 2,
+          "tcp_segments": 1
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 10.499390391,
+          "t_complete_sim_s": 10.499390391,
+          "first_packet": 248,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 63,
+            "t_device_ms": 10391,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 10.499390391,
+          "t_complete_sim_s": 10.499390391,
+          "first_packet": 248,
+          "bytes": 235,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 64,
+            "t_device_ms": 10400,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 10.499390391,
+          "t_complete_sim_s": 10.499390391,
+          "first_packet": 248,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 65,
+            "t_device_ms": 10409,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 10.665611484,
+          "t_complete_sim_s": 10.665611484,
+          "first_packet": 253,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 66,
+            "t_device_ms": 10641,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 10.665611484,
+          "t_complete_sim_s": 10.665611484,
+          "first_packet": 253,
+          "bytes": 235,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 67,
+            "t_device_ms": 10650,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 10.832312663,
+          "t_complete_sim_s": 10.832312663,
+          "first_packet": 258,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 68,
+            "t_device_ms": 10659,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 10.999191792,
+          "t_complete_sim_s": 10.999191792,
+          "first_packet": 262,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 69,
+            "t_device_ms": 10891,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 10.999191792,
+          "t_complete_sim_s": 10.999191792,
+          "first_packet": 262,
+          "bytes": 235,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 70,
+            "t_device_ms": 10900,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 10.999191792,
+          "t_complete_sim_s": 10.999191792,
+          "first_packet": 262,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 71,
+            "t_device_ms": 10909,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 11.165412559,
+          "t_complete_sim_s": 11.165412559,
+          "first_packet": 267,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 72,
+            "t_device_ms": 11141,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 11.165412559,
+          "t_complete_sim_s": 11.165412559,
+          "first_packet": 267,
+          "bytes": 235,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 73,
+            "t_device_ms": 11150,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 11.332278787,
+          "t_complete_sim_s": 11.332278787,
+          "first_packet": 272,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 74,
+            "t_device_ms": 11159,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 11.499191409,
+          "t_complete_sim_s": 11.499191409,
+          "first_packet": 276,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 75,
+            "t_device_ms": 11391,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 11.499191409,
+          "t_complete_sim_s": 11.499191409,
+          "first_packet": 276,
+          "bytes": 235,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 76,
+            "t_device_ms": 11400,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 11.499191409,
+          "t_complete_sim_s": 11.499191409,
+          "first_packet": 276,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 77,
+            "t_device_ms": 11409,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 11.664990084,
+          "t_complete_sim_s": 11.664990084,
+          "first_packet": 281,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 78,
+            "t_device_ms": 11641,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 11.664990084,
+          "t_complete_sim_s": 11.664990084,
+          "first_packet": 281,
+          "bytes": 235,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 79,
+            "t_device_ms": 11650,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 11.832217175,
+          "t_complete_sim_s": 11.832217175,
+          "first_packet": 286,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 80,
+            "t_device_ms": 11659,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 11.999201296,
+          "t_complete_sim_s": 11.999201296,
+          "first_packet": 290,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 81,
+            "t_device_ms": 11891,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 11.999201296,
+          "t_complete_sim_s": 11.999201296,
+          "first_packet": 290,
+          "bytes": 235,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 82,
+            "t_device_ms": 11900,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 11.999201296,
+          "t_complete_sim_s": 11.999201296,
+          "first_packet": 290,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 83,
+            "t_device_ms": 11909,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 12.165163542,
+          "t_complete_sim_s": 12.165163542,
+          "first_packet": 295,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 84,
+            "t_device_ms": 12141,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 12.165163542,
+          "t_complete_sim_s": 12.165163542,
+          "first_packet": 295,
+          "bytes": 235,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 85,
+            "t_device_ms": 12150,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 12.332234709,
+          "t_complete_sim_s": 12.332234709,
+          "first_packet": 300,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 86,
+            "t_device_ms": 12159,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 12.499193584,
+          "t_complete_sim_s": 12.499193584,
+          "first_packet": 304,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 87,
+            "t_device_ms": 12391,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 12.499193584,
+          "t_complete_sim_s": 12.499193584,
+          "first_packet": 304,
+          "bytes": 235,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 88,
+            "t_device_ms": 12400,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 12.499193584,
+          "t_complete_sim_s": 12.499193584,
+          "first_packet": 304,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 89,
+            "t_device_ms": 12409,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 12.664720246,
+          "t_complete_sim_s": 12.664720246,
+          "first_packet": 309,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 90,
+            "t_device_ms": 12641,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 12.664720246,
+          "t_complete_sim_s": 12.664720246,
+          "first_packet": 309,
+          "bytes": 235,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 91,
+            "t_device_ms": 12650,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 12.832052345,
+          "t_complete_sim_s": 12.832052345,
+          "first_packet": 314,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 92,
+            "t_device_ms": 12659,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 12.9988471,
+          "t_complete_sim_s": 12.9988471,
+          "first_packet": 318,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 93,
+            "t_device_ms": 12891,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 12.9988471,
+          "t_complete_sim_s": 12.9988471,
+          "first_packet": 318,
+          "bytes": 235,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 94,
+            "t_device_ms": 12900,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 12.9988471,
+          "t_complete_sim_s": 12.9988471,
+          "first_packet": 318,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 95,
+            "t_device_ms": 12909,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 13.164580601,
+          "t_complete_sim_s": 13.164580601,
+          "first_packet": 323,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 96,
+            "t_device_ms": 13141,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 13.164580601,
+          "t_complete_sim_s": 13.164580601,
+          "first_packet": 323,
+          "bytes": 235,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 97,
+            "t_device_ms": 13150,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 13.332053605,
+          "t_complete_sim_s": 13.332053605,
+          "first_packet": 328,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 98,
+            "t_device_ms": 13159,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 13.498686469,
+          "t_complete_sim_s": 13.498686469,
+          "first_packet": 332,
+          "bytes": 225,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 99,
+            "t_device_ms": 13391,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 13.498686469,
+          "t_complete_sim_s": 13.498686469,
+          "first_packet": 332,
+          "bytes": 236,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 100,
+            "t_device_ms": 13400,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 13.498686469,
+          "t_complete_sim_s": 13.498686469,
+          "first_packet": 332,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 101,
+            "t_device_ms": 13409,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        }
+      ]
+    },
+    {
+      "connection": 2,
+      "tcp_segment_count": 9,
+      "tcp_events": [
+        {
+          "packet": 364,
+          "t_sim_s": 14.067832766,
+          "direction": "esp_to_broker",
+          "flags": "SYN",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 370,
+          "t_sim_s": 14.413579958,
+          "direction": "broker_to_esp",
+          "flags": "SYN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 385,
+          "t_sim_s": 15.419105815,
+          "direction": "esp_to_broker",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 390,
+          "t_sim_s": 15.680283208,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        }
+      ],
+      "parse_issues": [],
+      "mqtt_counts": {
+        "CONNECT": 1
+      },
+      "messages": [
+        {
+          "type": "CONNECT",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 14.418789458,
+          "t_complete_sim_s": 14.418789458,
+          "first_packet": 372,
+          "bytes": 46,
+          "tcp_segments": 1,
+          "keepalive_s": 10,
+          "username_present": false,
+          "password_present": false,
+          "clean_session": true,
+          "boot_id": "6dba137a08dca50d"
+        }
+      ]
+    },
+    {
+      "connection": 3,
+      "tcp_segment_count": 9,
+      "tcp_events": [
+        {
+          "packet": 408,
+          "t_sim_s": 16.850220654,
+          "direction": "esp_to_broker",
+          "flags": "SYN",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 413,
+          "t_sim_s": 17.196992445,
+          "direction": "broker_to_esp",
+          "flags": "SYN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 429,
+          "t_sim_s": 18.202669631,
+          "direction": "esp_to_broker",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 434,
+          "t_sim_s": 18.43019532,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        }
+      ],
+      "parse_issues": [],
+      "mqtt_counts": {
+        "CONNECT": 1
+      },
+      "messages": [
+        {
+          "type": "CONNECT",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 17.201945679,
+          "t_complete_sim_s": 17.201945679,
+          "first_packet": 416,
+          "bytes": 46,
+          "tcp_segments": 1,
+          "keepalive_s": 10,
+          "username_present": false,
+          "password_present": false,
+          "clean_session": true,
+          "boot_id": "6dba137a08dca50d"
+        }
+      ]
+    },
+    {
+      "connection": 4,
+      "tcp_segment_count": 29,
+      "tcp_events": [
+        {
+          "packet": 454,
+          "t_sim_s": 19.850247095,
+          "direction": "esp_to_broker",
+          "flags": "SYN",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 459,
+          "t_sim_s": 20.196907445,
+          "direction": "broker_to_esp",
+          "flags": "SYN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 490,
+          "t_sim_s": 21.080142551,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 491,
+          "t_sim_s": 21.080142551,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 492,
+          "t_sim_s": 21.080142551,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 493,
+          "t_sim_s": 21.080142551,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 494,
+          "t_sim_s": 21.080142551,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 495,
+          "t_sim_s": 21.080142551,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 496,
+          "t_sim_s": 21.080142551,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 501,
+          "t_sim_s": 21.096034489,
+          "direction": "esp_to_broker",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        }
+      ],
+      "parse_issues": [],
+      "mqtt_counts": {
+        "CONNECT": 1,
+        "CONNACK": 1,
+        "SUBSCRIBE": 1,
+        "PINGREQ": 1,
+        "SUBACK": 1,
+        "PUBLISH": 6,
+        "PINGRESP": 1
+      },
+      "messages": [
+        {
+          "type": "CONNECT",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 20.20192755,
+          "t_complete_sim_s": 20.20192755,
+          "first_packet": 462,
+          "bytes": 46,
+          "tcp_segments": 1,
+          "keepalive_s": 10,
+          "username_present": false,
+          "password_present": false,
+          "clean_session": true,
+          "boot_id": "6dba137a08dca50d"
+        },
+        {
+          "type": "CONNACK",
+          "direction": "broker_to_esp",
+          "t_first_sim_s": 20.413507989,
+          "t_complete_sim_s": 20.413507989,
+          "first_packet": 467,
+          "bytes": 4,
+          "tcp_segments": 1,
+          "return_code": 0
+        },
+        {
+          "type": "SUBSCRIBE",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 20.418123964,
+          "t_complete_sim_s": 20.418123964,
+          "first_packet": 468,
+          "bytes": 46,
+          "tcp_segments": 1
+        },
+        {
+          "type": "PINGREQ",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 20.548121718,
+          "t_complete_sim_s": 20.548121718,
+          "first_packet": 472,
+          "bytes": 2,
+          "tcp_segments": 1
+        },
+        {
+          "type": "SUBACK",
+          "direction": "broker_to_esp",
+          "t_first_sim_s": 20.613508407,
+          "t_complete_sim_s": 20.613508407,
+          "first_packet": 475,
+          "bytes": 5,
+          "tcp_segments": 1,
+          "packet_id": 1,
+          "granted_qos": [
+            1
+          ]
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 20.68216983,
+          "t_complete_sim_s": 20.68216983,
+          "first_packet": 477,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 102,
+            "t_device_ms": 20621,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 20.68216983,
+          "t_complete_sim_s": 20.68216983,
+          "first_packet": 477,
+          "bytes": 236,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 103,
+            "t_device_ms": 20630,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 20.68216983,
+          "t_complete_sim_s": 20.68216983,
+          "first_packet": 477,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 104,
+            "t_device_ms": 20639,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PINGRESP",
+          "direction": "broker_to_esp",
+          "t_first_sim_s": 20.780175354,
+          "t_complete_sim_s": 20.780175354,
+          "first_packet": 480,
+          "bytes": 2,
+          "tcp_segments": 1
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 20.87799845,
+          "t_complete_sim_s": 21.048404184,
+          "first_packet": 483,
+          "bytes": 226,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 105,
+            "t_device_ms": 20871,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 21.048404184,
+          "t_complete_sim_s": 21.048404184,
+          "first_packet": 488,
+          "bytes": 236,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 106,
+            "t_device_ms": 20879,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 21.048404184,
+          "t_complete_sim_s": 21.048404184,
+          "first_packet": 488,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 107,
+            "t_device_ms": 20889,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        }
+      ]
+    },
+    {
+      "connection": 5,
+      "tcp_segment_count": 42,
+      "tcp_events": [
+        {
+          "packet": 526,
+          "t_sim_s": 22.999853525,
+          "direction": "esp_to_broker",
+          "flags": "SYN",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 532,
+          "t_sim_s": 23.346589758,
+          "direction": "broker_to_esp",
+          "flags": "SYN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 597,
+          "t_sim_s": 25.862761408,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 598,
+          "t_sim_s": 25.862761408,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 599,
+          "t_sim_s": 25.862761408,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 600,
+          "t_sim_s": 25.862761408,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 601,
+          "t_sim_s": 25.862761408,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 605,
+          "t_sim_s": 25.879650175,
+          "direction": "esp_to_broker",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 610,
+          "t_sim_s": 26.095996195,
+          "direction": "broker_to_esp",
+          "flags": "RST|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 611,
+          "t_sim_s": 26.095996195,
+          "direction": "broker_to_esp",
+          "flags": "RST",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 612,
+          "t_sim_s": 26.095996195,
+          "direction": "broker_to_esp",
+          "flags": "RST",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 614,
+          "t_sim_s": 26.11279632,
+          "direction": "broker_to_esp",
+          "flags": "RST",
+          "payload_bytes": 0
+        }
+      ],
+      "parse_issues": [],
+      "mqtt_counts": {
+        "CONNECT": 1,
+        "CONNACK": 1,
+        "SUBSCRIBE": 1,
+        "SUBACK": 1,
+        "PUBLISH": 21
+      },
+      "messages": [
+        {
+          "type": "CONNECT",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 23.351875033,
+          "t_complete_sim_s": 23.351875033,
+          "first_packet": 534,
+          "bytes": 46,
+          "tcp_segments": 1,
+          "keepalive_s": 10,
+          "username_present": false,
+          "password_present": false,
+          "clean_session": true,
+          "boot_id": "6dba137a08dca50d"
+        },
+        {
+          "type": "CONNACK",
+          "direction": "broker_to_esp",
+          "t_first_sim_s": 23.996490834,
+          "t_complete_sim_s": 23.996490834,
+          "first_packet": 543,
+          "bytes": 4,
+          "tcp_segments": 1,
+          "return_code": 0
+        },
+        {
+          "type": "SUBSCRIBE",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 24.000824663,
+          "t_complete_sim_s": 24.000824663,
+          "first_packet": 545,
+          "bytes": 46,
+          "tcp_segments": 1
+        },
+        {
+          "type": "SUBACK",
+          "direction": "broker_to_esp",
+          "t_first_sim_s": 24.229824453,
+          "t_complete_sim_s": 24.229824453,
+          "first_packet": 550,
+          "bytes": 5,
+          "tcp_segments": 1,
+          "packet_id": 1,
+          "granted_qos": [
+            1
+          ]
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 24.244048107,
+          "t_complete_sim_s": 24.398197158,
+          "first_packet": 551,
+          "bytes": 226,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 108,
+            "t_device_ms": 24237,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 24.398197158,
+          "t_complete_sim_s": 24.398197158,
+          "first_packet": 555,
+          "bytes": 236,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 109,
+            "t_device_ms": 24246,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 24.398197158,
+          "t_complete_sim_s": 24.398197158,
+          "first_packet": 555,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 110,
+            "t_device_ms": 24255,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 24.56500341,
+          "t_complete_sim_s": 24.56500341,
+          "first_packet": 560,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 111,
+            "t_device_ms": 24487,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 24.56500341,
+          "t_complete_sim_s": 24.56500341,
+          "first_packet": 560,
+          "bytes": 236,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 112,
+            "t_device_ms": 24496,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 24.56500341,
+          "t_complete_sim_s": 24.56500341,
+          "first_packet": 560,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 113,
+            "t_device_ms": 24505,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 24.744048108,
+          "t_complete_sim_s": 24.898192763,
+          "first_packet": 565,
+          "bytes": 226,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 114,
+            "t_device_ms": 24737,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 24.898192763,
+          "t_complete_sim_s": 24.898192763,
+          "first_packet": 569,
+          "bytes": 236,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 115,
+            "t_device_ms": 24746,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 24.898192763,
+          "t_complete_sim_s": 24.898192763,
+          "first_packet": 569,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 116,
+            "t_device_ms": 24755,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 25.064378126,
+          "t_complete_sim_s": 25.064378126,
+          "first_packet": 574,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 117,
+            "t_device_ms": 24987,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 25.064378126,
+          "t_complete_sim_s": 25.064378126,
+          "first_packet": 574,
+          "bytes": 236,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 118,
+            "t_device_ms": 24996,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 25.064378126,
+          "t_complete_sim_s": 25.064378126,
+          "first_packet": 574,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 119,
+            "t_device_ms": 25005,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 25.24404811,
+          "t_complete_sim_s": 25.398193069,
+          "first_packet": 579,
+          "bytes": 226,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 120,
+            "t_device_ms": 25237,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 25.398193069,
+          "t_complete_sim_s": 25.398193069,
+          "first_packet": 583,
+          "bytes": 236,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 121,
+            "t_device_ms": 25246,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 25.398193069,
+          "t_complete_sim_s": 25.398193069,
+          "first_packet": 583,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 122,
+            "t_device_ms": 25255,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 25.564351643,
+          "t_complete_sim_s": 25.564351643,
+          "first_packet": 588,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 123,
+            "t_device_ms": 25487,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 25.564351643,
+          "t_complete_sim_s": 25.564351643,
+          "first_packet": 588,
+          "bytes": 236,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 124,
+            "t_device_ms": 25496,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 25.564351643,
+          "t_complete_sim_s": 25.564351643,
+          "first_packet": 588,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 125,
+            "t_device_ms": 25505,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 25.74404811,
+          "t_complete_sim_s": 25.865105037,
+          "first_packet": 593,
+          "bytes": 226,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 126,
+            "t_device_ms": 25737,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 25.865105037,
+          "t_complete_sim_s": 25.865105037,
+          "first_packet": 602,
+          "bytes": 236,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 127,
+            "t_device_ms": 25746,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 25.865105037,
+          "t_complete_sim_s": 25.865105037,
+          "first_packet": 602,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 128,
+            "t_device_ms": 25755,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        }
+      ]
+    },
+    {
+      "connection": 6,
+      "tcp_segment_count": 26,
+      "tcp_events": [
+        {
+          "packet": 616,
+          "t_sim_s": 26.116832708,
+          "direction": "esp_to_broker",
+          "flags": "SYN",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 621,
+          "t_sim_s": 26.46259882,
+          "direction": "broker_to_esp",
+          "flags": "SYN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 639,
+          "t_sim_s": 26.979399962,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 640,
+          "t_sim_s": 26.979399962,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 641,
+          "t_sim_s": 26.979399962,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 642,
+          "t_sim_s": 26.979399962,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 643,
+          "t_sim_s": 26.979399962,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 644,
+          "t_sim_s": 26.979399962,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 645,
+          "t_sim_s": 26.979399962,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 661,
+          "t_sim_s": 26.996745345,
+          "direction": "esp_to_broker",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 670,
+          "t_sim_s": 27.396069503,
+          "direction": "broker_to_esp",
+          "flags": "RST|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 671,
+          "t_sim_s": 27.396069503,
+          "direction": "broker_to_esp",
+          "flags": "RST",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 672,
+          "t_sim_s": 27.396069503,
+          "direction": "broker_to_esp",
+          "flags": "RST",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 673,
+          "t_sim_s": 27.396069503,
+          "direction": "broker_to_esp",
+          "flags": "RST",
+          "payload_bytes": 0
+        }
+      ],
+      "parse_issues": [],
+      "mqtt_counts": {
+        "CONNECT": 1,
+        "CONNACK": 1,
+        "SUBSCRIBE": 1,
+        "SUBACK": 1,
+        "PUBLISH": 3
+      },
+      "messages": [
+        {
+          "type": "CONNECT",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 26.467921366,
+          "t_complete_sim_s": 26.467921366,
+          "first_packet": 623,
+          "bytes": 46,
+          "tcp_segments": 1,
+          "keepalive_s": 10,
+          "username_present": false,
+          "password_present": false,
+          "clean_session": true,
+          "boot_id": "6dba137a08dca50d"
+        },
+        {
+          "type": "CONNACK",
+          "direction": "broker_to_esp",
+          "t_first_sim_s": 26.646065826,
+          "t_complete_sim_s": 26.646065826,
+          "first_packet": 628,
+          "bytes": 4,
+          "tcp_segments": 1,
+          "return_code": 0
+        },
+        {
+          "type": "SUBSCRIBE",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 26.65083278,
+          "t_complete_sim_s": 26.65083278,
+          "first_packet": 629,
+          "bytes": 46,
+          "tcp_segments": 1
+        },
+        {
+          "type": "SUBACK",
+          "direction": "broker_to_esp",
+          "t_first_sim_s": 26.846066277,
+          "t_complete_sim_s": 26.846066277,
+          "first_packet": 634,
+          "bytes": 5,
+          "tcp_segments": 1,
+          "packet_id": 1,
+          "granted_qos": [
+            1
+          ]
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 26.860987431,
+          "t_complete_sim_s": 26.98215547,
+          "first_packet": 635,
+          "bytes": 226,
+          "tcp_segments": 2,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "state",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 129,
+            "t_device_ms": 26854,
+            "source": "synthetic",
+            "running": false,
+            "duty": 0,
+            "stop_reason": "boot"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 26.98215547,
+          "t_complete_sim_s": 26.98215547,
+          "first_packet": 658,
+          "bytes": 236,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/vibration",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 130,
+            "t_device_ms": 26863,
+            "source": "synthetic",
+            "quality": "wokwi_i2c"
+          }
+        },
+        {
+          "type": "PUBLISH",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 26.98215547,
+          "t_complete_sim_s": 26.98215547,
+          "first_packet": 658,
+          "bytes": 226,
+          "tcp_segments": 1,
+          "qos": 0,
+          "retain": false,
+          "topic_suffix": "telemetry/rpm",
+          "metadata": {
+            "boot_id": "6dba137a08dca50d",
+            "seq": 131,
+            "t_device_ms": 26872,
+            "source": "synthetic",
+            "quality": "no_recent_pulses"
+          }
+        }
+      ]
+    },
+    {
+      "connection": 7,
+      "tcp_segment_count": 9,
+      "tcp_events": [
+        {
+          "packet": 694,
+          "t_sim_s": 29.082819829,
+          "direction": "esp_to_broker",
+          "flags": "SYN",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 700,
+          "t_sim_s": 29.429484708,
+          "direction": "broker_to_esp",
+          "flags": "SYN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 715,
+          "t_sim_s": 30.435401102,
+          "direction": "esp_to_broker",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        },
+        {
+          "packet": 720,
+          "t_sim_s": 30.662887991,
+          "direction": "broker_to_esp",
+          "flags": "FIN|ACK",
+          "payload_bytes": 0
+        }
+      ],
+      "parse_issues": [],
+      "mqtt_counts": {
+        "CONNECT": 1
+      },
+      "messages": [
+        {
+          "type": "CONNECT",
+          "direction": "esp_to_broker",
+          "t_first_sim_s": 29.434837837,
+          "t_complete_sim_s": 29.434837837,
+          "first_packet": 702,
+          "bytes": 46,
+          "tcp_segments": 1,
+          "keepalive_s": 10,
+          "username_present": false,
+          "password_present": false,
+          "clean_session": true,
+          "boot_id": "6dba137a08dca50d"
+        }
+      ]
+    }
+  ]
+}

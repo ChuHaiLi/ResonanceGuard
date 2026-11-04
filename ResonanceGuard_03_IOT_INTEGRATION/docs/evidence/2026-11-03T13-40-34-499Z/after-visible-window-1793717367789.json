@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-11-03T14:49:27.789Z",
+  "boot": "bff5adc2010bb3ff",
+  "current_age_ms": 43,
+  "stale": false,
+  "running": false,
+  "last_60s": {
+    "vibration_count": 156,
+    "first": {
+      "received_at": 1793717307823,
+      "t_device_ms": 89158
+    },
+    "last": {
+      "received_at": 1793717367738,
+      "t_device_ms": 134661
+    },
+    "max_gap_ms": 2530
+  },
+  "commands_sent": 0
+}

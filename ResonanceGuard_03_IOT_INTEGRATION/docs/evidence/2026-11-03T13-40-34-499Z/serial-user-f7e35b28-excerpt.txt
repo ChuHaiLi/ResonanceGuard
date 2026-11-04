@@ -1,0 +1,6 @@
+COMMAND t_ms=268772 action=start id=f7e35b28-2cba-41a9-8a9d-4d5a473b4044 boot=98a4d20a075107d0 accepted=1 reason=command_accepted_wait_for_rpm lease_until=272772 deadline=270670 source=synthetic
+ACK QUEUED id=f7e35b28-2cba-41a9-8a9d-4d5a473b4044 seq=3086 t_ms=268786 depth=1
+ACK PUBLISH id=f7e35b28-2cba-41a9-8a9d-4d5a473b4044 seq=3086 t_ms=268800 bytes=305 qos=1
+ACK BROKER_CONFIRMED id=f7e35b28-2cba-41a9-8a9d-4d5a473b4044 dt_device_ms=188 (not backend/frontend confirmation)
+OUTPUT t_ms=268776 RUN=1 PWM=77/255 reason=command_accepted command_id=f7e35b28-2cba-41a9-8a9d-4d5a473b4044 skipped=0 source=synthetic
+OUTPUT t_ms=272776 RUN=0 PWM=0/255 reason=lease_expired command_id=f7e35b28-2cba-41a9-8a9d-4d5a473b4044 skipped=0 source=synthetic

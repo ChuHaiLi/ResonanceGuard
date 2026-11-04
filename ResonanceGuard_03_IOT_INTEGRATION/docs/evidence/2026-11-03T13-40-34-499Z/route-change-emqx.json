@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-03T14:39:16.025Z",
+  "purpose": "Controlled network route comparison; not a verified fix.",
+  "candidate": "alternate-public-emqx",
+  "transport": "mqtt:",
+  "port": 1883,
+  "auth": false,
+  "prefix_unchanged": true,
+  "backend_port_unchanged": true,
+  "control_logic_unchanged": true,
+  "keepalive_deadline_lease_stale_unchanged": true,
+  "private_backup_directory": "data/config-before-route-check-20261103-2138",
+  "env_before_sha256": "ae7444538cd1c49f4aaf4334d63679183c130de6c17596afa00813b0bdbf500e",
+  "env_after_sha256": "ad3f1eff4659a5477c4c7a2eb0d8f65af512e7d6960c4da82659bd6e91ccd35d",
+  "firmware_config_before_sha256": "33144148553bea64875dd7afc9262737da6267f79e41e1d2c9926faabc20f6cc",
+  "firmware_config_after_sha256": "0802e51061fc34f76ff3b6d47cd94befe821c60de2bb5b6f33c735cd43a6c2fc",
+  "required_wokwi_action": "Update BROKER only in config.h, save, restart simulation motor OFF; verify all nine saved files again."
+}

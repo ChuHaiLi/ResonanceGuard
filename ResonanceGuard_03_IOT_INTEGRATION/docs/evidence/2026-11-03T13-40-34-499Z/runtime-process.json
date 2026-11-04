@@ -1,0 +1,7 @@
+﻿{
+    "scope":  "Session backend; receive only until Wokwi identity confirmed; no motor command sent",
+    "data_dir":  "runtime",
+    "pid":  14232,
+    "command":  "node --env-file=.env server/index.js",
+    "started_at":  "2026-11-03T20:50:16.5026681+07:00"
+}

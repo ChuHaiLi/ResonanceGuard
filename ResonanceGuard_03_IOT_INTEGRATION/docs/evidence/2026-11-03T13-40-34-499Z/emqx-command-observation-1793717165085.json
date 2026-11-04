@@ -1,0 +1,42 @@
+{
+  "at": "2026-11-03T14:46:05.084Z",
+  "state": {
+    "schema_version": 1,
+    "device_id": "rg01",
+    "source": "synthetic",
+    "boot_id": "bff5adc2010bb3ff",
+    "seq": 210,
+    "t_device_ms": 59352,
+    "running": false,
+    "duty": 0,
+    "stop_reason": "boot",
+    "last_command_id": ""
+  },
+  "state_age_ms": 99836,
+  "stale": true,
+  "last_ack": null,
+  "command": {
+    "command_id": "2b1b179b-7047-48e3-910e-88b88bf6302b",
+    "action": "stop",
+    "boot_id": "",
+    "created_at": 1793716974761,
+    "trace": [
+      {
+        "at": 1793716974761,
+        "source": "synthetic",
+        "stage": "COMMAND_TX",
+        "command_id": "2b1b179b-7047-48e3-910e-88b88bf6302b",
+        "boot_id": "",
+        "action": "stop",
+        "device_deadline_ms": 3000,
+        "lease_ms": 4000
+      },
+      {
+        "at": 1793716974976,
+        "source": "synthetic",
+        "stage": "COMMAND_BROKER_PUBACK",
+        "command_id": "2b1b179b-7047-48e3-910e-88b88bf6302b"
+      }
+    ]
+  }
+}
